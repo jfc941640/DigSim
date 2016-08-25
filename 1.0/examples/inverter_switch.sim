@@ -1,0 +1,73 @@
+# Digsim file
+version 0 1
+describe component Caption
+ pos 15 0
+ Text Inverter made with an switch
+end describe
+describe component Vcc
+ pos 14 3
+end describe
+describe component LED
+ pos 28 7
+ color red
+end describe
+describe component GND
+ pos 34 8
+end describe
+describe component PushButton
+ pos 15 6
+end describe
+describe component Inverter
+ pos 18 14
+end describe
+describe component LED
+ pos 28 15
+ color red
+end describe
+describe component GND
+ pos 34 16
+end describe
+describe component PushButton
+ pos 7 14
+end describe
+describe component Vcc
+ pos 4 11
+end describe
+describe component GND
+ pos 5 18
+end describe
+describe component Wire
+ pos 7 16
+ pos2 7 19
+end describe
+describe component Wire
+ pos 7 16
+ pos2 8 16
+end describe
+describe component Wire
+ pos 6 16
+ pos2 6 18
+end describe
+describe component Wire
+ pos 6 18
+ pos2 8 18
+end describe
+describe component GND
+ pos 14 9
+end describe
+describe component Wire
+ pos 24 9
+ pos2 29 9
+end describe
+describe component Wire
+ pos 27 17
+ pos2 29 17
+end describe
+describe component Wire
+ pos 16 17
+ pos2 19 17
+end describe
+describe component Caption
+ pos 25 11
+ Text =
+end describe

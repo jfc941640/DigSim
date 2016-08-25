@@ -1,0 +1,14 @@
+Edge triggered T flip flop (Toggle flip flop)
+
+This flip flop toggles its output when the clock
+has an transition from low to high, and if the
+toggle input is active.
+The clock input is edge-triggered.
+
+Boolean equatation: Q(n+1) = Q'(n).T + Q(n).T'
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

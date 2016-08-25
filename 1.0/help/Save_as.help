@@ -1,0 +1,11 @@
+Menuitem: Save as
+
+Use this menuitem to save a schematic on your computer
+and give it a new filename. A Filedialog will apear if
+you select this menuitem.
+
+You can use this menu only when you run DigSim off-line
+with appletviewer (available at http://www.sun.com).
+Due to safety restrictions you can NOT Save schematics
+in Netscape Navigator 2.0
+ 

@@ -1,0 +1,31 @@
+Gated SR Latch (Gated Set Reset Latch)
+
+The Gated SR Latch is an electronic component with
+an one-bit memory. When setting or resetting the
+latch, it keep its value at the output ports
+when the 'S' and 'R' inputs are low.
+The gated SR Latch is only transparant if you make
+the input 'C' high.
+When you make both 'S' and 'R' active, then
+the output level is not defined.
+
+
+    Truth-table:
+
+    S    R   |   Q    Q'
+    ---------|---------
+    0    0   |   nc   nc    
+    0    1   |   0    1
+    1    0   |   1    0
+    1    1   |   ?    ?
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

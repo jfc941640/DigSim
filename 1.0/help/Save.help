@@ -1,0 +1,9 @@
+Save schematic
+
+Use this menuitem to save a modified schematic on your
+computer.
+You can use this menu only when you run DigSim off-line
+with appletviewer (available at http://www.sun.com).
+Due to safety restrictions you can NOT Save schematics
+in Netscape Navigator 2.0
+

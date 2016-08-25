@@ -1,0 +1,25 @@
+Inverter
+
+This is a very simple basic digital port.
+The output of this port is active or '1'
+When the input is '0'.
+
+In boolean logic: Q = A'
+
+    Truth-table:
+
+    A    |   Q
+    -----|----
+    0    |   1
+    1    |   0
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

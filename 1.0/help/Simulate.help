@@ -1,0 +1,5 @@
+Button: Simulate start & stop
+
+Press this button to start or stop simulating
+your current Schematic. A Green LED will flash
+at the bottom right to indicate the computer is simulating.

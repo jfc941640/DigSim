@@ -1,0 +1,8 @@
+Menuitem: Exit
+
+Use this menuitem to exit DigSim.
+When you made changes to your schematic
+and you didn't save it, DigSim will ask
+you if you really want to quit.
+
+ 

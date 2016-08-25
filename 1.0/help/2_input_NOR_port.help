@@ -1,0 +1,28 @@
+Two-input NOR port
+
+This is a very simple basic digital port.
+It's an Two-input OR port with a inverted output.
+The output of this port is inactive or '0' when
+input A OR input B is '1'
+
+In boolean logic: Q = (A + B)'
+
+    Truth-table:
+
+    A    B   |   Q
+    ---------|----
+    0    0   |   1
+    0    1   |   0
+    1    0   |   0
+    1    1   |   0
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

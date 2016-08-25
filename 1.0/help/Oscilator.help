@@ -1,0 +1,17 @@
+Oscilator
+
+The oscilator is synchronized with the master clock, and
+changes its level every simulation cycle.
+Its output is at TTL level and can drive every input in
+DigSim.
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

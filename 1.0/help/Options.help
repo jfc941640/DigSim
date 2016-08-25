@@ -1,0 +1,34 @@
+Options
+
+Use this menuitem to pop-up a frame
+where you can change some simulation
+options.
+You can change the following variables:
+
+* Simulation Speed
+
+This scrollbar let you
+change the speed of 1 simulation cycle
+
+* Stop simulate at short-circuit
+
+The simulation process will stop if there is
+a short-circuit in the schematic
+
+* Stop simulate at loop
+
+The simulation process will stop if there is
+a loop in the schematic (A loop occures when
+for example the output of an inverter is
+connected to its input)
+
+* Auto pop-up analyzer
+
+When you are simulating and there are probes in
+your schematic, the Logic Analyzer will
+automatticly pop-up.
+
+
+
+
+

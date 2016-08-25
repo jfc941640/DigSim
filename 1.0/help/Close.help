@@ -1,0 +1,7 @@
+Menuitem: Close
+
+Use this menuitem to close the current schematic window.
+Your schematic is still in memory when you have closed,
+use the menubutton 'Resume DigSim' to pop-it up again.
+
+ 

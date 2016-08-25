@@ -1,0 +1,16 @@
+8-bit serial input shift register
+
+This it a 8 bit shift register that shift the data
+in the direction of 1 toward 8 when clocked.
+Clocking is accomplished on the low- to high
+level edge of the clock pulse.
+A direct reset input overrides all other inputs,
+including the clock, and sets all flip-flips to
+zero.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+
+

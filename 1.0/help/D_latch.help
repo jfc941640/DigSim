@@ -1,0 +1,11 @@
+D Latch
+
+The D Latch is an electronic component with
+an one-bit memory. 
+The C or enable input makes the latch transparant.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

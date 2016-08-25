@@ -1,0 +1,23 @@
+7-segment display
+
+This 7-segment display has eight LED's.
+All LED's are connected to a common kathode (CK) and have
+a built-in 330 ohm resistor.
+All components in DigSim are capable of driving this display,
+however the easiest way is to use the
+BCD to 7-segment decoder.
+
+To light up a segment the CK pin must be connected
+to a logic '0'level, and the segment pin (a ... g or dp)
+must have a logic '1' level.
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this display to another position
+by clicking inside the body of the display, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

@@ -1,0 +1,14 @@
+4-bit binary counter
+
+This counter contains four master-slave flip flops.
+The input count pulses are applied to input C,
+which is triggered on the low-to-high level
+transition.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+
+
+

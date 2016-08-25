@@ -1,0 +1,20 @@
+        DigSim FAQ (Frequently Asked Questions)
+
+* I use windows 95 / NT and when starting the program
+in appletviewer I get the message 'no ClassDefFoundError:'
+
+-> Make sure you have set the CLASSPATH environment variable
+to the directory with the DigSim *.class files.
+
+* I can't save or load in Netscape Navigator.
+
+-> Due to safety-restriction DigSim cannot access your
+disks in Netscape Navigator.
+Use appletviewer from Sun to enable these menuitems.
+You can get appletviewer at http://java.sun.com
+
+* When I use a probe in my schematic I don't see anything
+happen in the Analyzer Window.
+
+-> Make sure that there's a junction between the probe and
+the wire.

@@ -1,0 +1,16 @@
+3- to 8 line decoder / demultiplexer (74HCT138)
+
+This IC decodes one-of-eight lines dependent on the
+conditions at the three binary select inputs and
+the three enable inputs. Two active-low and one
+active-high enable inputs reduce the need for
+external gates or gates when expanding. A 24-line
+decoder can be implemented without external inverters
+and a 32-line decoder requires only one inverter.
+An enable input can be used as a data input for
+demultiplexing applications.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.

@@ -1,0 +1,111 @@
+Thank you for your registration to the Java Cup International!  Sun
+Microsystems is proud to have received your registration.
+
+A couple of housekeeping details before you get coding:
+
+  * Be sure to read the Official Rules carefully.
+
+  * Once you have made your submission, you will not have access to make any
+    modifications, so make sure your submission is final.
+
+  * The Code number below for your submission is unique to your record.  To
+    ensure that no one else will have access to your applet submission,
+    do not share the Code with anyone.
+
+  * DO NOT LOSE THIS E-MAIL! Make a backup copy for your eventual
+    submission instruction and include with your *.tar file.
+
+  * You will be notified by snail-mail if you are one of the first 1,000
+    registrants or first 1,000 applet submission entries that you have won a
+    Java T-shirt or Java mug.
+
+Get coding, Duke is waiting!
+
+============================================================================
+                            YOUR INFORMATION
+============================================================================
+Here is a list of the information that we have recorded for you:
+	ID Code: ED8N1T2I
+	Your Submission File Name Will Be: ED8N1T2I.tar
+
+	Name: Iwan van Rienen
+	Category: education
+	Division: Individual
+	Organization/Affiliation: Free-lance programmer
+	E-mail Address: ivr@bart.nl
+	Street Address: Joan Maetsuyckerstr. 145
+	City: The Hague
+	State/Province: 
+	Zip Code: 2593 ZG
+	Country: Netherlands
+	Phone Number: +31 70 3.858.958
+	Fax Number: 
+
+If any of this information is incorrect, please send e-mail to
+<submission-questions@javacontest.sun.com> specifying any changes.
+
+============================================================================
+                         SUBMISSION INSTRUCTIONS
+============================================================================
+
+Submissions will be accepted via anonymous ftp from 1/8/96 through 3/31/96.
+It is important that you follow the directions below or your submission will 
+not be accepted.
+
+  Save a copy of this mail to a file called 'sub_form'.  You will be 
+  required to include a copy in your submission archive, as noted below.
+
+  Use 'tar' to archive your entire Java application.  Your tar file should 
+  be given the eight character ID name listed above.  Any other name will not 
+  get filed correctly with your registration entry and therefore will not be 
+  accepted.
+
+  The tar file will include:
+
+    * All images, sounds, source code (*.java) and compiled classes
+      (*.classes) and a local html page with the embedded applet.
+
+    * Everything necessary to run the applet locally by the judges is
+      required for entry. If the applet is not ready to run, it will not
+      be considered. 
+
+    * If the applet requires the Internet for any kind of the data feed
+      and the data feed is not available to us at the time of
+      judging, ensure that you can simulate that data feed locally from
+      a file. That file should be included as part of the submittal.
+
+    * A copy of this mail named 'sub_form'.
+
+    * A 'README' file if necessary.
+
+  Login using Anonymous FTP to javacontest.sun.com.  Use the name
+  'anonymous' and enter your e-mail address for the password.  Then 
+  place your tar file in the /incoming directory.
+
+    % ftp javacontest.sun.com
+    Connected to javacontest.sun.com.
+
+    Name: anonymous
+    Password: j.doe@foo.com (your e-mail address)
+
+    ftp> cd incoming
+    ftp> put QWEFAEFF.tar (your file name)
+    ftp> quit
+
+Your registration is now complete. Shortly after your have made your ftp
+submission, per the instructions above, you will receive a submission
+confirmation e-mail.  Judging will take place in accordance with the rules
+at <http://javacontest.sun.com>.  Winners will be announced in May, 1996. 
+
+============================================================================
+		         FOR FURTHER INFORMATION
+============================================================================
+
+For further information regarding the Java Cup International, please go to
+<http://javacontest.sun.com> or for specific questions regarding categories,
+judges, or prizes, e-mail to <contest-questions@javacontest.sun.com>. 
+
+For further information on Java, please go to <http://java.sun.com>.
+
+============================================================================
+

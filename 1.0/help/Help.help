@@ -1,0 +1,18 @@
+You can get help at almost every button, menuitem
+or component in DigSim.
+
+To get help about something is very simple:
+
+1) Choose 'help' in the menu bar.
+
+2) Choose a menu, button or component
+in the schematic to get help about
+that object.
+
+When choosing a digital component in the schematic,
+you get the following information about the
+selected electronic component:
+
+* A general description.
+* The truth-table.
+* Editing capabilities.

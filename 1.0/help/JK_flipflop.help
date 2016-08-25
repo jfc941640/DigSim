@@ -1,0 +1,14 @@
+JK flip flop
+
+You can compare this flip-flop with a SR flipflop,
+with 'J' = set and 'K' = reset.
+The not defined SR=11 (here JK=11) is now specified
+as toggle; both outputs changes when JK=11.
+
+In boolean logic: Q(n + 1) = J.Q'(n) + K'Q(n)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

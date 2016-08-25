@@ -1,0 +1,12 @@
+D flip flop
+
+The output changes only by the clock transition
+from '0' to '1' at the 'C' input.
+
+Boolean equatation: Q(n + 1) = D
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

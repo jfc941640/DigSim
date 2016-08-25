@@ -1,0 +1,23 @@
+BCD To seven-segment decoder.
+
+Use this component to drive a seven-segment display.
+When the Latch Enable input (_LE) is LOW, the state
+of the segment outputs is determinated by the data
+on the BCD inputs (A, B, C, D).
+When the Latch Enable input goes high, the last
+data present in the BCD inputs is stored in the
+latches and the Segment Outputs remain stable.
+
+When the Lamp Test input (_LT) is LOW, all the
+segment outputs are HIGH independent of all other
+input conditions. With the Lamp Test input HIGH
+a LOW on the Blanking input (_BI) forces all the
+segment outputs LOW.
+The Lamp Test input and the Blanking input do not
+affect the latch circuit.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

@@ -1,0 +1,127 @@
+# Digsim file
+version 0 1
+describe component TwoOrPort
+ pos 26 14
+end describe
+describe component TwoAndPort
+ pos 26 8
+end describe
+describe component Caption
+ pos 27 4
+ Text Half-adder with ports
+end describe
+describe component LED
+ pos 36 15
+ color red
+end describe
+describe component LED
+ pos 36 9
+ color red
+end describe
+describe component Wire
+ pos 35 11
+ pos2 37 11
+end describe
+describe component Wire
+ pos 35 17
+ pos2 37 17
+end describe
+describe component Wire
+ pos 44 11
+ pos2 44 17
+end describe
+describe component Caption
+ pos 39 7
+ Text Carry
+end describe
+describe component Caption
+ pos 39 13
+ Text Sum
+end describe
+describe component Switch
+ pos 10 15
+end describe
+describe component Switch
+ pos 10 7
+end describe
+describe component Vcc
+ pos 6 3
+end describe
+describe component GND
+ pos 8 19
+end describe
+describe component Wire
+ pos 8 11
+ pos2 8 19
+end describe
+describe component Wire
+ pos 8 19
+ pos2 11 19
+end describe
+describe component Wire
+ pos 11 11
+ pos2 8 11
+end describe
+describe component Wire
+ pos 8 11
+ pos2 8 8
+end describe
+describe component Wire
+ pos 10 17
+ pos2 10 9
+end describe
+describe component Wire
+ pos 10 9
+ pos2 11 9
+end describe
+describe component Wire
+ pos 10 17
+ pos2 11 17
+end describe
+describe component Wire
+ pos 10 17
+ pos2 10 20
+end describe
+describe component Wire
+ pos 24 18
+ pos2 27 18
+end describe
+describe component Wire
+ pos 19 10
+ pos2 21 10
+end describe
+describe component Wire
+ pos 21 10
+ pos2 21 16
+end describe
+describe component Wire
+ pos 21 16
+ pos2 27 16
+end describe
+describe component Wire
+ pos 21 10
+ pos2 27 10
+end describe
+describe component Wire
+ pos 27 12
+ pos2 24 12
+end describe
+describe component Wire
+ pos 24 12
+ pos2 24 18
+end describe
+describe component Wire
+ pos 24 18
+ pos2 19 18
+end describe
+describe component Caption
+ pos 15 6
+ Text A
+end describe
+describe component Caption
+ pos 15 14
+ Text B
+end describe
+describe component GND
+ pos 42 16
+end describe

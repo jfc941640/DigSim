@@ -1,0 +1,14 @@
+Text
+
+If you want to add a text to your schematic, use the
+Text menuitem. Then a Dialog will appear where you
+can type your text.
+If you want to change an existing text, doubleclick
+on it and there appear a dialog box so you can change
+the text.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

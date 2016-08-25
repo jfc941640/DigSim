@@ -1,0 +1,140 @@
+# Digsim file
+version 0 1
+describe component Caption
+ pos 18 1
+ Text OR port made with switches
+end describe
+describe component Switch
+ pos 16 6
+end describe
+describe component Switch
+ pos 16 11
+end describe
+describe component Vcc
+ pos 11 5
+end describe
+describe component Wire
+ pos 13 10
+ pos2 17 10
+end describe
+describe component Wire
+ pos 25 9
+ pos2 27 9
+end describe
+describe component Wire
+ pos 27 9
+ pos2 27 14
+end describe
+describe component Wire
+ pos 25 14
+ pos2 27 14
+end describe
+describe component LED
+ pos 26 7
+ color red
+end describe
+describe component GND
+ pos 35 8
+end describe
+describe component Wire
+ pos 34 9
+ pos2 37 9
+end describe
+describe component Switch
+ pos 14 19
+end describe
+describe component Switch
+ pos 14 25
+end describe
+describe component LED
+ pos 39 23
+ color red
+end describe
+describe component Wire
+ pos 36 25
+ pos2 40 25
+end describe
+describe component Wire
+ pos 23 22
+ pos2 23 24
+end describe
+describe component Wire
+ pos 23 24
+ pos2 28 24
+end describe
+describe component Wire
+ pos 23 28
+ pos2 23 26
+end describe
+describe component Wire
+ pos 23 26
+ pos2 28 26
+end describe
+describe component Vcc
+ pos 11 15
+end describe
+describe component Wire
+ pos 13 23
+ pos2 13 29
+end describe
+describe component Wire
+ pos 13 29
+ pos2 15 29
+end describe
+describe component Wire
+ pos 13 23
+ pos2 15 23
+end describe
+describe component Wire
+ pos 13 23
+ pos2 13 20
+end describe
+describe component Wire
+ pos 15 21
+ pos2 14 21
+end describe
+describe component Wire
+ pos 14 27
+ pos2 14 31
+end describe
+describe component Wire
+ pos 14 27
+ pos2 15 27
+end describe
+describe component Wire
+ pos 14 27
+ pos2 14 21
+end describe
+describe component GND
+ pos 12 30
+end describe
+describe component GND
+ pos 45 24
+end describe
+describe component Caption
+ pos 21 4
+ Text A
+end describe
+describe component Caption
+ pos 21 10
+ Text B
+end describe
+describe component Caption
+ pos 21 23
+ Text B
+end describe
+describe component Caption
+ pos 21 17
+ Text A
+end describe
+describe component Wire
+ pos 13 10
+ pos2 13 15
+end describe
+describe component Wire
+ pos 13 15
+ pos2 17 15
+end describe
+describe component TwoOrPort
+ pos 27 22
+end describe

@@ -1,0 +1,22 @@
+Wire
+
+Use a wire to connect components to eachother.
+For drawing a wire, Select wire in the menu, go
+to the first point of the wire, press the mouse button
+and keep it pressed while you go to the end position of
+the wire, and release the mouse button.
+
+If you start or end the wire at an existing wire, there is
+automatticly a junction placed. This junction connect both
+wires.
+
+To move the wire, select a wire-end or select the whole wire
+by pressing it somewhere in the middle of the wire, and drag
+it to a new position.
+
+To move more wire(ends) at the same time, press a SHIFT button
+and select all wires.
+
+
+
+

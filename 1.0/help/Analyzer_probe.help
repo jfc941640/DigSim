@@ -1,0 +1,9 @@
+Menuitem: Analyzer probe
+
+Add a probe to your schematic when you want to trace
+the signals on the logic analyzer.
+
+You can drag the probe to another position
+by clicking inside the body of the probe, hold
+the mouse button, move to the new position,
+and release the mouse button.

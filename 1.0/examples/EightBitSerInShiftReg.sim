@@ -1,0 +1,223 @@
+# Digsim file
+version 0 1
+describe component EightBitSerInShiftReg
+ pos 18 2
+end describe
+describe component Oscilator
+ pos 5 1
+end describe
+describe component Wire
+ pos 12 4
+ pos2 19 4
+end describe
+describe component PushButton
+ pos 5 20
+end describe
+describe component Wire
+ pos 16 23
+ pos2 16 8
+end describe
+describe component Wire
+ pos 16 8
+ pos2 19 8
+end describe
+describe component Wire
+ pos 27 8
+ pos2 36 8
+end describe
+describe component Wire
+ pos 27 9
+ pos2 36 9
+end describe
+describe component Wire
+ pos 27 10
+ pos2 35 10
+end describe
+describe component Wire
+ pos 27 11
+ pos2 34 11
+end describe
+describe component Wire
+ pos 27 12
+ pos2 33 12
+end describe
+describe component Wire
+ pos 27 13
+ pos2 32 13
+end describe
+describe component Wire
+ pos 27 14
+ pos2 31 14
+end describe
+describe component Wire
+ pos 27 15
+ pos2 30 15
+end describe
+describe component PushButton
+ pos 5 11
+end describe
+describe component GND
+ pos 6 16
+end describe
+describe component Vcc
+ pos 2 8
+end describe
+describe component Wire
+ pos 14 23
+ pos2 16 23
+end describe
+describe component Wire
+ pos 14 14
+ pos2 14 6
+end describe
+describe component Wire
+ pos 14 6
+ pos2 19 6
+end describe
+describe component Caption
+ pos 8 8
+ Text Reset
+end describe
+describe component Caption
+ pos 10 17
+ Text Data
+end describe
+describe component LED
+ pos 35 6
+ color red
+end describe
+describe component LED
+ pos 35 8
+ color red
+end describe
+describe component LED
+ pos 35 10
+ color red
+end describe
+describe component LED
+ pos 35 12
+ color red
+end describe
+describe component LED
+ pos 35 14
+ color red
+end describe
+describe component LED
+ pos 35 16
+ color red
+end describe
+describe component LED
+ pos 35 18
+ color red
+end describe
+describe component LED
+ pos 35 20
+ color red
+end describe
+describe component Wire
+ pos 43 20
+ pos2 43 22
+end describe
+describe component Wire
+ pos 43 10
+ pos2 43 8
+end describe
+describe component Wire
+ pos 43 12
+ pos2 43 10
+end describe
+describe component Wire
+ pos 43 14
+ pos2 43 12
+end describe
+describe component Wire
+ pos 43 16
+ pos2 43 14
+end describe
+describe component Wire
+ pos 43 18
+ pos2 43 16
+end describe
+describe component Wire
+ pos 43 20
+ pos2 43 18
+end describe
+describe component Wire
+ pos 36 10
+ pos2 36 9
+end describe
+describe component Wire
+ pos 35 10
+ pos2 35 12
+end describe
+describe component Wire
+ pos 34 11
+ pos2 34 14
+end describe
+describe component Wire
+ pos 33 12
+ pos2 33 16
+end describe
+describe component Wire
+ pos 32 13
+ pos2 32 18
+end describe
+describe component Wire
+ pos 31 14
+ pos2 31 20
+end describe
+describe component Wire
+ pos 30 15
+ pos2 30 22
+end describe
+describe component Wire
+ pos 30 22
+ pos2 36 22
+end describe
+describe component Wire
+ pos 31 20
+ pos2 36 20
+end describe
+describe component Wire
+ pos 32 18
+ pos2 36 18
+end describe
+describe component Wire
+ pos 33 16
+ pos2 36 16
+end describe
+describe component Wire
+ pos 34 14
+ pos2 36 14
+end describe
+describe component Wire
+ pos 35 12
+ pos2 36 12
+end describe
+describe component GND
+ pos 41 21
+end describe
+describe component Wire
+ pos 6 17
+ pos2 6 22
+end describe
+describe component Wire
+ pos 6 17
+ pos2 8 17
+end describe
+describe component Wire
+ pos 6 17
+ pos2 6 15
+end describe
+describe component Wire
+ pos 4 13
+ pos2 6 13
+end describe
+describe component Wire
+ pos 4 13
+ pos2 4 24
+end describe
+describe component Wire
+ pos 4 24
+ pos2 6 24
+end describe

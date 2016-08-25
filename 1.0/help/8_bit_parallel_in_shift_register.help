@@ -1,0 +1,14 @@
+8 bit parallel in shift register
+
+To parallel load this shift register, hold the LD
+input low. Clocking is accomplished on the low-
+to high level edge of the clock pulse.
+A direct reset input overrides all other inputs,
+including the clock, and sets all flip flops to
+zero.
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+

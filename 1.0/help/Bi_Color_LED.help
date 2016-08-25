@@ -1,0 +1,22 @@
+Bi - color LED (Light Emitting Diode)
+
+You can use a LED in DigSim to make signals visible.
+This Bi-color LED has two colors, red and green.
+This LED becomes red when you put a logic '1' level to the
+'A' input, and when the 'B' input is logic '0'.
+To make it green, reverse the signals.
+
+This LED has a built-in 330 ohm resistor.
+
+All components in DigSim are capable of driving this LED.
+
+    0 = inactive = GND = 0V = OFF
+        (Wires are green when inactive)
+    1 = active = Vcc = 5V = ON
+        (Wires are red when active)
+
+You can drag this component to another position
+by clicking inside the body of the port, hold
+the mouse button, move to the new position,
+and release the mouse button.
+
