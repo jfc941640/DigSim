@@ -1,0 +1,31 @@
+° PORTE OU (OR) A 2 ENTREES (74HC4075)
+
+- La sortie de cette porte est au niveau logique 1 si l'une des entrées est 
+au niveau logique 1.
+
+- La sortie de cette porte est au niveau logique 0 si toutes les entrées sont
+au niveau logique 0. Donc, en logique négative, une porte OU devient un ET.
+
+Q = A + B + C = /(/A . /B . /C)
+
+Table de vérité:
+
+  C   A    B   |   Q
+---------------|----
+  0   0    0   |   0
+  0   0    1   |   1
+  0   1    0   |   1
+  0   1    1   |   1
+  1   0    0   |   1
+  1   0    1   |   1
+  1   1    0   |   1
+  1   1    1   |   1
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,6 @@
+° ROTATION
+	(raccourci clavier: 'Ctrl R')
+
+La plupart des composants de DigSim peuvent tourner une ou plusieurs fois de 90°
+Les composants tels que compteurs programmables, RAM, ... 
+mais aussi perceuse et masse bien évidemment ... ne peuvent pas tourner.

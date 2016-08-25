@@ -1,0 +1,36 @@
+° DECALEUR STATIQUE 4 BITS A SORTIES HAUTE IMPEDANCE (74HC350)
+
+Usages: décalage de mots binaires, multiplications ou divisions par 2, 4 ou 8.
+Utile après une suite d'opérations arithmétiques (multiplieur, MAC) pour passer
+en format flottant.
+
+Ce composant dispose de 
+7 entrées de données E6 ... E0, 
+4 sorties S3 ... S0,
+3 entrées de commande /OE, b et a.
+
+|-----|-----|-------------|-------------------------------------------|
+| /OE | b a | S3 S2 S1 S0 |               MODES                       |
+|-----|-----|-------------|-------------------------------------------|
+|  1  | - - | 3S 3S 3S 3S |         Haute impédance                   |
+|  0  | 0 0 | E3 E2 E1 E0 |         0 décalage                        |
+|  0  | 0 0 | E4 E3 E2 E1 |         1 décalage  (division par 2)      |
+|  0  | 1 0 | E5 E4 E3 E2 |         2 décalages (division par 4)      |
+|  0  | 1 1 | E6 E5 E4 E3 |         3 décalages (division par 8)      |
+|-----|-----|-------------|-------------------------------------------|
+3S: abréviation pour état haute impédance (3 state)
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre-elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

@@ -1,0 +1,17 @@
+° RELAIS 2RT
+
+Ce relais a 2 contacts repos et 2 contacts travail; pour cette raison, il est
+dénommé "relais 2RT".
+- Lorsque la bobine n'est pas alimentée, les contacts repos sont fermés et les
+contacts travail sont ouverts.
+- Lorsque la bobine est alimentée, les contacts repos sont ouverts et les
+contacts travail sont fermés.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

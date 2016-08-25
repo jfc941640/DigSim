@@ -1,0 +1,32 @@
+° PERIODEMETRE
+
+Un outil pour la mesure de périodes, durée des niveaux logiques 0 et 1, rapports
+cycliques, comparaison de périodes, rapports fréquentiels, décalages de fronts,
+phase.
+
+Penser à connecter la masse (GND)
+
+Deux voies A et B. Pour chacune de ces voies, la présence d'un signal est 
+détectée et deux types de mesures sont faites : 
+des mesures instantanées (en rouge) et leur moyenne (en bleu)
+- Affichage du nombre de cycles (fonction comptage)
+- Affichage de la période (exprimée en unités d'horloge de DigSim)
+- Affichage de la durée du niveau logique 0 (unités d'horloge de DigSim)
+- Affichage de la durée du niveau logique 1 (unités d'horloge de DigSim)
+- Affichage du rapport cyclique (en %)
+
+Si les 2 voies A et B reçoivent un signal de fréquence non nulle
+- Affichage du rapport des périodes des signaux A et B
+- Si ces signaux sont de même période (fréquence)
+   - Affichage de l'écart entre les fronts montants** des voies B et A
+     (unités d'horloge de DigSim)
+   - Affichage en degrés ( [0, 360[ ) du déphasage de B par rapport à A
+
+Note
+** S'il est nécessaire de comparer avec un front montant, utiliser un inverseur
+
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+
+

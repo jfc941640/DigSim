@@ -1,0 +1,25 @@
+° JETON
+
+Le jeton est une petite DEL qui peut servir à matérialiser les entrées ou
+sorties d'un composant ou les états d'un système 
+(exemple: bascules d'un séquenceur).
+Il remplace, en plus compact, l'association d'une DEL et d'une masse
+
+Pour l'utiliser, il suffit, de connecter l'entrée du jeton (la partie droite du
+fil quand il n'y a pas rotation) sur la sortie d'une bascule par exemple.
+
+LE JETON VIENT SE PLACER SUR LE CORPS DU COMPOSANT.
+L'entrée du jeton devient ainsi invisible puisque confondue avec la connexion au
+composant et le jeton vient se placer au centre du composant, comme s'il
+appartenait à ce dernier.
+
+La rotation du jeton permet de l'adapter à toute rotation des composants.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

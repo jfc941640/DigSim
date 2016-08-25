@@ -1,0 +1,25 @@
+° ETAGE TAMPON (74HC04)
+
+- La sortie de cette porte est au niveau logique 0 si son entrée est
+au niveau logique 0.
+
+- La sortie de cette porte est au niveau logique 1 si son entrée est
+au niveau logique 1.
+
+     Q = A
+
+Table de vérité:
+
+        A   |   Q
+      ------|----
+        0   |   0
+        1   |   1
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

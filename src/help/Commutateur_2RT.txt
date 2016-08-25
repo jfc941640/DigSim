@@ -1,0 +1,17 @@
+° COMMUTATEUR 2RT
+
+Ce commutateur a 2 contacts repos et 2 contacts travail; pour cette raison, il
+est dénommé "Commutateur 2RT".
+A chaque clic de souris sur ce composant, l'état des contacts repos et travail
+change.
+
+Au lancement de DigSim, ce commutateur est initialement au repos.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

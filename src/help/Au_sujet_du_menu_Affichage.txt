@@ -1,0 +1,10 @@
+° MENU AFFICHAGE
+
+Le menu affichage met à votre disposition:
+
+- des Diodes Electro Luminescentes (DEL)
+- un afficheur à 7 segments + point décimal
+- également un jeton qui est une petite DEL qui se connecte sur les entrées 
+ou sorties des composants pour en visualiser l'état.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

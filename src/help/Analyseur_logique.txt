@@ -1,0 +1,21 @@
+° ANALYSEUR LOGIQUE
+	(raccourci clavier: touche 'a')
+
+L'analyseur logique vous permettra d'observer l'évolution temporelle des signaux
+connectés aux sondes.
+Si la case "lancement automatique de l'analyseur" est cochée (dans le menu "vitesse
+de simulation et options"), l'analyseur apparaîtra automatiquement en bas de l'écran,
+au lancement d'une simulation, avec une taille de fenêtre adaptée au nombre de sondes.
+Il est possible de réarranger les fenêtres en les faisant glisser au moyen de
+la souris.
+
+L'appui sur la touche 'a' fait apparaître ou disparaître cet analyseur logique.
+
+Deux autres analyseurs logiques existent : 
+- un analyseur logique avec horloge externe
+- un mini analyseur logique avec horloge "rapide" intégrée   (horloge de DigSim)
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+
+

@@ -1,0 +1,21 @@
+° CELLULE RC AVEC BOUTON POUSSOIR DE RESET 
+
+Cette cellule RC avec bouton poussoir de Reset fournit un niveau logique 0
+pendant quelques instants après la mise sous tension du montage, le temps que la
+tension aux bornes du condensateur atteigne et dépasse Vcc/2 (Vcc = 5V).
+Pour cela, elle doit être impérativement connectée à la source d'alimentation
+Vcc. 
+Il est également possible de décharger le condensateur par appui sur le
+commutateur (Reset).
+
+C'est une fonction indispensable pour initialiser tout montage de type
+séquentiel.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

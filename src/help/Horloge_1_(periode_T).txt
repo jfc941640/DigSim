@@ -1,0 +1,20 @@
+° OSCILLATEUR DE PERIODE T
+
+Cet oscillateur est synchronisé avec l'horloge principale de DigSim. 
+Il change de niveau à chaque cycle de simulation.
+
+Sa sortie est alternativement aux niveaux logiques 0 et 1.
+
+    0 = inactif = Masse = 0V  = OFF = Low
+      Les fils au niveau logique 0 sont représentés en bleu	
+    1 = active  = Vcc   = 5V  = ON  = High
+      Les fils au niveau logique 1 sont représentés en rouge	
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

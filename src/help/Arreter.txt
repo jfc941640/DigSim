@@ -1,0 +1,6 @@
+° ARRETER LA SIMULATION
+	(raccourci clavier: 'Enter')
+
+Cette fonction arrête la simulation.
+
+La même touche 'Enter' la relance.

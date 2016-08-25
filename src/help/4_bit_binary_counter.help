@@ -1,0 +1,141 @@
+4-bit binary counter
+
+
+
+
+
+The counter implements four master-slave flip
+
+
+flops connected in a series cascade. The input
+
+
+count pulses are applied to input C, which
+
+
+drives the first flip-flop in the series. This
+
+
+flip-flop gets triggered on each low-to-high
+
+
+level transition applied to input C, so that its
+
+
+output at A changes state once every time the
+
+
+input completes a cycle. This output the drives
+
+
+the next flip-flop in the same fashion so that
+
+
+output B changes state once every time the input
+
+
+C completes two cycles. The same pattern repeats
+
+
+for the remaining flip-flops, and the output
+
+
+pattern sequence which will repeat indefinately
+
+
+is given by the following:
+
+
+
+
+
+C(x)| D  C  B  A
+
+
+----|------------
+
+
+ 0  | 0  0  0  0
+
+
+ 1  | 0  0  0  1
+
+
+ 2  | 0  0  1  0
+
+
+ 3  | 0  0  1  1
+
+
+ 4  | 0  1  0  0
+
+
+ 5  | 0  1  0  1
+
+
+ 6  | 0  1  1  0
+
+
+ 7  | 0  1  1  1
+
+
+ 8  | 1  0  0  0
+
+
+ 9  | 1  0  0  1
+
+
+ 10 | 1  0  1  0
+
+
+ 11 | 1  0  1  1
+
+
+ 12 | 1  1  0  0
+
+
+ 13 | 1  1  0  1
+
+
+ 14 | 1  1  1  0
+
+
+ 15 | 1  1  1  1
+
+
+
+
+
+By convention, for 4 bit binary counting
+
+
+the decimal intergers 10,11,12,13,14 and 15
+
+
+are replaced by A B C D E and F.
+
+
+
+
+
+You can drag this component to another position
+
+
+by clicking inside the body of the port, hold
+
+
+the mouse button, move to the new position,
+
+
+and release the mouse button.
+
+
+
+
+
+
+
+
+
+
+

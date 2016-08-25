@@ -1,0 +1,28 @@
+° COMPTEUR DCB 4BITS PROGRAMMABLE (CTR-PIPO) AVEC RAZ SYNCHRONE (74HC162)
+
+Les entrées de validation ENP et ENT permettent la mise en cascade synchrone 
+de ce type de compteur.
+Retenue T9 active si ENT=1, d'équation T9= ENT.R(9)= ENT.QD./QC./QB.QA
+
+L'état initial de ce compteur est aléatoire.
+
+/R   /L   CLK   ENP   ENT  |    Q+       | Modes
+----------------------------------------------------------------------------
+0     -    !     -     -   | 0  0  0  0  | Mise à 0 synchrone
+1     0    !     -     -   | D  C  B  A  | Chargement synchrone (mode PIPO)
+1     1    !     1     1   |    Q+1      | Comptage modulo 10
+1     1    -     -     0   |    Q        | Maintien
+1     1    -     0     -   |    Q        | Maintien 
+
+Notations:
+! = front montant de l'horloge
+Q =QD QC QB QA
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

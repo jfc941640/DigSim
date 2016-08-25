@@ -1,0 +1,26 @@
+° BUFFER 8 BITS A SORTIES 3 ETAT (74HC541)
+
+Usages: étage tampon, interfaçage, multiplexage.
+
+|------|------|-----------------|
+| /OE1 | /OE2 |       Qi        |
+|------|------|-----------------|
+|  0   |  0   |       Di        |
+|  1   |  0   | Haute impédance |
+|  0   |  1   | Haute impédance |
+|------|------|-----------------|
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

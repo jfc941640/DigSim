@@ -1,0 +1,15 @@
+° COMPLEMENTATION OU INVERSION EN SORTIE DE COMPOSANT
+
+Placé en sortie d'une porte ou d'un composant logique, ce "rond d'inversion"
+complémente cette sortie et a le même effet qu'un inverseur.
+Il présente l'avantage de prendre moins de place et d'offrir une meilleure
+lisibilité.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,4 @@
+° EXEMPLES
+
+Cette fonction vous permet d'accéder à une bibliothèque interne de simulations.
+Si vous êtes en ligne, soyez patients car le téléchargement peut être long.

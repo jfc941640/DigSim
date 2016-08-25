@@ -1,0 +1,24 @@
+° COMPARATEUR 8 BITS, TYPE 74HC688
+
+La sortie /= de ce comparateur passe à 0 si celui-ci est validé (/E=0)
+et que les entrées A0-7 et B0-7 sont identiques
+
+|-------------------------|--------|
+|        ENTREES          | SORTIE |
+|-------------------------|--------|
+| Données | Validation /E | /(A=B) |
+|---------|---------------|--------|
+|    -    |       1       |    1   |
+|   A=B   |       0       |    0   |
+|   A<B   |       -       |    1   |
+|   A>B   |       -       |    1   |
+|---------|---------------|--------|
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

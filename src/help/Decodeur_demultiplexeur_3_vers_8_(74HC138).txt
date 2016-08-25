@@ -1,0 +1,37 @@
+° DECODEUR-DÉMULTIPLEXEUR 3 VERS 8 (74HC138)
+
+S'il est validé sur ces entrées G et /G, ce composant peut remplir un 
+double rôle:
+- Soit ce composant est utilisé en DÉCODEUR
+  Alors, l'une de ses sorties est à 0, les autres étant toutes à 1.
+  La sortie qui passe à 0 est sélectionnée au moyen des entrées d'adresse
+  c, b, a,  
+- Soit ce composant est utilisé en DÉMULTIPLEXEUR inverseur ou non. 
+  Dans ce cas, il aiguille l'une de ses entrées de validation G ou /G considérée
+  alors comme entrée de signal vers l'une des 8 sorties sélectionnées au moyen
+  des entrées d'adresse c, b, a.
+
+|G /G /G | c b a | /Y0 /Y1 /Y2 /Y3 /Y4 /Y5 /Y6 /Y7 |
+|--------|-------|---------------------------------|
+|0  -  - | - - - |  1   1   1   1   1   1   1   1  |
+|-  1  - | - - - |  1   1   1   1   1   1   1   1  |
+|-  -  1 | - - - |  1   1   1   1   1   1   1   1  |
+|--------|-------|---------------------------------|
+|1  0  0 | 0 0 0 |  0   1   1   1   1   1   1   1  |
+|1  0  0 | 0 0 1 |  1   0   1   1   1   1   1   1  |
+|1  0  0 | 0 1 0 |  1   1   0   1   1   1   1   1  |
+|1  0  0 | 0 1 1 |  1   1   1   0   1   1   1   1  |
+|1  0  0 | 1 0 0 |  1   1   1   1   0   1   1   1  |
+|1  0  0 | 1 0 1 |  1   1   1   1   1   0   1   1  |
+|1  0  0 | 1 1 0 |  1   1   1   1   1   1   0   1  |
+|1  0  0 | 1 1 1 |  1   1   1   1   1   1   1   0  |
+|--------|-------|---------------------------------|
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

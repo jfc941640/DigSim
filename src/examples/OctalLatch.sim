@@ -1,0 +1,303 @@
+# Digsim file
+version 0 1
+describe component SevenSegmentDisplay
+ pos 63 11
+ color red
+end describe
+describe component BCDToSevenSegDecoder
+ pos 35 10
+end describe
+describe component GND
+ pos 67 21
+end describe
+describe component Wire
+ pos 53 11
+ pos2 44 11
+end describe
+describe component Wire
+ pos 61 13
+ pos2 64 13
+end describe
+describe component Wire
+ pos 61 14
+ pos2 64 14
+end describe
+describe component Wire
+ pos 61 15
+ pos2 64 15
+end describe
+describe component Wire
+ pos 61 16
+ pos2 64 16
+end describe
+describe component Wire
+ pos 61 17
+ pos2 64 17
+end describe
+describe component Wire
+ pos 61 18
+ pos2 64 18
+end describe
+describe component Wire
+ pos 61 19
+ pos2 64 19
+end describe
+describe component Wire
+ pos 45 13
+ pos2 53 13
+end describe
+describe component Wire
+ pos 46 14
+ pos2 53 14
+end describe
+describe component Wire
+ pos 47 15
+ pos2 53 15
+end describe
+describe component Wire
+ pos 48 16
+ pos2 53 16
+end describe
+describe component Wire
+ pos 49 17
+ pos2 53 17
+end describe
+describe component Wire
+ pos 50 18
+ pos2 53 18
+end describe
+describe component Wire
+ pos 51 19
+ pos2 53 19
+end describe
+describe component Oscilator
+ pos 10 17
+end describe
+describe component FourBitBinaryCounter
+ pos 26 16
+end describe
+describe component GND
+ pos 51 21
+end describe
+describe component Wire
+ pos 36 16
+ pos2 34 16
+end describe
+describe component Wire
+ pos 36 14
+ pos2 34 14
+end describe
+describe component Vcc
+ pos 32 1
+end describe
+describe component Wire
+ pos 34 14
+ pos2 34 16
+end describe
+describe component Wire
+ pos 34 14
+ pos2 34 6
+end describe
+describe component Wire
+ pos 36 12
+ pos2 31 12
+end describe
+describe component PushButton
+ pos 35 4
+end describe
+describe component Caption
+ pos 38 1
+ Text Enable
+end describe
+describe component Wire
+ pos 44 7
+ pos2 44 11
+end describe
+describe component Wire
+ pos 34 6
+ pos2 36 6
+end describe
+describe component Wire
+ pos 36 8
+ pos2 31 8
+end describe
+describe component Wire
+ pos 31 8
+ pos2 31 12
+end describe
+describe component SevenSegmentDisplay
+ pos 63 24
+ color red
+end describe
+describe component GND
+ pos 67 34
+end describe
+describe component Wire
+ pos 35 18
+ pos2 36 18
+end describe
+describe component Wire
+ pos 35 19
+ pos2 36 19
+end describe
+describe component Wire
+ pos 35 20
+ pos2 36 20
+end describe
+describe component Wire
+ pos 35 21
+ pos2 36 21
+end describe
+describe component GND
+ pos 29 11
+end describe
+describe component Switch
+ pos 15 9
+end describe
+describe component Wire
+ pos 18 18
+ pos2 18 16
+end describe
+describe component Wire
+ pos 18 16
+ pos2 24 16
+end describe
+describe component Wire
+ pos 24 12
+ pos2 24 16
+end describe
+describe component Vcc
+ pos 14 6
+end describe
+describe component GND
+ pos 14 12
+end describe
+describe component Caption
+ pos 18 7
+ Text Start / Stop
+end describe
+describe component Caption
+ pos 3 2
+ Text This example shows the working of an
+end describe
+describe component Caption
+ pos 3 5
+ Text Octal latch
+end describe
+describe component Wire
+ pos 45 13
+ pos2 45 26
+end describe
+describe component Wire
+ pos 45 13
+ pos2 44 13
+end describe
+describe component Wire
+ pos 45 26
+ pos2 64 26
+end describe
+describe component Wire
+ pos 46 14
+ pos2 46 27
+end describe
+describe component Wire
+ pos 46 14
+ pos2 44 14
+end describe
+describe component Wire
+ pos 46 27
+ pos2 64 27
+end describe
+describe component Wire
+ pos 47 15
+ pos2 47 28
+end describe
+describe component Wire
+ pos 47 15
+ pos2 44 15
+end describe
+describe component Wire
+ pos 47 28
+ pos2 64 28
+end describe
+describe component Wire
+ pos 48 16
+ pos2 48 29
+end describe
+describe component Wire
+ pos 48 16
+ pos2 44 16
+end describe
+describe component Wire
+ pos 48 29
+ pos2 64 29
+end describe
+describe component Wire
+ pos 49 17
+ pos2 49 30
+end describe
+describe component Wire
+ pos 49 17
+ pos2 44 17
+end describe
+describe component Wire
+ pos 49 30
+ pos2 64 30
+end describe
+describe component Wire
+ pos 50 18
+ pos2 50 31
+end describe
+describe component Wire
+ pos 50 18
+ pos2 44 18
+end describe
+describe component Wire
+ pos 50 31
+ pos2 64 31
+end describe
+describe component Wire
+ pos 51 19
+ pos2 51 32
+end describe
+describe component Wire
+ pos 51 19
+ pos2 44 19
+end describe
+describe component Wire
+ pos 51 32
+ pos2 64 32
+end describe
+describe component Wire
+ pos 53 20
+ pos2 53 22
+end describe
+describe component Wire
+ pos 17 20
+ pos2 18 20
+end describe
+describe component Wire
+ pos 26 19
+ pos2 27 19
+end describe
+describe component LED
+ pos 17 23
+ color yellow
+end describe
+describe component GND
+ pos 23 24
+end describe
+describe component Wire
+ pos 18 20
+ pos2 18 25
+end describe
+describe component Caption
+ pos 21 21
+ Text Clock
+end describe
+describe component TwoNorPort
+ pos 17 16
+end describe
+describe component OctalLatch
+ pos 52 9
+end describe

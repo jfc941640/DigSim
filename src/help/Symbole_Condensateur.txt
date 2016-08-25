@@ -1,0 +1,4 @@
+° CONDENSATEUR
+
+Ceci n'est pas un composant, mais seulement un symbole destiné à faciliter
+ou compléter certains schémas.

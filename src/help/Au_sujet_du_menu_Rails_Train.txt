@@ -1,0 +1,13 @@
+° MENU RAILS & TRAIN
+
+Les fonctions logiques permettent de commander des systèmes et de réaliser des
+automatismes commandés par des machines d'état ou séquenceurs. 
+Pour utiliser les composants logiques de DigSim dans un cadre concret, cette 
+application extrèmement modulable y a été intégrée.
+
+L'aide en ligne se trouve ici : http://patrick.furon.free.fr/_elecnumerique/_cours_electronum/_ApplicationRailsTrain_Composants.htm
+et aussi sur la page d'accueil du site 
+http://patrick.furon.free.fr/
+en cliquant sur "RailWay"
+
+Accès à DigSim sur http://patrick.furon.free.fr/

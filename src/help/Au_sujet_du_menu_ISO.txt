@@ -1,0 +1,4 @@
+° MENU ISO
+
+Quelques portes logiques à la norme ISO, réalisées de manière plus compacte
+que celles en norme ANSI

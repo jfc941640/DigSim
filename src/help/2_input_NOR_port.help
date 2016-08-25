@@ -1,0 +1,225 @@
+Two-input NOR port
+
+
+
+
+
+This component simulates a second level
+
+
+logical device that can be derived from
+
+
+the three basic logical devices AND, OR
+
+
+and NOT.
+
+
+
+
+
+The logical function of the NOR operator
+
+
+is the inverse of the OR operator. So that
+
+
+any combination of inputs A OR B that
+
+
+produces a true output will produce a false
+
+
+output for the NOR operator, and any
+
+
+combination of inputs A OR B that produces
+
+
+a false output will produce a true output
+
+
+for the NOR operator.
+
+
+
+
+
+In boolean logic: (A + B)' = Q
+
+
+
+
+
+The electrical function of the NOR port
+
+
+mirrors the function of the NOR operator,
+
+
+so that the output of this port is inactive
+
+
+or '0' when either input A *OR* input B
+
+
+are '1' or both are '1'. Otherwise, the
+
+
+output is active or '1'.
+
+
+
+
+
+The NOR gate should be used when a specific
+
+
+event is to be triggered by the occurance
+
+
+of at least one of two other negative events
+
+
+occuring in a given simulator cycle.
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B  | A + B |  Q
+
+
+    --------|-----------
+
+
+    0    0  |   0   |  1
+
+
+    0    1  |   1   |  0
+
+
+    1    0  |   1   |  0
+
+
+    1    1  |   1   |  0
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+De Morgan's Complimentary function:
+
+
+
+
+
+For the second level operators there exists
+
+
+two seperate derivations from the three
+
+
+basic logical devices. In the case of the
+
+
+NOR operator, applying the OR operator
+
+
+and taking the inverse of the output is
+
+
+equivalent to taking the inverse of the
+
+
+inputs and applying the AND operator.
+
+
+
+
+
+De Morgan's Law: A' * B' <=> (A + B)' = Q
+
+
+
+
+
+    Compliment's Truth-table:
+
+
+
+
+
+    A    B  | A'  B' | Q
+
+
+    --------|--------|---
+
+
+    0    0  | 1   1  | 1
+
+
+    0    1  | 1   0  | 0
+
+
+    1    0  | 0   1  | 0
+
+
+    1    1  | 0   0  | 0
+
+
+
+
+
+
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

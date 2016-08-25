@@ -1,0 +1,5 @@
+° ENREGISTRER UN SCHÉMA 
+	(raccourci clavier: 'Ctrl S' ou 's' ou 'S')
+
+Utiliser cette fonction pour "Enregistrer" un schéma déjà ouvert au moyen de
+"Ouvrir" ou précédemment enregistré au moyen de "Enregistrer"

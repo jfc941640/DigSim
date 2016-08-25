@@ -1,0 +1,384 @@
+# Digsim file
+version 1 0
+describe component Vcc
+ pos 3 7
+end describe
+describe component Wire
+ pos 5 17
+ pos2 7 17
+end describe
+describe component GND
+ pos 4 47
+end describe
+describe component Wire
+ pos 5 17
+ pos2 5 12
+end describe
+describe component Wire
+ pos 6 39
+ pos2 6 48
+end describe
+describe component Wire
+ pos 5 25
+ pos2 5 33
+end describe
+describe component Wire
+ pos 7 15
+ pos2 6 15
+end describe
+describe component TwoNorPort
+ pos 47 15
+end describe
+describe component TwoNorPort
+ pos 47 27
+end describe
+describe component Wire
+ pos 48 19
+ pos2 48 21
+end describe
+describe component Wire
+ pos 56 30
+ pos2 56 28
+end describe
+describe component Wire
+ pos 48 21
+ pos2 56 28
+end describe
+describe component Wire
+ pos 48 29
+ pos2 48 27
+end describe
+describe component Wire
+ pos 48 27
+ pos2 56 20
+end describe
+describe component Wire
+ pos 56 20
+ pos2 56 18
+end describe
+describe component Wire
+ pos 46 17
+ pos2 48 17
+end describe
+describe component Wire
+ pos 46 31
+ pos2 48 31
+end describe
+describe component Wire
+ pos 7 31
+ pos2 6 31
+end describe
+describe component Wire
+ pos 6 23
+ pos2 6 15
+end describe
+describe component Wire
+ pos 56 18
+ pos2 62 18
+end describe
+describe component Wire
+ pos 56 30
+ pos2 62 30
+end describe
+describe component LED
+ pos 84 28
+ color green
+end describe
+describe component Wire
+ pos 92 18
+ pos2 94 18
+end describe
+describe component Wire
+ pos 92 30
+ pos2 94 30
+end describe
+describe component Wire
+ pos 94 18
+ pos2 94 30
+end describe
+describe component Wire
+ pos 94 30
+ pos2 94 37
+end describe
+describe component GND
+ pos 92 36
+end describe
+describe component Caption
+ pos 14 12
+ Text Set
+end describe
+describe component Caption
+ pos 14 28
+ Text Reset
+end describe
+describe component Caption
+ pos 88 13
+ Text Q
+end describe
+describe component LED
+ pos 84 16
+ color red
+end describe
+describe component Caption
+ pos 87 25
+ Text ~Q
+end describe
+describe component Wire
+ pos 38 17
+ pos2 28 17
+end describe
+describe component Wire
+ pos 38 31
+ pos2 28 31
+end describe
+describe component Wire
+ pos 7 33
+ pos2 5 33
+end describe
+describe component Wire
+ pos 35 24
+ pos2 35 30
+end describe
+describe component Wire
+ pos 35 18
+ pos2 38 18
+end describe
+describe component Wire
+ pos 35 30
+ pos2 38 30
+end describe
+describe component Wire
+ pos 35 24
+ pos2 35 18
+end describe
+describe component ThreeAndPort
+ pos 37 14
+end describe
+describe component ThreeAndPort
+ pos 37 28
+end describe
+describe component Wire
+ pos 82 13
+ pos2 38 13
+end describe
+describe component Wire
+ pos 38 13
+ pos2 38 16
+end describe
+describe component Wire
+ pos 83 35
+ pos2 38 35
+end describe
+describe component Wire
+ pos 38 35
+ pos2 38 32
+end describe
+describe component TwoOrPort
+ pos 19 14
+end describe
+describe component TwoOrPort
+ pos 19 28
+end describe
+describe component PushButton
+ pos 6 21
+end describe
+describe component Wire
+ pos 7 23
+ pos2 6 23
+end describe
+describe component Wire
+ pos 6 23
+ pos2 6 31
+end describe
+describe component Wire
+ pos 7 25
+ pos2 5 25
+end describe
+describe component Wire
+ pos 5 25
+ pos2 5 17
+end describe
+describe component Wire
+ pos 15 24
+ pos2 20 24
+end describe
+describe component Wire
+ pos 20 24
+ pos2 20 18
+end describe
+describe component Wire
+ pos 20 24
+ pos2 20 30
+end describe
+describe component Wire
+ pos 20 32
+ pos2 15 32
+end describe
+describe component Wire
+ pos 20 16
+ pos2 15 16
+end describe
+describe component PushButton
+ pos 6 13
+end describe
+describe component PushButton
+ pos 6 29
+end describe
+describe component Caption
+ pos 14 20
+ Text Both
+end describe
+describe component Caption
+ pos 31 13
+ Text J
+end describe
+describe component Caption
+ pos 30 27
+ Text K
+end describe
+describe component Wire
+ pos 32 24
+ pos2 35 24
+end describe
+describe component TwoNorPort
+ pos 71 15
+end describe
+describe component TwoNorPort
+ pos 71 27
+end describe
+describe component Wire
+ pos 72 19
+ pos2 72 21
+end describe
+describe component Wire
+ pos 80 30
+ pos2 80 28
+end describe
+describe component Wire
+ pos 72 21
+ pos2 80 28
+end describe
+describe component Wire
+ pos 72 29
+ pos2 72 27
+end describe
+describe component Wire
+ pos 72 27
+ pos2 80 20
+end describe
+describe component Wire
+ pos 80 20
+ pos2 80 18
+end describe
+describe component Wire
+ pos 70 17
+ pos2 72 17
+end describe
+describe component Wire
+ pos 70 31
+ pos2 72 31
+end describe
+describe component Wire
+ pos 83 18
+ pos2 85 18
+end describe
+describe component Wire
+ pos 82 30
+ pos2 85 30
+end describe
+describe component TwoAndPort
+ pos 61 14
+end describe
+describe component TwoAndPort
+ pos 61 28
+end describe
+describe component Inverter
+ pos 47 37
+end describe
+describe component Wire
+ pos 62 16
+ pos2 59 16
+end describe
+describe component Wire
+ pos 62 32
+ pos2 59 32
+end describe
+describe component Wire
+ pos 59 16
+ pos2 59 32
+end describe
+describe component Wire
+ pos 59 32
+ pos2 59 40
+end describe
+describe component Wire
+ pos 32 24
+ pos2 32 40
+end describe
+describe component Wire
+ pos 32 40
+ pos2 48 40
+end describe
+describe component Wire
+ pos 56 40
+ pos2 59 40
+end describe
+describe component Wire
+ pos 82 13
+ pos2 82 30
+end describe
+describe component Wire
+ pos 82 30
+ pos2 80 30
+end describe
+describe component Wire
+ pos 83 18
+ pos2 83 35
+end describe
+describe component Wire
+ pos 83 18
+ pos2 80 18
+end describe
+describe component Caption
+ pos 34 7
+ Text MasterSlave JK Flip Flop
+end describe
+describe component Switch
+ pos 6 37
+end describe
+describe component Wire
+ pos 32 40
+ pos2 15 40
+end describe
+describe component Wire
+ pos 7 39
+ pos2 6 39
+end describe
+describe component Wire
+ pos 6 39
+ pos2 6 31
+end describe
+describe component Wire
+ pos 7 41
+ pos2 5 41
+end describe
+describe component Wire
+ pos 5 41
+ pos2 5 33
+end describe
+describe component Caption
+ pos 15 39
+ Text clock
+end describe
+describe component Caption
+ pos 33 44
+ Text if push buttons are replaced by switches,
+end describe
+describe component Caption
+ pos 36 47
+ Text this circuit will not work correctly.
+end describe
+describe component Caption
+ pos 33 50
+ Text You need a 2-phase clock for that
+end describe

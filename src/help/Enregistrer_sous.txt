@@ -1,0 +1,5 @@
+° ENREGISTRER...
+	(raccourci clavier: 'Ctrl Maj S' ou 'Ctrl Shift S')
+
+Utiliser cette fonction pour "Enregistrer" un schéma en lui donnant 
+un nom avec une extension .txt .

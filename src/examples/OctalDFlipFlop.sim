@@ -1,0 +1,334 @@
+# Digsim file
+version 0 1
+describe component OctalDFlipFlop
+ pos 55 15
+end describe
+describe component SevenSegmentDisplay
+ pos 66 19
+ color red
+end describe
+describe component BCDToSevenSegDecoder
+ pos 38 18
+end describe
+describe component GND
+ pos 70 29
+end describe
+describe component Wire
+ pos 56 19
+ pos2 47 19
+end describe
+describe component Wire
+ pos 64 21
+ pos2 67 21
+end describe
+describe component Wire
+ pos 64 22
+ pos2 67 22
+end describe
+describe component Wire
+ pos 64 23
+ pos2 67 23
+end describe
+describe component Wire
+ pos 64 24
+ pos2 67 24
+end describe
+describe component Wire
+ pos 64 25
+ pos2 67 25
+end describe
+describe component Wire
+ pos 64 26
+ pos2 67 26
+end describe
+describe component Wire
+ pos 64 27
+ pos2 67 27
+end describe
+describe component Wire
+ pos 48 21
+ pos2 56 21
+end describe
+describe component Wire
+ pos 49 22
+ pos2 56 22
+end describe
+describe component Wire
+ pos 50 23
+ pos2 56 23
+end describe
+describe component Wire
+ pos 51 24
+ pos2 56 24
+end describe
+describe component Wire
+ pos 52 25
+ pos2 56 25
+end describe
+describe component Wire
+ pos 53 26
+ pos2 56 26
+end describe
+describe component Wire
+ pos 54 27
+ pos2 56 27
+end describe
+describe component Oscilator
+ pos 13 25
+end describe
+describe component FourBitBinaryCounter
+ pos 29 24
+end describe
+describe component GND
+ pos 54 29
+end describe
+describe component Wire
+ pos 39 24
+ pos2 37 24
+end describe
+describe component Wire
+ pos 39 22
+ pos2 37 22
+end describe
+describe component Vcc
+ pos 35 1
+end describe
+describe component Wire
+ pos 37 22
+ pos2 37 24
+end describe
+describe component Wire
+ pos 37 22
+ pos2 37 16
+end describe
+describe component Wire
+ pos 39 20
+ pos2 34 20
+end describe
+describe component PushButton
+ pos 38 12
+end describe
+describe component PushButton
+ pos 38 4
+end describe
+describe component Caption
+ pos 43 9
+ Text Set
+end describe
+describe component Caption
+ pos 42 1
+ Text Reset
+end describe
+describe component Wire
+ pos 47 15
+ pos2 47 19
+end describe
+describe component Wire
+ pos 56 17
+ pos2 56 7
+end describe
+describe component Wire
+ pos 56 7
+ pos2 47 7
+end describe
+describe component Wire
+ pos 37 16
+ pos2 39 16
+end describe
+describe component Wire
+ pos 37 16
+ pos2 37 6
+end describe
+describe component Wire
+ pos 37 6
+ pos2 39 6
+end describe
+describe component Wire
+ pos 34 14
+ pos2 34 8
+end describe
+describe component Wire
+ pos 34 8
+ pos2 39 8
+end describe
+describe component Wire
+ pos 39 14
+ pos2 34 14
+end describe
+describe component Wire
+ pos 34 14
+ pos2 34 20
+end describe
+describe component SevenSegmentDisplay
+ pos 66 32
+ color red
+end describe
+describe component GND
+ pos 70 42
+end describe
+describe component Wire
+ pos 38 26
+ pos2 39 26
+end describe
+describe component Wire
+ pos 38 27
+ pos2 39 27
+end describe
+describe component Wire
+ pos 38 28
+ pos2 39 28
+end describe
+describe component Wire
+ pos 38 29
+ pos2 39 29
+end describe
+describe component GND
+ pos 32 19
+end describe
+describe component Switch
+ pos 18 17
+end describe
+describe component Wire
+ pos 21 26
+ pos2 21 24
+end describe
+describe component Wire
+ pos 21 24
+ pos2 27 24
+end describe
+describe component Wire
+ pos 27 20
+ pos2 27 24
+end describe
+describe component Vcc
+ pos 17 14
+end describe
+describe component GND
+ pos 17 20
+end describe
+describe component Caption
+ pos 23 14
+ Text Start / Stop
+end describe
+describe component Caption
+ pos 2 2
+ Text This example shows the working of an
+end describe
+describe component Caption
+ pos 2 5
+ Text Octal D-flip flop
+end describe
+describe component Wire
+ pos 48 21
+ pos2 48 34
+end describe
+describe component Wire
+ pos 48 21
+ pos2 47 21
+end describe
+describe component Wire
+ pos 48 34
+ pos2 67 34
+end describe
+describe component Wire
+ pos 49 22
+ pos2 49 35
+end describe
+describe component Wire
+ pos 49 22
+ pos2 47 22
+end describe
+describe component Wire
+ pos 49 35
+ pos2 67 35
+end describe
+describe component Wire
+ pos 50 23
+ pos2 50 36
+end describe
+describe component Wire
+ pos 50 23
+ pos2 47 23
+end describe
+describe component Wire
+ pos 50 36
+ pos2 67 36
+end describe
+describe component Wire
+ pos 51 24
+ pos2 51 37
+end describe
+describe component Wire
+ pos 51 24
+ pos2 47 24
+end describe
+describe component Wire
+ pos 51 37
+ pos2 67 37
+end describe
+describe component Wire
+ pos 52 25
+ pos2 52 38
+end describe
+describe component Wire
+ pos 52 25
+ pos2 47 25
+end describe
+describe component Wire
+ pos 52 38
+ pos2 67 38
+end describe
+describe component Wire
+ pos 53 26
+ pos2 53 39
+end describe
+describe component Wire
+ pos 53 26
+ pos2 47 26
+end describe
+describe component Wire
+ pos 53 39
+ pos2 67 39
+end describe
+describe component Wire
+ pos 54 27
+ pos2 54 40
+end describe
+describe component Wire
+ pos 54 27
+ pos2 47 27
+end describe
+describe component Wire
+ pos 54 40
+ pos2 67 40
+end describe
+describe component Wire
+ pos 56 28
+ pos2 56 30
+end describe
+describe component Wire
+ pos 20 28
+ pos2 21 28
+end describe
+describe component Wire
+ pos 29 27
+ pos2 30 27
+end describe
+describe component LED
+ pos 20 31
+ color yellow
+end describe
+describe component GND
+ pos 26 32
+end describe
+describe component Wire
+ pos 21 28
+ pos2 21 33
+end describe
+describe component Caption
+ pos 23 29
+ Text Clock
+end describe
+describe component TwoNorPort
+ pos 20 24
+end describe

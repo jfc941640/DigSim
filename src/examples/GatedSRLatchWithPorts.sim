@@ -1,0 +1,168 @@
+# Digsim file
+version 0 1
+describe component PushButton
+ pos 7 10
+end describe
+describe component GND
+ pos 5 20
+end describe
+describe component Vcc
+ pos 3 1
+end describe
+describe component Wire
+ pos 5 14
+ pos2 5 20
+end describe
+describe component Wire
+ pos 5 20
+ pos2 8 20
+end describe
+describe component Wire
+ pos 5 6
+ pos2 8 6
+end describe
+describe component Wire
+ pos 7 12
+ pos2 7 4
+end describe
+describe component Wire
+ pos 7 4
+ pos2 8 4
+end describe
+describe component Wire
+ pos 7 18
+ pos2 8 18
+end describe
+describe component Wire
+ pos 7 18
+ pos2 7 21
+end describe
+describe component Switch
+ pos 7 2
+end describe
+describe component Switch
+ pos 7 16
+end describe
+describe component Wire
+ pos 8 12
+ pos2 7 12
+end describe
+describe component Wire
+ pos 7 12
+ pos2 7 18
+end describe
+describe component Wire
+ pos 8 14
+ pos2 5 14
+end describe
+describe component Wire
+ pos 5 14
+ pos2 5 6
+end describe
+describe component TwoAndPort
+ pos 18 6
+end describe
+describe component TwoAndPort
+ pos 18 15
+end describe
+describe component TwoNorPort
+ pos 29 7
+end describe
+describe component Wire
+ pos 19 13
+ pos2 19 17
+end describe
+describe component Wire
+ pos 16 13
+ pos2 19 13
+end describe
+describe component Wire
+ pos 19 13
+ pos2 19 10
+end describe
+describe component Wire
+ pos 19 19
+ pos2 16 19
+end describe
+describe component Wire
+ pos 27 18
+ pos2 30 18
+end describe
+describe component Wire
+ pos 19 5
+ pos2 19 8
+end describe
+describe component Wire
+ pos 27 9
+ pos2 30 9
+end describe
+describe component Wire
+ pos 38 10
+ pos2 38 12
+end describe
+describe component Wire
+ pos 38 12
+ pos2 30 15
+end describe
+describe component Wire
+ pos 30 15
+ pos2 30 16
+end describe
+describe component Wire
+ pos 30 11
+ pos2 30 12
+end describe
+describe component Wire
+ pos 30 12
+ pos2 38 15
+end describe
+describe component Wire
+ pos 38 15
+ pos2 38 17
+end describe
+describe component LED
+ pos 37 8
+ color red
+end describe
+describe component LED
+ pos 37 15
+ color green
+end describe
+describe component GND
+ pos 43 16
+end describe
+describe component Wire
+ pos 45 10
+ pos2 45 17
+end describe
+describe component Caption
+ pos 24 2
+ Text Gated SR Latch with ports
+end describe
+describe component Caption
+ pos 14 0
+ Text Set
+end describe
+describe component Caption
+ pos 13 14
+ Text Reset
+end describe
+describe component Caption
+ pos 43 6
+ Text Reset
+end describe
+describe component Caption
+ pos 44 13
+ Text Set
+end describe
+describe component Caption
+ pos 13 7
+ Text Clock
+end describe
+describe component Wire
+ pos 16 5
+ pos2 19 5
+end describe
+describe component TwoNorPort
+ pos 29 14
+end describe

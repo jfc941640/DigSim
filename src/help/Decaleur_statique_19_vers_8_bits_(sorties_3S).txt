@@ -1,0 +1,48 @@
+° DECALEUR STATIQUE 19 BITS VERS 8 BITS (SORTIES 3S)
+
+Usages: décalage de mots binaires, multiplications ou divisions par 2, 4 ou 8.
+Utile après une suite d'opérations arithmétiques, il est spécialement conçu
+pour être mis en sortie du MAC afin de passer du format fixe au format flottant.
+
+Ce composant dispose de 
+19 entrées de données E18 ... E0, 
+8 sorties S7 ... S0,
+5 entrées de commande /OE, d, c, b et a.
+
+|-----|---6666--|---------------------------------|----------------------------|
+| /OE | d c b a |  S7  S6  S5  S4  S3  S2  S1  S0 |              MODES         |
+|-----|---------|---------------------------------|----------------------------|
+|  1  | - - - - |  3S  3S  3S  3S  3S  3S  3S  3S | Haute impédance            |
+|  0  | 0 0 0 0 |  E7  E6  E5  E4  E3  E2  E1  E0 | 0 décalage                 |
+|  0  | 0 0 0 1 |  E8  E7  E6  E5  E4  E3  E2  E1 | 1 décalage  (div. par 2^1) |
+|  0  | 0 0 1 0 |  E9  E8  E7  E6  E5  E4  E3  E2 | 2 décalages (div. par 2^2) |
+|  0  | 0 0 1 1 | E10  E9  E8  E7  E6  E5  E4  E3 | 3 décalages (div. par 2^3) |
+|  0  | 0 0 1 1 | E11 E10  E9  E8  E7  E6  E5  E4 | 4 décalages (div. par 2^4) |
+|  0  | 0 0 1 1 | E12 E11 E10  E9  E8  E7  E6  E5 | 5 décalages (div. par 2^5) |
+|  0  | 0 0 1 1 | E13 E12 E11 E10  E9  E8  E7  E6 | 6 décalages (div. par 2^6) |
+|  0  | 0 0 1 1 | E14 E13 E12 E11 E10  E9  E8  E7 | 7 décalages (div. par 2^7) |
+|  0  | 0 0 1 1 | E15 E14 E13 E12 E11 E10  E9  E8 | 8 décalages (div. par 2^8) |
+|  0  | 0 0 1 1 | E16 E15 E14 E13 E12 E11 E10  E9 | 9 décalages (div. par 2^9) |
+|  0  | 0 0 1 1 | E17 E16 E15 E14 E13 E12 E11 E10 |10 décalages (div. par 2^10)|
+|  0  | 1 0 1 1 | E18 E17 E16 E15 E14 E13 E12 E11 |11 décalages (div. par 2^11)|
+|  0  | 1 1 0 0 | E18 E17 E16 E15 E14 E13 E12 E11 |11 décalages (div. par 2^11)|
+|  0  | 1 1 0 1 | E18 E17 E16 E15 E14 E13 E12 E11 |11 décalages (div. par 2^11)|
+|  0  | 1 1 1 0 | E18 E17 E16 E15 E14 E13 E12 E11 |11 décalages (div. par 2^11)|
+|  0  | 1 1 1 1 | E18 E17 E16 E15 E14 E13 E12 E11 |11 décalages (div. par 2^11)|
+|-----|---------|---------------------------------|----------------------------|
+3S: abréviation pour état haute impédance (3 state)
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre-elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

@@ -1,0 +1,9 @@
+° SUPPRIMER
+	(raccourci clavier 'Ctr+X' or 'Suppr' (Del) or 'Retour' (Backspace)  )
+
+Après avoir sélectionné un ou plusieurs composants, cette fonction vous permet
+de les supprimer.
+Ne pas oublier que vous pouvez sélectionner plusieurs composants au moyen de la
+touche MAJUSCULE (Shift)
+
+ 

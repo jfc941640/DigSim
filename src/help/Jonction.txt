@@ -1,0 +1,15 @@
+° JONCTION
+	(raccourci clavier: touche 'j')
+
+INSERTION
+Habituellement, la jonction de deux fils ou d'un fil et d'une E/S de composant
+est automatique. Mais dans certains cas, il est nécessaire de la rajouter. 
+
+Pour cela, sélectionner la fonction "jonction" et cliquer sur le ou les endroits
+où vous souhaitez placer une jonction.
+Les fils ou un fil et un composant seront alors connectés ensemble.
+
+SUPPRESSION
+Il arrive que des fils soient coupés en plusieurs sections (2, 3 ou plus) par
+une jonction. Pour retirer une jonction superflue, supprimer la ou les sections
+de fils inutiles et rallonger la section restante jusqu'à la position voulue.

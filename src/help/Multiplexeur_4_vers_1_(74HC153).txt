@@ -1,0 +1,21 @@
+° MULTIPLEXEUR 4 VERS 1 (74HC153)
+
+Lorsque ce composant est validé (/G = 0) il aiguille l'une de ses entrées 
+E0 à E3 sélectionnée au moyen ses entrées d'adresse b et a.
+
+/G  b a | YD 
+--------|----
+ 1  - - |  0 
+ 0  0 0 | E0 
+ 0  0 1 | E1 
+ 0  1 0 | E2 
+ 0  1 1 | E3 
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

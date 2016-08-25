@@ -1,0 +1,37 @@
+° CHARIOT XY A CAPTEURS HAUT, BAS, GAUCHE ET DROITE
+
+Cette application peut servir de support à la création d'automatismes.
+Le chariot peut sortir de l'espace de travail si l'électronique numérique
+de commande est mal réalisée.
+
+Description:
+1) Clé  : nécessaire pour son fonctionnement (menu Applications)
+
+2) Déplacement
+- Vertical   grâce aux entrées H (Haut) et B (Bas)
+- Horizontal grâce aux entrées D (Droite) et G (Gauche)
+Un message d'erreur est affiché si deux commandes contradictoires sont données
+
+3) Connaissance de la position du chariot par les capteurs h, b, g, d
+- h=1: le chariot est exactement en haut
+- b=1: le chariot est exactement en bas
+- g=1: le chariot est exactement à gauche
+- d=1: le chariot est exactement à droite
+Un message d'erreur est affiché si le chariot sort de l'espace qui lui est
+attribué. Il devient dans ce cas incontrôlable...!
+
+4) L'entrée P permet de poser ou déposer une pièce.
+
+5) Pour disposer d'un chariot "neuf et réinitialisé": 
+   appuyer sur la touche * quand la simulation est arrêtée
+
+6) Un clic sur l'application positionne le chariot en bas et à gauche.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

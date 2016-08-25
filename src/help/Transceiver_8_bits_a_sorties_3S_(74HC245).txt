@@ -1,0 +1,30 @@
+° TRANSCEIVER 8 BITS A SORTIES HAUTE IMPEDANCE (74HC245)
+
+Usages: interfaçage, communication entre bus de systèmes indépendants,
+multiplexage, démultiplexage.
+
+Ce composant est un buffer bidirectionnel d'entrées A ou B. Soit A=B, soit B=A.
+
+|-----|-----|-------|-------|-----------------------|
+| /OE | Dir | A0-A7 | B0-B7 |       MODES           |
+|-----|-----|-------|-------|-----------------------|
+|  1  |  -  |  3S   |  3S   |    Haute impédance    |
+|  0  |  0  | B0-B7 |       | Transfert de B vers A |
+|  0  |  1  |       | 0-A7  | Transfert de A vers B |
+|-----|-----|-------|-------|-----------------------|
+3S: abréviation pour état haute impédance (3 state)
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

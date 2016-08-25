@@ -1,0 +1,27 @@
+° LATCH SR
+
+Le latch SR est une bascule asynchrone qui mémorise 1 bit d'information.
+
+Table de vérité
+    ---------|----------   
+    S    R   |   Q+  /Q+   
+    ---------|----------   
+    0    0   |   Q   /Q    mode mémoire
+    0    1   |   0    1    mise à 0
+    1    0   |   1    0    mise à 1
+    1    1   |   X    X    combinaison dite "interdite" à utiliser avec prudence
+    ---------|----------   
+Pour cette bascule X=1. 
+L'état initial de cette bascule est aléatoire.
+
+Ne pas oublier que c'est la manière de sortir de cette combinaison qui doit être
+choisie avec précaution (ne jamais passer directement de R=S=1 à R=S=0).
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

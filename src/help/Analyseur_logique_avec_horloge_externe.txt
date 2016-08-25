@@ -1,0 +1,22 @@
+° ANALYSEUR LOGIQUE AVEC HORLOGE EXTERNE
+
+Cet analyseur logique échantillonne le signal logique sur fronts montants et 
+descendants d'une horloge extérieure (broche supérieure).
+
+Il est conçu pour l'observation de systèmes cadencés sur la base de l'heure
+délivrée par l'ordinateur : pendule, horloges 1s et 1/2s, ...
+
+Cet analyseur est "cascadable", en ce sens que le signal d'horloge est transmis
+automatiquement au composant d'en dessous (si celui-ci est placé tout-contre), sans
+qu'il soit besoin de tirer des fils d'horloge.
+
+Il est pré-réglé pour une observation de 40 périodes d'horloge). Cependant, en 
+fonctionnement, un clic sur le boîtier jaune de cet analyseur permet de modifier 
+la longueur de la fenêtre d'observation.
+
+Deux autres analyseurs logiques existent : 
+- un mini analyseur logique avec horloge "rapide" intégrée   (horloge de DigSim)
+- un analyseur prenant les informations au moyen de "sondes" (horloge de DigSim)
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

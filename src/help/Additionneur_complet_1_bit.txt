@@ -1,0 +1,24 @@
+° ADDITIONNEUR COMPLET 1 bit
+
+Addition de deux bits x et y avec retenue d'entrée Ci (carry in)
+Résultat: somme S et retenue en sortie Co (carry out)
+Ci  y  x   |   Co  S
+-----------|--------
+ 0  0  0   |   0   0
+ 0  0  1   |   0   1
+ 0  1  0   |   0   1
+ 0  1  1   |   1   0
+ 1  0  0   |   0   1
+ 1  0  1   |   1   0
+ 1  1  0   |   1   0
+ 1  1  1   |   1   1
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+

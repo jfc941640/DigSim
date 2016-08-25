@@ -1,0 +1,227 @@
+# Digsim file
+version 1 0
+describe component Switch
+ pos 10 35
+end describe
+describe component Switch
+ pos 10 14
+end describe
+describe component Vcc
+ pos 6 2
+end describe
+describe component GND
+ pos 8 42
+end describe
+describe component Wire
+ pos 8 29
+ pos2 8 39
+end describe
+describe component Wire
+ pos 8 39
+ pos2 11 39
+end describe
+describe component Wire
+ pos 11 18
+ pos2 8 18
+end describe
+describe component Wire
+ pos 8 18
+ pos2 8 7
+end describe
+describe component Wire
+ pos 10 27
+ pos2 10 16
+end describe
+describe component Wire
+ pos 10 16
+ pos2 11 16
+end describe
+describe component Wire
+ pos 10 37
+ pos2 11 37
+end describe
+describe component Wire
+ pos 10 37
+ pos2 10 43
+end describe
+describe component Caption
+ pos 16 13
+ Text A
+end describe
+describe component Caption
+ pos 16 24
+ Text B
+end describe
+describe component Switch
+ pos 10 25
+end describe
+describe component Wire
+ pos 11 27
+ pos2 10 27
+end describe
+describe component Wire
+ pos 10 27
+ pos2 10 37
+end describe
+describe component Wire
+ pos 11 29
+ pos2 8 29
+end describe
+describe component Wire
+ pos 8 29
+ pos2 8 18
+end describe
+describe component LED
+ pos 64 17
+ color red
+end describe
+describe component LED
+ pos 64 28
+ color red
+end describe
+describe component GND
+ pos 74 39
+end describe
+describe component Wire
+ pos 76 30
+ pos2 76 40
+end describe
+describe component Wire
+ pos 72 19
+ pos2 76 19
+end describe
+describe component Wire
+ pos 72 30
+ pos2 76 30
+end describe
+describe component Wire
+ pos 76 30
+ pos2 76 19
+end describe
+describe component Caption
+ pos 67 15
+ Text sum
+end describe
+describe component Caption
+ pos 67 26
+ Text c_out
+end describe
+describe component Caption
+ pos 15 34
+ Text c_in
+end describe
+describe component TwoXorPort
+ pos 23 15
+end describe
+describe component TwoAndPort
+ pos 23 24
+end describe
+describe component Wire
+ pos 20 17
+ pos2 24 17
+end describe
+describe component Wire
+ pos 24 26
+ pos2 20 26
+end describe
+describe component Wire
+ pos 20 26
+ pos2 20 17
+end describe
+describe component Wire
+ pos 20 17
+ pos2 19 17
+end describe
+describe component Wire
+ pos 22 28
+ pos2 24 28
+end describe
+describe component Wire
+ pos 22 28
+ pos2 22 19
+end describe
+describe component Wire
+ pos 22 28
+ pos2 19 28
+end describe
+describe component Wire
+ pos 22 19
+ pos2 24 19
+end describe
+describe component TwoXorPort
+ pos 41 16
+end describe
+describe component TwoAndPort
+ pos 41 25
+end describe
+describe component Wire
+ pos 38 18
+ pos2 42 18
+end describe
+describe component Wire
+ pos 38 18
+ pos2 38 27
+end describe
+describe component Wire
+ pos 38 18
+ pos2 32 18
+end describe
+describe component Wire
+ pos 38 27
+ pos2 42 27
+end describe
+describe component Wire
+ pos 19 38
+ pos2 40 38
+end describe
+describe component Wire
+ pos 40 29
+ pos2 40 20
+end describe
+describe component Wire
+ pos 40 20
+ pos2 42 20
+end describe
+describe component Wire
+ pos 40 29
+ pos2 42 29
+end describe
+describe component Wire
+ pos 40 29
+ pos2 40 38
+end describe
+describe component TwoOrPort
+ pos 52 27
+end describe
+describe component Wire
+ pos 50 28
+ pos2 53 28
+end describe
+describe component Wire
+ pos 32 27
+ pos2 35 27
+end describe
+describe component Wire
+ pos 35 27
+ pos2 35 31
+end describe
+describe component Wire
+ pos 35 31
+ pos2 53 31
+end describe
+describe component Wire
+ pos 53 28
+ pos2 53 29
+end describe
+describe component Wire
+ pos 65 19
+ pos2 50 19
+end describe
+describe component Wire
+ pos 65 30
+ pos2 61 30
+end describe
+describe component Caption
+ pos 30 42
+ Text Full Adder (from 2 Half Adders)
+end describe

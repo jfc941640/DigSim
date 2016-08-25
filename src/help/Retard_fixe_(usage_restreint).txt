@@ -1,0 +1,16 @@
+° RETARD FIXE
+
+Ce composant se comporte comme un retard pur dont le retard est égal à une demi
+période de l'oscillateur de DigSim.
+
+Un tel composant a sa place UNIQUEMENT dans les simulations de systèmes
+séquentiels ASYNCHRONES dont on aura fait la synthèse.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

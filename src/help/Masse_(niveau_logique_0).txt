@@ -1,0 +1,18 @@
+° MASSE 
+
+Placez la "Masse" là où vous en avez besoin; il est inutile de tirer de longs
+fils de masse.
+
+    0 = inactif = Masse = 0V  = OFF = Low
+	Les fils au niveau logique 0 sont représentés en bleu	
+    1 = active  = Vcc   = 5V  = ON  = High
+	Les fils au niveau logique 1 sont représentés en rouge
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

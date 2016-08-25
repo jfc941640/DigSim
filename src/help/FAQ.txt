@@ -1,0 +1,41 @@
+° DIGSIM FAQ (Frequently Asked Questions)
+
+________________________________________________________________________________
+** MA SIMULATION NE MARCHE PAS
+   * Voir la rubrique JONCTIONS
+   * Votre système est-il synchrone?
+      99% des problèmes de simulation sont résolus en supprimant une
+      boucle asynchrone au moyen d'une "resynchronisation" par un ou plusieurs
+      "flip-flop D" 
+
+_______________________________________________________________________________
+** DRAG:
+   - Comment déplacer une partie de mon schéma, soit pour l'aérer, soit pour
+     regrouper des composants.
+   * La fonction "drag" permet de faire ce travail de déplacement des composants
+     tout en maintenant les liaisons existantes. 
+     Il suffit pour cela de sélectionner la zone à déplacer au moyen d'un clic
+     gauche maintenu de la souris. En relâchant la souris, les composants qui
+     ont été sélectionnés sont marqués.
+     Le "drag" consiste à faire un clic gauche sur un des composants de la
+     zone(éviter les fils), puis à déplacer la souris tout en maintenant ce clic
+     gauche. L'ensemble des composants sélectionnés sera ainsi déplacé.
+
+________________________________________________________________________________
+** JONCTIONS
+   - Mes connexions ne marchent pas
+   * Il est impératif de mettre bout à bout composant et extrémité d'un fil
+     Un problème de connexion vient souvent d'un fil qui est à cheval sur les
+     connexions d'un composant
+   * Si vous ajoutez un composant sur un fil déjà existant, il faut marquer la
+     liaison par une jonction; c'est le cas notamment avec la "sonde".
+   * CEPENDANT, dans la plupart des cas, les jonctions sont automatiques!
+
+   - La jonction d'un fil avec un fil déjà existant s'effectue en coupant le fil
+     existant en 2. C'est la raison pour laquelle le retrait de certains fils ou
+     liaisons laisse une jonction inutile qui alourdit inutilement la
+     simulation. Il est souhaitable de faire systématiquement un toilettage qui
+     consiste à supprimer une des liaisons aboutissant à la jonction inutile
+     puis à rallonger la liaison restante jusqu'à l'endroit souhaité.
+
+________________________________________________________________________________

@@ -1,0 +1,78 @@
+° PENDULE A SORTIE SERIE
+
+Cette pendule utilise l'heure de votre ordinateur pour l'afficher dans une 
+simulation, ce qui peut être utile si vous avez à réaliser une pendule, 
+un réveil, une minuterie...
+
+Ce composant délivre aussi, sous forme série (patte de droite), des informations
+binaires qui contiennent l'heure et permettent ainsi de réaliser l'équivalent 
+d'une horloge radio pilotée.
+A chaque départ d'une nouvelle minute (t = 00s), les minutes puis les heures,
+ainsi qu'un bit de parité paire, sont envoyés successivement, au rythme d'un 
+bit toutes les secondes selon un format DCB, poids faible en tête :
+
+- minutes (unités) 	sur 4 bits : m0 m1 m2 m3
+- minutes (dizaines) 	sur 3 bits : M0 M1 M2
+- heures (unités) 	sur 4 bits : h0 h1 h2 h3
+- heures (dizaines) 	sur 2 bits : H0 H1
+- bit de parité paire   sur 1 bit  : Pp
+
+La séquence envoyée est donc m0 m1 m2 m3 M0 M1 M2 h0 h1 h2 h3 H0 H1 Pp  
+
+
+Mais l'heure tourne !
+Oui, l'heure tourne... En utilisant la fonction de rotation du composant,
+quatre modes sont accessibles :
+1- mode bleu  : à t = 00s, 
+   transmission au format 1/4 3/4 de l'heure non augmentée d'une minute *
+2- mode rouge : à t = 00s,  
+   transmission au format NRZ de l'heure non augmentée d'une minute **
+3- mode noir  : à t = 00s, 
+   transmission au format 1/4 3/4 de l'heure augmentée d'une minute *
+4- mode vert  : à t = 00s, 
+   transmission au format NRZ de l'heure augmentée d'une minute **
+
+*  exemple : à 9 h 59 mn, la sortie série émet  9 h 59 mn, soit
+   m0 m1 m2 m3 M0 M1 M2 h0 h1 h2 h3 H0 H1 Pp = 10011011001000
+** exemple : à 9 h 59 mn, la sortie série émet 10 h 00 mn, soit
+   m0 m1 m2 m3 M0 M1 M2 h0 h1 h2 h3 H0 H1 Pp = 00000000000101
+ 
+
+Codage au format 1/4 3/4 :
+                       ___
+   Codage d'un zéro :_|   |_________
+                       __________
+   Codage d'un un   :_|          |___
+
+   Sont envoyées successivement, avec ce codage : 
+   t=        ... 58 59 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 ...       
+    ... 0  0  0  0  0  m0 m1 m2 m3 M0 M1 M2 h0 h1 h2 h3 H0 H1 Pp  0  0  0  0 ...
+                      <----------------------------------------->
+
+Codage NRZ 
+
+   Sont envoyées successivement : 
+   t=        ... 58 59 0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 ...       
+    ... 1  1  1  1  1  0  m0 m1 m2 m3 M0 M1 M2 h0 h1 h2 h3 H0 H1 Pp  1  1  1  1 ...
+                      <-------------------------------------------->
+  Dans le cas du codage NRZ, le début de la transmision commence par ce qu'on a
+  l'habitude d'appeler un start bit, appellation qui peut prêter à confusion, car
+  ce n'est en réalité que la rupture d'un silence qui reviendra en fin de transmission.
+	___________________           _______________________
+         Silence         | Start ? |   m0    |   m1    |  ...
+                         ----------------------------------
+
+Pour déplacer le composant, cliquer sur le petit triangle noir qui est situé 
+en haut à gauche.
+Un clic sur ce triangle inhibe le fonctionnement de cette pendule (affichage 
+et sortie série)
+
+
+Pour plus d'informations sur le codage série, consulter sur mon cours :
+Émission série en bande de base : NRZ, Manchester, Miller, impulsion, 1/4 3/4 ... 
+ou le lien suivant :
+http://patrick.furon.free.fr/_elecnumerique/_cours_electronum/_EmetteurSerie1.htm
+
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,4 @@
+° TRIGGER
+
+Ce trigger n'est pas un composant, mais seulement un symbole à placer là où
+la caractéristique d'entrée "trigger de Schmitt" est justifiée.

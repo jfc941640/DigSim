@@ -1,0 +1,30 @@
+° PROM 32 X 8
+	Cette mémoire est une PROM de 32 mots de 8 bits.
+
+e, d, c, b, a sont les 5 entrées d'adresse. Les huit sorties sont Q7 à Q0.
+
+Le contenu de la mémoire ( 32 mots de 8 bits )peut être modifié par un 
+double-clic sur la mémoire puis écriture de de 32 mots hexadécimaux au clavier.
+
+|--------------------------------------------------|
+| MODES PROM         | /CE  /OE | Q7Q6Q5Q4Q3Q2Q1Q0 |
+|--------------------|----------|------------------|
+| Non sélectionnée : |  1    -  |  Z Z Z Z Z Z Z Z |
+| Non sélectionnée : |  -    1  |  Z Z Z Z Z Z Z Z |
+| Lecture            |  0    0  |  contenu mémoire |
+|--------------------------------------------------|
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

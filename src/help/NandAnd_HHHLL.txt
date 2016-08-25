@@ -1,0 +1,15 @@
+° PORTE LOGIQUE À CINQ ENTRÉES ET À SORTIES COMPLÉMENTAIRES:
+
+Les portes appartenant à cette série remplacent avantageusement des opérateurs
+ET et NAND précédés ou non d'inverseurs sur leurs entrées.
+Elle permettent de réduire la taille des schémas et d'accélérer la vitesse 
+de simulation.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

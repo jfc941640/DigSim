@@ -1,0 +1,31 @@
+° COMPTEUR-DECOMPTEUR PROGRAMMABLE (CTR-PIPO) BINAIRE/DECIMAL, RAZ SYNCHRONE.
+
+Les entrées de validation ENP et ENT permettent la mise en cascade synchrone de
+ce type de compteur.
+Retenue TC active si ENT=1; équation: TC=ENT.{Up.[Bin.R(15)+Dec.R(9)]+Down.R(0)}
+
+L'état initial de ce compteur est aléatoire.
+
+/R  /L  CLK  ENP  ENT Up/Down  Bin/Dec |     Q+      |Modes
+-------------------------------------------------------------------------------
+0   -    !    -    -     -      -      | 0  0  0  0 |Mise à 0 synchrone
+1   0    !    -    -    -       -      | D  C  B  A |Chargement synchrone (PIPO)
+1   1    !    1    1    0       1      | Q+1 mod 16 |Decomptage binaire
+1   1    !    1    1    0       0      | Q+1 mod 10 |Decomptage DCB
+1   1    !    1    1    1       1      | Q+1 mod 16 |Comptage binaire
+1   1    !    1    1    1       0      | Q+1 mod 10 |Comptage DCB
+1   1    ­    -    0    -       -      |      Q     |Maintien
+1   1    ­    0    -    -       -      |      Q     |Maintien
+
+Notations:
+! = front montant de l'horloge
+Q =QD QC QB QA
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

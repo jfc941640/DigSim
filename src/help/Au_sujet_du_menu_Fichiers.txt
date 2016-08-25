@@ -1,0 +1,18 @@
+° MENU FICHIERS
+
+- Réinitialiser la simulation (raccourci * ou tabulation) 
+...permet de relancer une simulation avec un état initial aléatoire pour les
+.. bascules, registres et compteurs.
+
+- Ouvrir un exemple 
+...ouvre une bibliothèque interne d'exemples.
+
+- Sauvegarder une simulation 
+   - "enregistrer sous" pour le 1er enregistrement
+   - et un simple clic ou "Ctrl+S" sur la disquette par la suite.
+- Ouvrir une simulation "Ouvrir".
+
+Voir également les opérations de copier-coller avec des fichiers
+du menu "Edition".
+
+Accès à DigSim sur http://patrick.furon.free.fr/

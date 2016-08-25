@@ -1,0 +1,28 @@
+° RACCOURCIS CLAVIER
+
+Ctrl+A          Tout sélectionner
+Ctrl+C          Copier
+Ctrl+E, e       Exporter (sauvegarder) le script de la simulation
+Ctrl+I, i       Importer (lire) le script d'une simulation
+Ctrl+N          Nouveau
+Ctrl+O          Ouvrir...
+Ctrl+R          Rotation
+Ctrl+S, s, S    Enregistrer
+Ctrl+Shift+S    Enregistrer sous...
+Ctrl+V          Coller
+Ctrl+X          Supprimer
+* ou Tab        Réinitialiser la simulation
+a               Analyseur logique
+b               Texte bleu (petit)
+f, w            Fil de liaison
+h, ?            Aide
+j               Jonction
+o               Vitesse de simulation et options
+m		Teste noir monospaced (grand)
+n               Texte noir (petit)
+p, espace       Mode flèche ou pointeur
+r               Texte rouge (petit)
+v               Texte vert (petit)
+
+
+La touche MAJUSCULE (Shift) permet de sélectionner plusieurs composants.

@@ -1,0 +1,6 @@
+° TOUT SÉLECTIONNER
+	(raccourci clavier 'Ctr+A')
+
+Cette fonction sélectionne toute votre simulation (parties visibles et
+invisibles de l'écran)... ce qui vous permet ensuite de supprimer, déplacer
+ou copier (puis coller ?)

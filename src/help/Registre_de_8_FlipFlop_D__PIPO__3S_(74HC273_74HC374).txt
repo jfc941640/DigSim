@@ -1,0 +1,37 @@
+° REGISTRE DE 8 BASCULES D A SORTIES 3 ETATS (74HC273 + 74HC374)
+
+Fonctionnement: 
+Sur front montant ! de Clk, les 8 entrées Di sont mémorisées dans 8 bascules D.
+Les états internes Pi de ces huit bascules D  sont accessibles sur les sorties
+Qi si /0E=0.
+Dans le cas contraire (/OE=1), les sorties Qi sont en haute impédance.
+L'entrée de reset /r met la mémoire à 0.
+L'état initial de ce registre est aléatoire. 
+
+Fonctionnement du registre interne:
+   | /r | Clk | /OE |  Pi+  |   mode
+   |----|-----|-----|-------|---------------
+   | 0  |  -  |  0  |   0   | mise à 0
+   | 1  |  !  |  0  |  Di   | enregistrement
+   | 1  |  0  |  0  |  Pi   | maintien
+   | 1  |  1  |  0  |  Pi   | maintien
+
+Fonctionnement des sorties:     
+   | /OE |     Qi
+   |-----|-------------
+   |  0  |     Pi
+   |  1  |Haute impédance 
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

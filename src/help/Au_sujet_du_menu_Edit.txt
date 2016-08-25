@@ -1,0 +1,18 @@
+° MENU EDITION
+
+Ce menu permet de manipuler les composants de DigSim à condition que la
+simulation soit arrêtée.
+
+Pour cela, il est nécessaire d'activer le "pointeur":
+- soit en cliquant sur la flèche bleue,
+- soit en appuyant sur la touche "p" ou la touche "espace".
+
+Des raccourcis rendent les manipulations plus aisées. Un rappel des raccourcis
+existants est disponible dans "Aide - Raccourcis clavier".
+
+Il est également possible de :
+- faire des opérations de copier-coller de parties de la simulation.
+- faire des opérations de copier-coller de fichiers avec la simulation.
+
+
+Accès à DigSim sur http://patrick.furon.free.fr/

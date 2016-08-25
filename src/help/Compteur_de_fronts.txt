@@ -1,0 +1,17 @@
+° COMPTEUR DE FRONTS
+
+Ce composant a été conçu pour apporter une aide à la mise au point de schémas,
+notamment la détection de certains aléas (pas tous), le nombre de fronts d'un
+signal complexe...
+
+Il dispose de 4 modes accessibles en utilisant la fonction de rotation
+des composants (touche T).
+1- Comptage de 0 à 9999 du nombre de fronts montants
+2- Comptage de 0 à 9999 du nombre de fronts descendants
+2- Comptage de 0 à 99 du nombre de fronts montants
+4- Comptage de 0 à 9999 du nombre de fronts descendants
+
+En outre, un clic sur le composant remet le compteur à zéro
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

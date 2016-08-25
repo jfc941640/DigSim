@@ -1,0 +1,19 @@
+° MENU DIL (DUAL IN LINE)
+
+Quelques portes logiques en boîtier DIL, pour apprendre à remplacer 
+les ET-OU-NON par des NAND ou des NOR afin de " compacter " vos schémas.
+
+Pour partir à la " découverte " de ce qui se cache derrière chaque numéro,
+les composants sont seulement classés par ordre alphanumérique.
+
+Pour obtenir des informations de câblage des composants de ce menu, un 
+data-book ou des data-sheets seront nécessaires ; plus tard, votre mémoire
+suffira ! Vous pouvez obtenir ces informations en ligne en allant consulter :
+
+- le brochage des composants sur http://www.limpulsion.fr/
+  (brochage des séries 74 et 4000)
+
+- les data sheets sur http://ics.nxp.com/
+
+- ...
+

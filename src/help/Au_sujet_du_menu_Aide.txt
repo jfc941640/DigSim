@@ -1,0 +1,17 @@
+° MENU AIDE
+
+"Aide" est conçu pour donner des informations sur DigSim et ses composants.
+
+Un clic sur le ? ou un appui sur la touche 'h' du clavier, suivis d'un clic sur
+le composant ou la fonction souhaitée, permet d'accéder à l'aide en ligne et
+d'obtenir l'information recherchée.
+
+ATTENTION: 
+Après avoir obtenu de l'aide sur un composant, il vous faut à nouveau cliquer
+dessus. Dans le cas contraire, le composant reste bloqué et ne fonctionne plus.
+
+- Importer et Exporter (à utiliser exceptionnellement)
+...permettent de sauvegarder et de restituer des simulations dans tous les cas,
+...par une méthode de copier-coller qui contourne les sécurités Java.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

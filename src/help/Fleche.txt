@@ -1,0 +1,5 @@
+° FLÈCHE OU POINTEUR
+	(raccourci clavier: touche 'espace' ou 'p')
+
+Cette fonction interrompt le tracé de fils ou de jonctions et place le curseur
+dans un rôle de sélection.

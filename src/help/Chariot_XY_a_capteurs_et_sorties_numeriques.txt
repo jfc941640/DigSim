@@ -1,0 +1,42 @@
+° CHARIOT XY A CAPTEURS ET SORTIES NUMERIQUES
+
+Cette application peut servir de support à la création d'automatismes.
+Le chariot ne peut pas sortir de son espace de travail, mais un message 
+d'erreur sera affiché si une commande l'y incite.
+
+Description:
+1) Clé  : nécessaire pour son fonctionnement (menu Applications)
+
+2) Déplacement
+- Vertical   grâce aux entrées H (Haut) et B (Bas)
+- Horizontal grâce aux entrées D (Droite) et G (Gauche)
+
+3) Connaissance de la position du chariot 
+a) en tout ou rien par les capteurs h, b, g, d
+   - h=1: le chariot est exactement en haut
+   - b=1: le chariot est exactement en bas
+   - g=1: le chariot est exactement à gauche
+   - d=1: le chariot est exactement à droite
+b) de manière continue par deux sorties numériques x et y sur 7 bits;
+   en particulier:
+   - (x,y) = (0,0) : le chariot est en bas et à gauche
+   - (x,y) = (0,120)    : le chariot est en haut et à gauche
+   - (x,y) = (120,0)    : le chariot est en bas et à droite
+   - (x,y) = (120,120)  : le chariot est en haut et à droite
+
+4) L'entrée P permet de poser ou déposer une pièce.
+
+5) Pour disposer d'un chariot "neuf et réinitialisé": 
+   appuyer sur la touche * quand la simulation est arrêtée
+
+6) Un clic sur l'application positionne le chariot en bas et à gauche.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+

@@ -1,0 +1,9 @@
+° MENU PERSO & TESTS
+
+Composants cachés pour les raisons suivantes :
+- non terminés ou imparfaits
+- susceptibles d'évoluer
+- servant à tester
+- à usage restreint et très spécifique. 
+
+Ne pas utiliser.

@@ -1,0 +1,13 @@
+° COMMUTATEUR TYPE TRAVAIL (T)
+
+Un clic de souris sur ce commutateur le fera changer d'état.
+Au lancement de DigSim, ce commutateur est initialement au travail.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

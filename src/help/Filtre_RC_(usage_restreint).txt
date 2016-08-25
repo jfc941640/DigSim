@@ -1,0 +1,25 @@
+° FILTRE RC
+
+Ce composant se comporte comme un filtre analogique intégrateur de constante 
+de temps RC. 
+En conséquence, il filtre les impulsions trop courtes vis à vis de
+sa constante de temps.
+S'il se comporte aussi comme un retard, celui-ci est non pur et non linéaire!
+
+La valeur de RC est tirée aléatoirement. Une valeur N, proportionnelle à RC est
+affichée en rouge. N est comprise entre 0 et 9 demi périodes de l'horloge de
+DigSim. 
+Ce paramètre est changé à chaque lancement ou réinitialisation du montage
+(touche *).
+
+Un tel composant a sa place UNIQUEMENT dans les simulations de systèmes
+séquentiels ASYNCHRONES dont on aura fait la synthèse.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

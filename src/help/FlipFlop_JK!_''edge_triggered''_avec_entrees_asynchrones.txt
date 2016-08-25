@@ -1,0 +1,32 @@
+° BASCULE J /K AVEC ENTRÉES ASYNCHRONES /s ET /r (1/2 74HC109)
+
+Cette bascule synchrone prend en compte ses informations d'entrée J et K sur
+front montant ! de son horloge (Clk).
+Noter que relier J et /K  permet de réaliser une bascule D 
+(avec entrées de set et reset asynchrones)
+
+Son équation est Q+ = J./Q + /K.Q) pour la partie synchrone.
+Table de vérité:
+
+| /s | /r | J | /K |  Q+ | /Q+ |   MODES
+|----|----|---|----|-----|-----|   
+|--0-|--1-| - |  - |  1  |  0  | set asynchrone
+|--1-|--0-| - |  - |  0  |  1  | reset asynchrone
+|--0-|--0-| - |  - |  X  |  X  | prudence!
+|----|----|---|----|-----|-----|   
+|--1-|--1-| 0 |  1 |  Q  | /Q  | mémoire
+|--1-|--1-| 0 |  0 |  0  |  1  | mise à 0 synchrone
+|--1-|--1-| 1 |  1 |  1  |  0  | mise à 1 synchrone
+|--1-|--1-| 1 |  0 | /Q  |  Q  | basculement synchrone (toggle)
+|----|----|---|----|-----|-----|
+Pour cette bascule X=1. 
+L'état initial de cette bascule est aléatoire.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

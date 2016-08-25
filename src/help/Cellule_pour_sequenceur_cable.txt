@@ -1,0 +1,37 @@
+° CELLULE POUR SEQUENCEUR CABLE
+
+Cette cellule remplace avantageusement par son nombre d'entrées et sa compacité
+une bascule JK avec entrées asynchrones ainsi que quelques portes logiques. Elle
+permet de faire des séquenceurs câblés. Un jeton indique l'état de la cellule.
+|----|--------------|-----|-------------|---|----|-------|
+| /s | /r /r /r /r  | Clk | S S S /S /S | Q | /Q | jeton |
+|----|--------------|-----|-------------|---|----|-------|
+|  0 |  1  1  1  1  |  -  | - - -  -  - | 1 |  0 | rouge | mise à 1 asynchrone
+|  1 |  0  -  -  -  |  -  | - - -  -  - | 0 |  1 |éteint | MISE À 0 ASYNCHRONE
+|  1 |  -  0  -  -  |  -  | - - -  -  - | 0 |  1 |éteint | MISE À 0 ASYNCHRONE
+|  1 |  -  -  0  -  |  -  | - - -  -  - | 0 |  1 |éteint | MISE À 0 ASYNCHRONE
+|  1 |  -  -  -  0  |  -  | - - -  -  - | 0 |  1 |éteint | MISE À 0 ASYNCHRONE
+|  0 |  0  -  -  -  |  -  | - - -  -  - | X |  X | rose  | combinaison interdite
+|  0 |  -  0  -  -  |  -  | - - -  -  - | X |  X | rose  | combinaison interdite
+|  0 |  -  -  0  -  |  -  | - - -  -  - | X |  X | rose  | combinaison interdite
+|  0 |  -  -  -  0  |  -  | - - -  -  - | X |  X | rose  | combinaison interdite
+|----|--------------|-----|-------------|---|----|-------|
+|  1 |  1  1  1  1  |  !  | 1 1 1  0  0 | 1 |  0 | rouge | MISE À 1 SYNCHRONE
+|----|--------------|-----|-------------|---|----|-------|
+Pour cette bascule X=1. 
+
+- MISE A 1 
+ - SYNCHRONE si les 5 entrées synchrones S sont actives (combinaison 11100)
+ - ASYNCHRONE si l'entrée asynchrone /s est active (/s=0)
+
+- MISE A 0 ASYNCHRONE si l'une des 4 entrées /r est active 
+  (combinaison 0--- ou -0-- ou --0- ou ---0)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

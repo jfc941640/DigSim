@@ -1,0 +1,21 @@
+° FIL (wire)
+	(raccourci clavier: touches 'f' ou 'w')
+
+Permet la connexion des composants entre eux.
+DESSIN
+- Pour dessiner un fil, choisir le point de départ d'un clic de souris et tout
+  en maintenant appuyé, dessiner le fil. Relâcher à la position souhaitée.
+- Si vous démarrez ou terminez un fil sur un fil déjà existant, une jonction
+  sera placée automatiquement.
+DEPLACEMENT
+- Pour déplacer l'extrémité d'un fil, cliquez dessus et déplacez la souris en
+  maintenant son bouton appuyé.
+- Pour déplacer un fil dans son intégralité, sélectionnez le par le milieu et
+  déplacez la souris en maintenant son bouton appuyé.
+- Pour déplacer plusieurs fils en même temps, appuyez aussi sur MAJUSCULE 
+ (SHIFT) pour   les sélectionner, puis déplacez l'ensemble avec la souris en
+  maintenant son bouton appuyé.
+ATTENTION:
+- Les fils doivent être connectés aux extrémités des fils d'entrée/sortie des
+  composants, JAMAIS A CHEVAL!
+- Une astuce pour repérer rapidement les erreurs: faire 'Ctrl A'

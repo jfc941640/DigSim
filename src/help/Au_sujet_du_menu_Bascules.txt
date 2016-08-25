@@ -1,0 +1,27 @@
+° MENU BASCULES
+
+Ce sont les "briques de base" de la logique séquentielle. 
+
+Qu'elles soient asynchrones ou synchrones, les bascules de DigSim ont un état
+initial imprévisible et aléatoire.
+
+Parmi ces composants, certains (bascules JK, J/K et cellule pour séquenceur
+câblé).peuvent être initialisés à 0 ou à 1 de manière asynchrone 
+Pour initialiser ces bascules dès la mise en route du montage, il est
+Indispensable d'utiliser la cellule RC d'initialisation (menu Divers).
+
+Ne pas oublier que l'on peut faire facilement 
+- des bascules D initialisables avec des bascules J/K initialisables
+- des bascules T initialisables avec des bascules JK initialisables
+
+Ne pas confondre latch et flip-flop:
+- le latch est un buffer quand il est en mode transparent et une mémoire quand
+il est en mode verrouillé.
+- le flip-flop est une mémoire qui enregistre sur front (montant) de son horloge
+et simultanément un opérateur retard d'une période d'horloge.
+
+Pour obtenir des data-sheets sur Internet:
+- http://www.philipslogic.com/products/logic/
+- http://focus.ti.com/docs/logic/logichomepage.jhtml
+
+Accès à DigSim sur http://patrick.furon.free.fr/

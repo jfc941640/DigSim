@@ -1,0 +1,27 @@
+° DECODEUR-LATCH 7 SEGMENTS (MC14495)
+
+Ce composant est utilisé pour commander l'allumage des segments de l'afficheur 
+à 7 segments. Il permet un affichage en hexadécimal.
+
+- MODE TRANSPARENT: quand l'entrée LE =0, l'état des sorties a, b, c, d, e, f,
+  g est déterminé par celui des entrées D, C, B, A.
+
+- MODE VERROUILLE: le passage de LE au niveau logique 1 verrouille (enregistre)
+  l'état des entrées D, C, B, A présentes à ce moment là. L'état des sorties 
+  a, b, c, d, e, f, g reflète la valeur des entrées enregistrées.
+
+- TEST ET EXTINCTION DE TOUS LES SEGMENTS:
+ - Quand /LT = 0 (lamp test) toutes les sorties sont au niveau
+   logique 1, indépendamment des autres entrées.
+ - Quand /LT = 1 et /BI = 0 (blanking input), toutes les
+   sorties sont au niveau logique 0.
+ /LT et /BI ne modifient pas le contenu du latch interne.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

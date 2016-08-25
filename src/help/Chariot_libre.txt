@@ -1,0 +1,39 @@
+° CHARIOT LIBRE
+
+Cette application peut servir de support à la création d'automatismes.
+Le chariot peut évoluer dans tout l'espace de l'écran du simulateur.
+Les applications possibles sont: 
+- recopie d'un tracé après phase d'apprentissage
+- interface de transfert de pièces entre applications (chariots, wagonnets)
+
+Description:
+1) Initialisation du chariot
+A la mise sous tension, le chariot est initialisé en (0,0), centre du bloc
+de commande. Cependant, ceci peut aussi se faire :
+- Par commande logique
+    - HBGD = 1111 remet le chariot en (0,0)
+    - HBGD = --11 initialise l'abscisse du chariot
+    - HBGD = 11-- initialise l'ordonnée du chariot
+- Par action extérieure
+    - Un clic de souris sur le chariot le remet en 0,0).
+
+2) Déplacement
+- Vertical   grâce aux entrées H (Haut) et B (Bas)
+- Horizontal grâce aux entrées D (Droite) et G (Gauche)
+Le chariot est réinitialisé (partiellement ou totalement) si deux commandes
+contradictoires sont données
+
+3) Connaissance de la position du chariot 
+Aucune sortie ne permet de connaître la position du chariot qui ne pourra 
+donc être connue que par une bonne gestion de la logique de commande.
+
+4) L'entrée P permet de poser ou déposer une pièce.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

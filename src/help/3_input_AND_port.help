@@ -1,0 +1,156 @@
+Three-input AND port
+
+
+
+
+
+This component simulates a two stage
+
+
+logical AND operator that can be derived
+
+
+by combining two Two-input AND ports.
+
+
+This port illustrates the associative
+
+
+property being applied to the logical
+
+
+AND operator where the following
+
+
+operations are equivalent.
+
+
+
+
+
+Associative Law:
+
+
+(A * B) * C = (B * C) * A = (A * C) * B
+
+
+
+
+
+So that the parenthetical expressions
+
+
+can be ignored.
+
+
+
+
+
+In boolean logic: A * B * C = Q
+
+
+
+
+
+The electrical function of the AND port
+
+
+mirrors the function of the AND operator,
+
+
+so that the output of this port is active
+
+
+or '1' when input A *AND* input B *AND*
+
+
+input C are all '1'. Otherwise,the output
+
+
+is innactive or '0'.
+
+
+
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B    C   |   Q
+
+
+    --------------|----
+
+
+    0    0    0   |   0
+
+
+    0    0    1   |   0
+
+
+    0    1    0   |   0
+
+
+    0    1    1   |   0
+
+
+    1    0    0   |   0
+
+
+    1    0    1   |   0
+
+
+    1    1    0   |   0
+
+
+    1    1    1   |   1
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

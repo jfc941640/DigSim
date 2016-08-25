@@ -1,0 +1,293 @@
+# Digsim file
+version 1 0
+describe component Oscilator
+ pos 3 6
+end describe
+describe component LED
+ pos 30 43
+ color red
+end describe
+describe component LED
+ pos 40 43
+ color red
+end describe
+describe component LED
+ pos 20 43
+ color red
+end describe
+describe component Wire
+ pos 28 45
+ pos2 28 50
+end describe
+describe component Wire
+ pos 38 45
+ pos2 38 50
+end describe
+describe component Wire
+ pos 48 45
+ pos2 48 50
+end describe
+describe component Wire
+ pos 28 50
+ pos2 38 50
+end describe
+describe component Wire
+ pos 38 50
+ pos2 48 50
+end describe
+describe component Wire
+ pos 43 50
+ pos2 44 50
+end describe
+describe component GND
+ pos 46 49
+end describe
+describe component Wire
+ pos 12 9
+ pos2 30 9
+end describe
+describe component Wire
+ pos 38 7
+ pos2 46 7
+end describe
+describe component Wire
+ pos 46 12
+ pos2 28 12
+end describe
+describe component Wire
+ pos 28 12
+ pos2 28 15
+end describe
+describe component Wire
+ pos 28 15
+ pos2 30 15
+end describe
+describe component Wire
+ pos 44 20
+ pos2 16 20
+end describe
+describe component Wire
+ pos 28 23
+ pos2 30 23
+end describe
+describe component Wire
+ pos 30 17
+ pos2 12 17
+end describe
+describe component Wire
+ pos 30 26
+ pos2 12 26
+end describe
+describe component Wire
+ pos 12 26
+ pos2 12 17
+end describe
+describe component Wire
+ pos 12 17
+ pos2 12 9
+end describe
+describe component Wire
+ pos 12 9
+ pos2 10 9
+end describe
+describe component Wire
+ pos 38 23
+ pos2 42 23
+end describe
+describe component Wire
+ pos 42 27
+ pos2 42 39
+end describe
+describe component Wire
+ pos 42 39
+ pos2 21 39
+end describe
+describe component Wire
+ pos 21 39
+ pos2 21 45
+end describe
+describe component Wire
+ pos 31 45
+ pos2 31 41
+end describe
+describe component Wire
+ pos 31 41
+ pos2 44 41
+end describe
+describe component Wire
+ pos 44 20
+ pos2 44 15
+end describe
+describe component Wire
+ pos 44 15
+ pos2 38 15
+end describe
+describe component Wire
+ pos 46 12
+ pos2 46 43
+end describe
+describe component Wire
+ pos 46 43
+ pos2 41 43
+end describe
+describe component Wire
+ pos 41 43
+ pos2 41 45
+end describe
+describe component EdgeTriggeredTFlipFlop
+ pos 29 5
+end describe
+describe component Vcc
+ pos 25 2
+end describe
+describe component Wire
+ pos 27 7
+ pos2 30 7
+end describe
+describe component EdgeTriggeredTFlipFlop
+ pos 29 13
+end describe
+describe component EdgeTriggeredTFlipFlop
+ pos 29 21
+end describe
+describe component TwoAndPort
+ pos 19 20
+end describe
+describe component Wire
+ pos 30 26
+ pos2 30 25
+end describe
+describe component Wire
+ pos 20 24
+ pos2 14 24
+end describe
+describe component Wire
+ pos 14 24
+ pos2 14 12
+end describe
+describe component Wire
+ pos 14 12
+ pos2 28 12
+end describe
+describe component Wire
+ pos 16 20
+ pos2 16 22
+end describe
+describe component Wire
+ pos 16 22
+ pos2 20 22
+end describe
+describe component Wire
+ pos 44 20
+ pos2 44 41
+end describe
+describe component Wire
+ pos 46 12
+ pos2 46 7
+end describe
+describe component EdgeTriggeredTFlipFlop
+ pos 29 28
+end describe
+describe component ThreeAndPort
+ pos 19 27
+end describe
+describe component Wire
+ pos 30 30
+ pos2 28 30
+end describe
+describe component Wire
+ pos 20 29
+ pos2 18 29
+end describe
+describe component Wire
+ pos 18 29
+ pos2 18 27
+end describe
+describe component Wire
+ pos 18 27
+ pos2 42 27
+end describe
+describe component Wire
+ pos 42 27
+ pos2 42 23
+end describe
+describe component Wire
+ pos 16 22
+ pos2 16 30
+end describe
+describe component Wire
+ pos 16 30
+ pos2 20 30
+end describe
+describe component Wire
+ pos 20 31
+ pos2 14 31
+end describe
+describe component Wire
+ pos 14 31
+ pos2 14 24
+end describe
+describe component Wire
+ pos 12 26
+ pos2 12 33
+end describe
+describe component Wire
+ pos 12 33
+ pos2 30 33
+end describe
+describe component Wire
+ pos 30 33
+ pos2 30 32
+end describe
+describe component LED
+ pos 10 43
+ color red
+end describe
+describe component Wire
+ pos 38 30
+ pos2 40 30
+end describe
+describe component Wire
+ pos 40 30
+ pos2 40 37
+end describe
+describe component Wire
+ pos 40 37
+ pos2 11 37
+end describe
+describe component Wire
+ pos 11 37
+ pos2 11 45
+end describe
+describe component Wire
+ pos 18 45
+ pos2 18 50
+end describe
+describe component Wire
+ pos 18 50
+ pos2 28 50
+end describe
+describe component Caption
+ pos 44 46
+ Text q0
+end describe
+describe component Caption
+ pos 34 46
+ Text q1
+end describe
+describe component Caption
+ pos 24 46
+ Text q2
+end describe
+describe component Caption
+ pos 14 46
+ Text q3
+end describe
+describe component Caption
+ pos 19 53
+ Text Mod 16 Counter
+end describe
+describe component Caption
+ pos 9 56
+ Text Using Edge-Triggered Toggle Flip-Flops
+end describe

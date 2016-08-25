@@ -1,0 +1,4 @@
+Le nom des fichiers ne doit pas dépasser 64 caractères au total 
+(en tenant compte du ".help" ) pour tenir sur un CDROM,
+
+soit 59 caractères hors .help

@@ -1,0 +1,280 @@
+# Digsim file
+version 1 0
+describe component TwoAndPort
+ pos 44 9
+end describe
+describe component TwoOrPort
+ pos 33 7
+end describe
+describe component Wire
+ pos 42 10
+ pos2 45 10
+end describe
+describe component DFlipFlop
+ pos 55 10
+end describe
+describe component LED
+ pos 76 16
+ color red
+end describe
+describe component Wire
+ pos 75 18
+ pos2 77 18
+end describe
+describe component Wire
+ pos 84 18
+ pos2 84 21
+end describe
+describe component GND
+ pos 82 20
+end describe
+describe component Vcc
+ pos 5 5
+end describe
+describe component GND
+ pos 6 34
+end describe
+describe component Wire
+ pos 10 14
+ pos2 7 14
+end describe
+describe component Wire
+ pos 7 10
+ pos2 7 14
+end describe
+describe component Wire
+ pos 10 12
+ pos2 8 12
+end describe
+describe component Wire
+ pos 8 25
+ pos2 8 35
+end describe
+describe component Wire
+ pos 10 25
+ pos2 8 25
+end describe
+describe component Wire
+ pos 8 25
+ pos2 8 12
+end describe
+describe component Wire
+ pos 7 14
+ pos2 7 27
+end describe
+describe component Wire
+ pos 10 27
+ pos2 7 27
+end describe
+describe component Wire
+ pos 53 12
+ pos2 56 12
+end describe
+describe component TwoAndPort
+ pos 44 21
+end describe
+describe component TwoOrPort
+ pos 33 19
+end describe
+describe component Wire
+ pos 42 22
+ pos2 45 22
+end describe
+describe component DFlipFlop
+ pos 55 22
+end describe
+describe component Wire
+ pos 53 24
+ pos2 56 24
+end describe
+describe component TwoAndPort
+ pos 66 15
+end describe
+describe component Wire
+ pos 65 12
+ pos2 67 12
+end describe
+describe component Wire
+ pos 67 12
+ pos2 67 17
+end describe
+describe component Wire
+ pos 67 19
+ pos2 67 24
+end describe
+describe component Wire
+ pos 65 24
+ pos2 64 24
+end describe
+describe component Wire
+ pos 42 33
+ pos2 55 33
+end describe
+describe component Wire
+ pos 55 26
+ pos2 55 33
+end describe
+describe component Wire
+ pos 56 14
+ pos2 55 14
+end describe
+describe component Wire
+ pos 56 26
+ pos2 55 26
+end describe
+describe component Wire
+ pos 55 26
+ pos2 55 14
+end describe
+describe component Wire
+ pos 34 21
+ pos2 33 21
+end describe
+describe component Wire
+ pos 33 9
+ pos2 33 7
+end describe
+describe component Wire
+ pos 33 7
+ pos2 65 7
+end describe
+describe component Wire
+ pos 65 7
+ pos2 65 12
+end describe
+describe component Wire
+ pos 65 12
+ pos2 64 12
+end describe
+describe component Wire
+ pos 34 9
+ pos2 33 9
+end describe
+describe component Wire
+ pos 33 9
+ pos2 33 21
+end describe
+describe component Wire
+ pos 34 11
+ pos2 34 18
+end describe
+describe component Wire
+ pos 34 18
+ pos2 65 18
+end describe
+describe component Wire
+ pos 65 18
+ pos2 65 24
+end describe
+describe component Wire
+ pos 65 24
+ pos2 67 24
+end describe
+describe component Wire
+ pos 34 23
+ pos2 33 23
+end describe
+describe component Wire
+ pos 33 23
+ pos2 33 29
+end describe
+describe component Wire
+ pos 33 29
+ pos2 65 29
+end describe
+describe component Wire
+ pos 65 29
+ pos2 65 26
+end describe
+describe component Wire
+ pos 64 26
+ pos2 65 26
+end describe
+describe component Wire
+ pos 45 11
+ pos2 45 10
+end describe
+describe component Wire
+ pos 45 22
+ pos2 45 23
+end describe
+describe component Wire
+ pos 45 25
+ pos2 32 25
+end describe
+describe component Wire
+ pos 32 13
+ pos2 32 25
+end describe
+describe component Wire
+ pos 32 13
+ pos2 45 13
+end describe
+describe component Wire
+ pos 34 32
+ pos2 20 32
+end describe
+describe component Wire
+ pos 18 26
+ pos2 18 34
+end describe
+describe component Wire
+ pos 18 34
+ pos2 34 34
+end describe
+describe component Caption
+ pos 11 8
+ Text A
+end describe
+describe component Caption
+ pos 11 21
+ Text B
+end describe
+describe component Caption
+ pos 62 8
+ Text Q1
+end describe
+describe component Caption
+ pos 62 20
+ Text Q0
+end describe
+describe component Caption
+ pos 29 1
+ Text CMSC 313 Homework 4, Question 3
+end describe
+describe component TwoNorPort
+ pos 33 30
+end describe
+describe component SRLatch
+ pos 21 11
+end describe
+describe component Wire
+ pos 32 13
+ pos2 30 13
+end describe
+describe component Wire
+ pos 20 13
+ pos2 18 13
+end describe
+describe component Wire
+ pos 18 15
+ pos2 18 26
+end describe
+describe component Wire
+ pos 22 15
+ pos2 18 15
+end describe
+describe component PushButton
+ pos 9 10
+end describe
+describe component PushButton
+ pos 9 23
+end describe
+describe component Wire
+ pos 20 13
+ pos2 20 32
+end describe
+describe component Wire
+ pos 20 13
+ pos2 22 13
+end describe

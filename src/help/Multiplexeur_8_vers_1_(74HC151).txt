@@ -1,0 +1,26 @@
+° MULTIPLEXEUR 8 VERS 1 (74HC151)
+
+Lorsque ce composant est validé (/G = 0) il aiguille l'une de ses entrées 
+E0 à E7 sélectionnée au moyen ses entrées d'adresse c, b et a.
+
+/G  c b a | Y 
+----------|----
+ 1  - - - |  0 
+ 0  0 0 0 | E0 
+ 0  0 0 1 | E1 
+ 0  0 1 0 | E2 
+ 0  0 1 1 | E3 
+ 0  1 0 0 | E4 
+ 0  1 0 1 | E5 
+ 0  1 1 0 | E6 
+ 0  1 1 1 | E7 
+
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,5 @@
+° OUVRIR
+	(raccourci clavier: 'Ctrl O')
+
+Utiliser cette fonction pour "Ouvrir" un nouveau schéma enregistré
+avec l'extension .txt

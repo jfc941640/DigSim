@@ -1,0 +1,13 @@
+° MENU PORTES
+
+Ce sont les "briques de base" de la logique combinatoire.
+
+- Noter Les "ronds d'inversion" ou "complémentations" en entrée ou sorties de
+composants.
+
+
+Pour obtenir des data-sheets sur Internet:
+- http://www.philipslogic.com/products/logic/
+- http://focus.ti.com/docs/logic/logichomepage.jhtml
+
+Accès à DigSim sur http://patrick.furon.free.fr/

@@ -1,0 +1,27 @@
+° MENU COMPTEUR & REGISTRES
+
+Parmi ces composants, certains peuvent être initialisés.
+Pour faire cette initialisation dès la mise en route du montage, il est
+indispensable d'utiliser la cellule RC d'initialisation (menu Divers).
+
+Ne pas confondre latch et flip-flop:
+- le latch est un buffer quand il est en mode transparent et une mémoire quand
+il est en mode verrouillé.
+- le flip-flop est une mémoire qui enregistre sur front (montant) de son horloge
+et simultanément un opérateur retard d'une période d'horloge.
+
+Quelques abréviations:
+SISO: Serial In - Serial Out      
+(registre à décalage à entrée série et sortie série)
+SIPO: Serial In - Parallel Out    
+(registre à décalage à entrée série et sorties parallèles)
+PISO: Parallel In - Serial Out    
+(registre à décalage à entrée parallèle et sortie série)
+PIPO: Parallel In - Parallel Out  
+(registre à décalage à entrée parallèle et sorties parallèles = flip-flop)
+
+Pour obtenir des data-sheets sur Internet:
+- http://www.philipslogic.com/products/logic/
+- http://focus.ti.com/docs/logic/logichomepage.jhtml
+
+Accès à DigSim sur http://patrick.furon.free.fr/

@@ -1,0 +1,26 @@
+° FLIP-FLOP D "POSITIVE EGDE TRIGGERED"
+
+Cette bascule synchrone enregistre l'entrée D sur front montant ! 
+de son horloge (Clk).
+
+Son équation est Q+ = D
+
+Table de vérité:
+
+| Clk | D |  Q+ |
+|-----|---|-----|
+|  0  | - |  Q  |
+|  1  | - |  Q  |
+|  !  | 0 |  0  |
+|  !  | 1 |  1  |
+|-----|---|-----|
+L'état initial de cette bascule est aléatoire.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,18 @@
+° MULTIPLEXEUR 2 VERS 1
+
+Ce composant aiguille l'une de ses entrées E0 ou E1 sélectionnée au moyen de
+l'entrée d'adresse a.
+
+ a | Y 
+---|---
+ 0 | E0
+ 1 | E1
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

@@ -1,0 +1,23 @@
+° BISTABLE T
+
+A chaque front montant ! sur son entrée T, ce bistable change d'état.
+Équation de ce bistable: Q(n+1) = /Q(n)
+
+Table de vérité :
+ |-----|-----|
+ |  T  |  Q+ |
+ |-----|-----|
+ |  0  |  Q  |
+ |  1  |  Q  |
+ |  !  |  Q  |
+ |  !  | /Q  |
+ |-----|-----|
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

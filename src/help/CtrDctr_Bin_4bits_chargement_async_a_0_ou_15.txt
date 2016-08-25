@@ -1,0 +1,31 @@
+° COMPTEUR-DÉCOMPTEUR BINAIRE 4 BITS AVEC RAZ
+
+Ce compteur est incrémenté ou décrémenté sur front montant ! de l'horloge.
+- Comptage   si U/D=1.
+- Décomptage si U/D=0. 
+L'entrée /r :
+- effectue la remise à  0  asynchrone du compteur si U/D=1. 
+- effectue la remise à 15  asynchrone du compteur si U/D=0.
+
+|----|-----|-----|--------------------|
+| /r | U/D | Clk |     DCBA(n+1)      |
+|----|-----|-----|--------------------|
+|  0 |  0  |  -  |      1 1 1 1       | chargement à 15
+|  0 |  1  |  -  |      0 0 0 0       | chargement à 0
+|  1 |  -  |  0  |      DCBA(n)       | maintien
+|  1 |  -  |  1  |      DCBA(n)       | maintien
+|  1 |  0  |  !  | {DCBA(n) -1} mod16 | décrémentation sur front montant !
+|  1 |  1  |  !  | {DCBA(n) +1} mod16 | incrémentation sur front montant !
+|----|-----|-----|--------------------|
+L'état initial de ce compteur est aléatoire.
+Noter que la mise en cascade de ce type de compteur ne peut qu'être asynchrone.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+

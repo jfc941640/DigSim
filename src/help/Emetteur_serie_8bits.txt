@@ -1,0 +1,43 @@
+° EMETTEUR SERIE 8 BITS
+
+Ce composant envoie les données d'entrée D0 à D7 sous forme d'un signal série,
+en commençant par le bit de poids faible D0. 
+
+- Le taux de transfert dépend de l'entrée H qui reçoit le signal d'horloge.
+- La sortie /T est égale à 0 durant toute la durée de l'émission.
+- Un front montant sur l'entrée St enclenche l'émission, pourvu que /T=1:
+- Le signal série sort en Tx.
+
+Le mode d'émission dépend des bits d, c, b, a, p, m, h, i
+|---------------|----------------|------------------|--------------------------|
+|d|c|b|a|p|m|h|i|      MODES     |      PARITE      |        CODAGE            |
+|---------------|----------------|------------------|--------------------------|
+|0 - - - - - - -|Lancement sur Tx|                  |                          |
+|1 - - - - - - -|Démonstration   |                  |                          |
+|---------------|----------------|------------------|--------------------------|
+|- - - - 0 - - -|                |Sans              |                          |
+|- - - - 1 - - -|                |Bit de parité pair|                          |
+|---------------|----------------|------------------|--------------------------|
+|- 0 0 0 - 0 0 0|                |                  | NRZ (non RZ, type RS 232)|
+|- 0 0 0 - 0 0 1|                |                  | NRZI (différentiel)      |
+|- 0 0 0 - 0 1 0|                |                  | Manchester ou bi-phase   |
+|- 0 0 0 - 0 1 1|                |                  | Manchester différentiel  |
+|- 0 0 0 - 1 0 0|                |                  | Code mark inversion (CMI)|
+|- 0 0 0 - 1 0 1|                |                  | Code transition          |
+|- 0 0 0 - 1 1 0|                |                  | Delay mode,code de Miller|
+|- 0 0 0 - 1 1 1|                |                  | RZ (retour à zero)       |
+|- 1 0 0 - 0 0 0|                |                  | Type MM53200 ou UM3750   |
+|- 1 0 1 - 0 0 0|                |                  | Largeur d'impulsion      |
+|- 1 1 0 - 0 0 0|                |                  | Codage 1/4 3/4           |
+|---------------|----------------|------------------|--------------------------|
+Attention, cet émetteur n'a pas de latch intégré; donc ne pas modifier les
+données D0-D7 et les bits de commande en cours d'émission!
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

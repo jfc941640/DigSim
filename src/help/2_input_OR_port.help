@@ -1,0 +1,147 @@
+Two-input OR port
+
+
+
+
+
+This component simulates one of the
+
+
+three most basic logical devices
+
+
+from which all logic operations are
+
+
+eventually derived. 
+
+
+
+
+
+The logical function of the OR operator
+
+
+is to signal that at least one of the
+
+
+two input conditions is true, so that if
+
+
+A is true *OR* B is true *OR* both are
+
+
+true then Q will be true.
+
+
+
+
+
+In boolean logic: A + B = Q
+
+
+
+
+
+The electrical function of the OR port
+
+
+mirrors the function of the OR operator,
+
+
+so that the output of this port is active
+
+
+or '1' when either input A *OR* input B
+
+
+*OR* both are '1'. Otherwise,the output
+
+
+is innactive '0'.
+
+
+
+
+
+The OR gate should be used when a specific
+
+
+event is to be triggered by the occurance
+
+
+of at least one of two other positive events
+
+
+occuring in a given simulator cycle.
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B   |   Q
+
+
+    ---------|----
+
+
+    0    0   |   0
+
+
+    0    1   |   1
+
+
+    1    0   |   1
+
+
+    1    1   |   1
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

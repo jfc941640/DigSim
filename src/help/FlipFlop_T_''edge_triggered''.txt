@@ -1,0 +1,27 @@
+° FLIP-FLOP T "POSITIVE EGDE TRIGGERED"
+
+La sortie de cette bascule synchrone change d'état si T=1 lors du front 
+montant ! de l'horloge; sinon, la sortie de cette bascule est inchangée.
+
+Son équation est Q+ = /T.Q + T./Q
+
+Table de vérité:
+
+|-----|---|-----|
+| Clk | T |  Q+ |
+|-----|---|-----|
+|  0  | - |  Q  |
+|  1  | - |  Q  |
+|  !  | 0 |  Q  |
+|  !  | 1 | /Q  |
+|-----|---|-----|
+L'état initial de cette bascule est aléatoire.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

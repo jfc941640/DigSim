@@ -1,0 +1,132 @@
+# Digsim file
+version 0 1
+describe component Caption
+ pos 17 1
+ Text AND port made with switches
+end describe
+describe component Switch
+ pos 16 6
+end describe
+describe component Switch
+ pos 28 6
+end describe
+describe component Vcc
+ pos 11 5
+end describe
+describe component Wire
+ pos 13 10
+ pos2 17 10
+end describe
+describe component Wire
+ pos 25 9
+ pos2 27 9
+end describe
+describe component Wire
+ pos 27 9
+ pos2 27 10
+end describe
+describe component Wire
+ pos 27 10
+ pos2 29 10
+end describe
+describe component LED
+ pos 39 7
+ color red
+end describe
+describe component GND
+ pos 45 8
+end describe
+describe component Wire
+ pos 37 9
+ pos2 40 9
+end describe
+describe component Switch
+ pos 14 18
+end describe
+describe component Switch
+ pos 14 24
+end describe
+describe component TwoAndPort
+ pos 27 21
+end describe
+describe component LED
+ pos 39 22
+ color red
+end describe
+describe component Wire
+ pos 36 24
+ pos2 40 24
+end describe
+describe component Wire
+ pos 23 21
+ pos2 23 23
+end describe
+describe component Wire
+ pos 23 23
+ pos2 28 23
+end describe
+describe component Wire
+ pos 23 27
+ pos2 23 25
+end describe
+describe component Wire
+ pos 23 25
+ pos2 28 25
+end describe
+describe component Vcc
+ pos 11 14
+end describe
+describe component Wire
+ pos 13 22
+ pos2 13 28
+end describe
+describe component Wire
+ pos 13 28
+ pos2 15 28
+end describe
+describe component Wire
+ pos 13 22
+ pos2 15 22
+end describe
+describe component Wire
+ pos 13 22
+ pos2 13 19
+end describe
+describe component Wire
+ pos 15 20
+ pos2 14 20
+end describe
+describe component Wire
+ pos 14 26
+ pos2 14 30
+end describe
+describe component Wire
+ pos 14 26
+ pos2 15 26
+end describe
+describe component Wire
+ pos 14 26
+ pos2 14 20
+end describe
+describe component GND
+ pos 12 29
+end describe
+describe component GND
+ pos 45 23
+end describe
+describe component Caption
+ pos 22 4
+ Text A
+end describe
+describe component Caption
+ pos 34 4
+ Text B
+end describe
+describe component Caption
+ pos 20 22
+ Text B
+end describe
+describe component Caption
+ pos 20 16
+ Text A
+end describe

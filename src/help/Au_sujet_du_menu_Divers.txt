@@ -1,0 +1,12 @@
+° MENU DIVERS
+
+Malgré son nom, ce menu est à consommer en toute saison !
+- horloges et monostables
+- une cellule RC d'initialisation avec bouton poussoir (BP) de décharge de C
+- des sources sonores 
+
+Les retards "fixes", "purs" et "RC" ont été utilisés pour illustrer certaines 
+parties du cours. Ils ne sont pas à utiliser dans le cadre des projets.
+
+
+Accès à DigSim sur http://patrick.furon.free.fr/

@@ -1,0 +1,184 @@
+# Digsim file
+version 1 0
+describe component Vcc
+ pos 1 2
+end describe
+describe component Wire
+ pos 3 12
+ pos2 5 12
+end describe
+describe component GND
+ pos 2 31
+end describe
+describe component Wire
+ pos 3 12
+ pos2 3 7
+end describe
+describe component Wire
+ pos 5 10
+ pos2 4 10
+end describe
+describe component TwoNorPort
+ pos 36 10
+end describe
+describe component TwoNorPort
+ pos 36 22
+end describe
+describe component Wire
+ pos 37 14
+ pos2 37 16
+end describe
+describe component Wire
+ pos 45 25
+ pos2 45 23
+end describe
+describe component Wire
+ pos 37 16
+ pos2 45 23
+end describe
+describe component Wire
+ pos 37 24
+ pos2 37 22
+end describe
+describe component Wire
+ pos 37 22
+ pos2 45 15
+end describe
+describe component Wire
+ pos 45 15
+ pos2 45 13
+end describe
+describe component Wire
+ pos 35 12
+ pos2 37 12
+end describe
+describe component Wire
+ pos 35 26
+ pos2 37 26
+end describe
+describe component Wire
+ pos 4 18
+ pos2 4 10
+end describe
+describe component Wire
+ pos 45 13
+ pos2 47 13
+end describe
+describe component Wire
+ pos 45 25
+ pos2 47 25
+end describe
+describe component LED
+ pos 46 11
+ color green
+end describe
+describe component Wire
+ pos 54 13
+ pos2 56 13
+end describe
+describe component Wire
+ pos 54 25
+ pos2 56 25
+end describe
+describe component Wire
+ pos 56 13
+ pos2 56 25
+end describe
+describe component Wire
+ pos 56 25
+ pos2 56 32
+end describe
+describe component GND
+ pos 54 31
+end describe
+describe component Caption
+ pos 50 20
+ Text Q
+end describe
+describe component LED
+ pos 46 23
+ color red
+end describe
+describe component Caption
+ pos 49 8
+ Text ~Q
+end describe
+describe component TwoAndPort
+ pos 26 9
+end describe
+describe component TwoAndPort
+ pos 26 23
+end describe
+describe component Wire
+ pos 27 11
+ pos2 17 11
+end describe
+describe component Wire
+ pos 27 27
+ pos2 25 27
+end describe
+describe component Wire
+ pos 24 19
+ pos2 24 25
+end describe
+describe component Wire
+ pos 24 13
+ pos2 27 13
+end describe
+describe component Wire
+ pos 24 25
+ pos2 27 25
+end describe
+describe component Wire
+ pos 24 19
+ pos2 24 13
+end describe
+describe component Inverter
+ pos 16 24
+end describe
+describe component Wire
+ pos 13 11
+ pos2 17 11
+end describe
+describe component Wire
+ pos 17 27
+ pos2 17 11
+end describe
+describe component Wire
+ pos 14 19
+ pos2 24 19
+end describe
+describe component Caption
+ pos 12 6
+ Text D
+end describe
+describe component Caption
+ pos 26 2
+ Text Clocked D Flip Flop
+end describe
+describe component Switch
+ pos 4 8
+end describe
+describe component Switch
+ pos 5 16
+end describe
+describe component Wire
+ pos 6 18
+ pos2 4 18
+end describe
+describe component Wire
+ pos 4 18
+ pos2 4 32
+end describe
+describe component Wire
+ pos 6 20
+ pos2 3 20
+end describe
+describe component Wire
+ pos 3 12
+ pos2 3 20
+end describe
+describe component Caption
+ pos 8 21
+ Text clock
+end describe

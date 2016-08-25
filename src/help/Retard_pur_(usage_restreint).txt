@@ -1,0 +1,18 @@
+° RETARD PUR
+
+Ce composant se comporte comme un retard pur dont la valeur N est aléatoire. 
+Cette valeur, affichée en bleu, est comprise entre 0 et 9 demi périodes 
+d'horloge. 
+Elle est changée à chaque lancement ou réinitialisation du montage (touche *).
+
+Un tel composant a sa place UNIQUEMENT dans les simulations de systèmes
+séquentiels ASYNCHRONES dont on aura fait la synthèse.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

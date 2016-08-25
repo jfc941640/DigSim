@@ -1,0 +1,33 @@
+° COMPARATEUR 4 BITS, (74HC85)
+
+Ce composant compare les 4 entrées a3a2a1a0 aux 4 entrées b3b2b1b0 
+Les entrées de retenue Ia>b, Ia<b, Ia=b le rendent cascadable.
+|----------------|-----------------------------------|----------------|
+| Ia<b Ia=b Ia>b | a3,b3    a2,b2    a1,b1    a0,b0  | Qa<b Qa=b Qa>b |
+|----------------|-----------------------------------|----------------|
+|  -    -    -   | a3>b3      -        -        -    |  0    0    1   |
+|  -    -    -   | a3<b3      -        -        -    |  1    0    0   |
+|  -    -    -   | a3=b3    a2>b2      -        -    |  0    0    1   |
+|  -    -    -   | a3=b3    a2<b2      -        -    |  1    0    0   |
+|  -    -    -   | a3=b3    a2=b2    a1>b1      -    |  0    0    1   |
+|  -    -    -   | a3=b3    a2=b2    a1<b1      -    |  1    0    0   |
+|  -    -    -   | a3=b3    a2=b2    a1=b1    a0>b0  |  0    0    1   |
+|  -    -    -   | a3=b3    a2=b2    a1=b1    a0<b0  |  1    0    0   |
+|  0    0    1   | a3=b3    a2=b2    a1=b1    a0=b0  |  0    0    1   |
+|  1    0    0   | a3=b3    a2=b2    a1=b1    a0=b0  |  1    0    0   |
+|  0    1    0   | a3=b3    a2=b2    a1=b1    a0=b0  |  0    1    0   |
+|----------------|-----------------------------------|----------------|
+|  -    1    -   | a3=b3    a2=b2    a1=b1    a0=b0  |  0    1    0   |
+|  1    0    1   | a3=b3    a2=b2    a1=b1    a0=b0  |  0    0    0   |
+|  0    0    0   | a3=b3    a2=b2    a1=b1    a0=b0  |  1    0    1   |
+|----------------|-----------------------------------|----------------|
+- = indifférent
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

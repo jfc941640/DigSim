@@ -1,0 +1,5 @@
+° SIMULATION
+	(raccourci clavier: 'Entrée')
+
+Cette fonction lance et arrête la simulation. 
+Une LED oscille en bas à droite pour indiquer qu'une simulation est en cours.

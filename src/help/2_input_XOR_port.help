@@ -1,0 +1,264 @@
+Two-input XOR port
+
+
+
+
+
+This component simulates a high level
+
+
+logical device that can be derived from
+
+
+the three basic logical devices AND, OR
+
+
+and NOT.
+
+
+
+
+
+Although the XOR operator implements the
+
+
+most complex logic of the two input ports,
+
+
+the logical function of the XOR operator
+
+
+is relatively easy to understand. The XOR
+
+
+produces a true output if either input A
+
+
+is true *OR* input B is true, but not if both
+
+
+inputs are true.
+
+
+
+
+
+In boolean logic: (A' * B) + (A * B') = Q
+
+
+
+
+
+This is generally rewritten for simplicity
+
+
+as:  A (+) B = Q
+
+
+
+
+
+The electrical function of the XOR port
+
+
+mirrors the function of the XOR operator,
+
+
+so that the output of this port is active
+
+
+or '1' when either input A *OR* input B
+
+
+is '1' but not both simultaneously.
+
+
+Otherwise, the output is inactive or '0'.
+
+
+
+
+
+The XOR gate should be used when a specific
+
+
+event is to be triggered by the occurance
+
+
+of only one of two other positive events
+
+
+occuring in a given simulator cycle. This
+
+
+makes it particularly effective in the
+
+
+implementation of adder and subtractor 
+
+
+circuits.  Concider the following binary
+
+
+arithmetic functions.
+
+
+
+
+
+ 0 + 1 = 1		0 + 0 = 0
+
+
+ 1 + 0 = 1		1 + 1 = 0 (carry 1)
+
+
+
+
+
+ 0 - 0 = 0		0 - 1 = 1 (borrow 1)
+
+
+ 1 - 1 = 0       	1 - 0 = 1
+
+
+
+
+
+Although the carry and borrow signals
+
+
+require additional logic, the base 
+
+
+answer is exactly modeled by the XOR port.
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B  | (A' * B) | (A * B') |  Q
+
+
+    --------|----------|----------|-----
+
+
+    0    0  |     0    |     0    |  0
+
+
+    0    1  |     1    |     0    |  1
+
+
+    1    0  |     0    |     1    |  1
+
+
+    1    1  |     0    |     0    |  0
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+Complimentary function:
+
+
+
+
+
+Deriving the complimetary function for
+
+
+the XOR port is more involved then the
+
+
+second level operators. The method for
+
+
+deriving the compliment is not given,
+
+
+however, it is proven by its truth table
+
+
+
+
+
+In boolean logic: (A + B) * (A' + B') = Q
+
+
+
+
+
+    Compliment's Truth-table:
+
+
+
+
+
+    A    B  | (A + B) | (A' + B') |  Q
+
+
+    --------|---------|-----------|-----
+
+
+    0    0  |    0    |     1     |  0
+
+
+    0    1  |    1    |     1     |  1
+
+
+    1    0  |    1    |     1     |  1
+
+
+    1    1  |    1    |     0     |  0
+
+
+
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

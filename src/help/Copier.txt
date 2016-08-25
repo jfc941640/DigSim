@@ -1,0 +1,20 @@
+° COPIER
+	(raccourci clavier: 'Ctrl C')
+
+Cette fonction permet de copier un ou plusieurs composants ainsi qu'une partie
+ou la totalité d'un schéma. 
+Il suffit 
+- soit de sélectionner un composant en cliquant dessus
+- soit de sélectionner plusieurs composants en cliquant dessus, la touche
+  MAJUSCULE (Shift) du clavier étant maintenue appuyée
+- soit de sélectionnet une zone en la choisissant au moyen de la souris 
+  (bouton gauche ou droit appuyé)
+- soit de faire Ctrl A suivi de Ctrl C pour sélectionner la totalité du schéma.
+
+Le composant collé sera mis en mémoire.
+
+ATTENTION: si vous avez lancé deux applications DigSim, il n'est pas possible,
+avec cette fonction, de coller le contenu d'une fenêtre dans une autre.
+
+Cette fonction est complémentaire de la fonction "coller" dont le raccourci
+clavier est 'Ctrl V'.

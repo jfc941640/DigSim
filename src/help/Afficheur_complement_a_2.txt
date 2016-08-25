@@ -1,0 +1,17 @@
+° AFFICHEUR 8+1 BITS EN COMPLEMENT A 2
+
+Cet afficheur permet l'affichage "en clair" de sorties binaires comprises 
+entre -256 et 255 en notation complément à 2 (2's complement). 
+
+AFFICHAGE DE L'ETAT :
+- Pour a = 0, l'affichage est fait sous forme entière, soit  [-128, +127] 
+- Pour a = 1, l'affichage est fait sous forme décimale, soit [-1, +1[ 
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

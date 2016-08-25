@@ -1,0 +1,33 @@
+° PERCEUSE
+
+Cette application peut servir de support à la création d'automatismes qui seront 
+réalisés avec des séquenceurs logiques.
+
+La position du forêt est codée sur 8 bits.
+
+Clé  : une clé est nécessaire pour son fonctionnement (menu Applications)
+
+ALIM : à utiliser avec un bouton d'arrêt d'urgence
+Rotation  : rotation du forêt
+Montée    : montée du forêt
+Descente  : descente du forêt
+Vitesse   : descente ou montée par incrément de 1 si Vitesse = 0
+            descente par incrément de 3 si Vitesse = 1
+            montée   par incrément de 4 si Vitesse = 1
+Plaque    : caractéristiques: cote de la partie haute = 53, épaisseur = 17
+Cube : caractéristiques: cote de la partie haute = 38, épaisseur = 32
+Cylindre  : caractéristiques: cote de la partie haute = 22, épaisseur = 48
+Sphère    : caractéristiques: cote de la partie haute =  6, épaisseur = 64
+Cale :                   cote de la partie haute = 69
+
+Pour disposer d'une perceuse neuve: 
+   appuyer sur la touche * quand la simulation est arrêtée
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

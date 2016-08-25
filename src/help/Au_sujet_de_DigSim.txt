@@ -1,0 +1,18 @@
+° AU SUJET DE DIGSIM
+
+Cette version de DigSim a été réalisée par Patrick FURON 
+à partir de la version originale d'Iwan van RIENEN 
+
+Pour plus d'infos, notamment sur l'installation de DigSim et son intégration
+dans une page web, consulter les pages consacrées à DigSim sur
+Accès à DigSim sur http://patrick.furon.free.fr/
+
+Références de la version d'origine:
+ DigSim v 1.00 b3
+  Copyright (c) 1996 Iwan van Rienen
+  This program and the Java source is in the public domain.
+  Permission to use, copy, modify, and distribute this software
+  and its documentation for NON-COMMERCIAL purposes and
+  without fee is hereby granted.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

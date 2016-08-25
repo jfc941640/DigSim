@@ -1,0 +1,54 @@
+beginner
+Inverter with switches
+examples/inverter_switch.sim
+beginner
+2-input OR port with switches
+examples/or_switch.sim
+beginner
+2-input AND port with switches
+examples/and_switch.sim
+simple
+Flip Flop made with 2 NAND ports
+examples/FlipFlopWithTwoNandPorts.sim
+simple
+Flip Flop made with 2 NOR ports
+examples/FlipFlopWithTwoNorPorts.sim
+simple
+Half-adder made with ports
+examples/HalfAdderPorts.sim
+simple
+Full-adder made with ports
+examples/FullAdderPorts.sim
+simple
+Gated SR latch with ports
+examples/GatedSRLatchWithPorts.sim
+simple
+Example with a 3-to 8 line decoder / demultiplexer
+examples/ThreeToEightLineDecoder.sim
+simple
+Four-bit counter connected to a 7-segment display
+examples/FourBitCounterToSevenSegment.sim
+simple
+Experiment with an octal D-flip flop
+examples/OctalDFlipFlop.sim
+simple
+Experiment with an octal latch
+examples/OctalLatch.sim
+simple
+Example with an 8-bit serial in parallel out shift register
+examples/EightBitSerInShiftReg.sim
+simple
+Example with an 8-bit parallel in serial out shift register
+examples/EightBitParInShiftReg.sim
+advanced
+Shift register
+examples/ShiftRegister.sim
+advanced
+6-counter with JK flip flops
+examples/SixCounterWithJKFlipFlops.sim
+advanced
+4-bit counter with Toggle flip flops
+examples/FourBitCounterWithTFlipFlops.sim
+advanced
+Two 4-bit counters with multiplexed 7-segment displays
+examples/MultiplexedSevenSegDisplays.sim

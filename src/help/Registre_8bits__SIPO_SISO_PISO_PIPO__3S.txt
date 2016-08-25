@@ -1,0 +1,54 @@
+° REGISTRE A DECALAGE UNIVERSEL SIPO SISO PISO PIPO A SORTIES 3 ETATS
+
+Ce composant est constitué de la mise en cascade de 8 bascules D synchrones
+de sorties Pi.
+L'état initial de ce registre est aléatoire. 
+
+Clk : entrée d'horloge active sur front montant noté !
+/r=0: remise à 0 asynchrone
+/L=0: chargement synchrone des entrées Di (modes PISO et PIPO) 
+G=1 : validation du décalage; 
+S   : entrée série (modes SISO et SIPO). Pour la mise en cascade de registres, 
+      connecter la sortie Q7 du registre à décalage amont à cette entrée S 
+
+Fonctionnement du registre interne:
+
+   | /r | /L |  G | Clk | P0+   P1+..   P7+ |  mode
+   |----|----|----|-------------------------|-----------
+   |  0 |  1 |  - |  -  | 0     0   ... 0   |  mise à 0
+   |  1 |  0 |  - |  !  | D0    D1  ... D7  |  chargement
+   |  1 |  1 |  1 |  !  | S     P0  ... P6  |  décalage
+   |  1 |  1 |  0 |  0  | P0    P1  ... P7  |  maintien
+   |  1 |  1 |  0 |  1  | P0    P1  ... P7  |  maintien
+
+Fonctionnement des sorties:
+   | /OE |     Qi         |
+   |-----|----------------|
+   |  0  |     Pi         |
+   |  1  |Haute impédance |
+
+Mode entrée série:       sur front montant ! de Clk et si G=1, 
+                         chaque bascule mémorise la sortie de la bascule
+                         précédente tandis que la première enregistre 
+                         l'entrée S.
+Mode entrées parallèles: sur front montant ! de Clk et si /L =0, 
+                         les entrées D0 à D7 sont mémorisées.
+Mode reset:              /r=0 met le registre à 0 de manière asynchrone.
+
+Les états internes Pi de ces huit bascules D sont accessibles 
+sur les sorties Qi si /0E=0.
+Dans le cas contraire (/OE=1), les sorties Qi sont en haute impédance.
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

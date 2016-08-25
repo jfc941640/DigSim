@@ -1,0 +1,9 @@
+° HORLOGE DE PERIODE 1/2 SECONDE
+
+Cette horloge, de période voisine de 500 ms, est synchronisée sur l'horloge 
+de votre machine, à condition toutefois que l'horloge de DigSim soit à sa 
+vitesse maximale. 
+Dans le cas contraire, elle se cale sur une période de valeur supérieure.
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

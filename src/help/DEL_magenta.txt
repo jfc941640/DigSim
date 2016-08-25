@@ -1,0 +1,14 @@
+° DEL (DIODE ELECTRO-LUMINESCENTE) OU LED (LIGHT EMITTING DIODE)
+
+Une DEL s'allume quand vous mettez un niveau logique 1 sur l'anode et que la cathode est au niveau logique 0.
+L'anode est désignée par le signe +.
+Dans cette DEL une résistance interne de 330 0hm est intégrée .
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

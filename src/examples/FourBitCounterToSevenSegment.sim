@@ -1,0 +1,64 @@
+# Digsim file
+version 0 1
+describe component FourBitBinaryCounter
+ pos 9 8
+end describe
+describe component BCDToSevenSegDecoder
+ pos 19 2
+end describe
+describe component SevenSegmentDisplay
+ pos 27 3
+ color red
+end describe
+describe component GND
+ pos 31 13
+end describe
+describe component Oscilator
+ pos 1 8
+end describe
+describe component GND
+ pos 15 3
+end describe
+describe component Vcc
+ pos 17 0
+end describe
+describe component Wire
+ pos 20 4
+ pos2 17 4
+end describe
+describe component Wire
+ pos 19 6
+ pos2 19 8
+end describe
+describe component Wire
+ pos 19 8
+ pos2 20 8
+end describe
+describe component Wire
+ pos 19 6
+ pos2 20 6
+end describe
+describe component Wire
+ pos 19 6
+ pos2 19 5
+end describe
+describe component Wire
+ pos 18 10
+ pos2 20 10
+end describe
+describe component Wire
+ pos 18 11
+ pos2 20 11
+end describe
+describe component Wire
+ pos 18 12
+ pos2 20 12
+end describe
+describe component Wire
+ pos 18 13
+ pos2 20 13
+end describe
+describe component Wire
+ pos 8 11
+ pos2 10 11
+end describe

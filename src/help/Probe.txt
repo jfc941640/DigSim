@@ -1,0 +1,6 @@
+° SONDE POUR ANALYSEUR LOGIQUE
+
+L'analyseur logique vous permettra d'observer l'évolution temporelle des signaux
+connectés aux sondes. 
+Vous pouvez éditer le nom des sondes en double-cliquant dessus.
+

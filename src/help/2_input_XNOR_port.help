@@ -1,0 +1,225 @@
+Two-input XNOR port
+
+
+Two-input XOR port
+
+
+
+
+
+This component simulates a high level
+
+
+logical device that can be derived from
+
+
+the three basic logical devices AND, OR
+
+
+and NOT.
+
+
+
+
+
+The XNOR logic operator performs the
+
+
+inverse of the logic performed by the XOR
+
+
+operator. The XNOR produces a true output if
+
+
+both input A *AND* input B are true or if
+
+
+both input A *AND* input B are false.
+
+
+Otherwise, the XNOR produces a false output.
+
+
+
+
+
+In boolean logic: (A * B) + (A' * B') = Q
+
+
+
+
+
+This is generally rewritten for simplicity
+
+
+as:  (A (+) B)' = Q
+
+
+
+
+
+The electrical function of the XNOR port
+
+
+mirrors the logical function of the XOR
+
+
+operator, so that the output of this port is
+
+
+active or '1' when both input A *AND* input B
+
+
+are '1' or when both input A *AND* input B are
+
+
+'0'. Otherwise, the output is inactive or '0'.
+
+
+
+
+
+The XNOR gate should be used when a specific
+
+
+event is to be triggered by the occurance
+
+
+of only one of two other negative events
+
+
+occuring in a given simulator cycle. 
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B  | (A * B) | (A' * B') |  Q
+
+
+    --------|---------|-----------|-----
+
+
+    0    0  |    0    |     1     |  1
+
+
+    0    1  |    0    |     0     |  0
+
+
+    1    0  |    0    |     0     |  0
+
+
+    1    1  |    1    |     0     |  1
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+Complimentary function:
+
+
+
+
+
+Deriving the complimetary function for
+
+
+the XNOR port is more involved then for
+
+
+the second level operators. The method
+
+
+for deriving the compliment is not given,
+
+
+however, it is proven by its truth table
+
+
+
+
+
+In boolean logic: (A' + B) * (A + B') = Q
+
+
+
+
+
+    Compliment's Truth-table:
+
+
+
+
+
+    A    B  | (A' + B) | (A + B') |  Q
+
+
+    --------|----------|----------|-----
+
+
+    0    0  |     1    |     1    |  1
+
+
+    0    1  |     1    |     0    |  0
+
+
+    1    0  |     0    |     1    |  0
+
+
+    1    1  |     1    |     1    |  1
+
+
+
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+
+
+
+

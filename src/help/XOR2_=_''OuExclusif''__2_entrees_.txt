@@ -1,0 +1,31 @@
+° OU EXCLUSIF À 2 ENTRÉES (74HC86)
+
+Équation: Q = A (+) B
+
+    Table de vérité
+
+    A    B   |   Q
+    ---------|----
+    0    0   |   0
+    0    1   |   1
+    1    0   |   1
+    1    1   |   0
+
+Usages:
+- test de la parité
+- comparaison
+- inverseur/buffer commandé
+
+    0 = inactif = Masse = 0V  = OFF = Low
+	Les fils au niveau logique 0 sont représentés en bleu	
+    1 = active  = Vcc   = 5V  = ON  = High
+	Les fils au niveau logique 1 sont représentés en rouge	
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

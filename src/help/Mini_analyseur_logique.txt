@@ -1,0 +1,24 @@
+° MINI ANALYSEUR LOGIQUE
+
+Cet analyseur logique de faible épaisseur échantillonne le signal logique à raison
+de deux fois par période d'horloge de DigSim. Malgré cela, il ne permet pas de 
+visualiser les aléas.
+
+Cet analyseur dispose de 4 préréglages accessibles via la fonction
+de rotation des composants (touche T).
+1- mode très court (observation de  5 périodes d'horloge)
+2- mode court      (observation de 10 périodes d'horloge)
+3- mode long       (observation de 20 périodes d'horloge)
+4- mode très long  (observation de 40 périodes d'horloge)
+
+En fonctionnement, un clic sur le point de couleur jaune de cet analyseur permet
+de modifier la longueur de la fenêtre d'observation. C'est aussi ce même point de 
+couleur qui permet de le déplacer.
+
+Deux autres analyseurs logiques existent : 
+- un analyseur logique avec horloge externe
+- un analyseur prenant les informations au moyen de "sondes" (horloge de DigSim)
+
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

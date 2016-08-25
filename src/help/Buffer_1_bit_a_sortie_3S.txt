@@ -1,0 +1,26 @@
+° BUFFER 1 BIT A SORTIE 3 ETATS
+
+
+- La sortie de cette porte est en haute impédance si son entrée
+OE est au niveau logique 0
+- Elle est en basse impédance si son entrée OE est au niveau
+logique 1. Dans ce cas la sortie recopie l'entrée. 
+
+     Q = A
+
+Table de vérité:
+
+      OE   A   |         Q
+     ----------|-------------------
+       0   -   |   Haute impédance
+       1   0   |         0
+       1   1   |         1
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

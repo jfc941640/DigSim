@@ -1,0 +1,4 @@
+° GRILLE DE SIMULATION
+
+Voici la grille de simulation, un espace où DigSim vous offre 
+la possibilité d'exercer votre créativité en électronique numérique!

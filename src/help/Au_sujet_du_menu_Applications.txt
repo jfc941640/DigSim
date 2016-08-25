@@ -1,0 +1,51 @@
+° MENU APPLICATIONS
+
+Les fonctions logiques permettent de commander des systèmes et de réaliser des
+automatismes commandés par des machines d'état ou séquenceurs. 
+Pour utiliser les composants logiques de DigSim dans un cadre concret, quelques
+applications y ont été intégrées:
+
+Émetteur série 
+En mettant une sonde pour analyseur logique en sortie de ce composant, il sera
+possible d'observer le timing associé aux multiples modes d'émission
+disponibles...
+... et de procéder au design puis à la réalisation de récepteurs série.
+
+Défi relevé en 2004-2005 à l'occasion des projets de Design !
+
+Pendule à sortie série
+En décodant la sortie série de ce composant (plusieurs modes), il sera possible
+de réaliser une pendule auto-synchronisée sur l'heure de votre ordinateur.
+Défi relevé en 2009-2010 à l'occasion des projets de Design !
+
+Feux de carrefour
+Cette application est adaptée à la réalisation de séquenceurs simples à base de
+compteurs et de mémoire. L'utilisation de la détection de présence de véhicule 
+permet de rendre l'ensemble "plus intelligent"!
+Défi relevé en 2008-2009 à l'occasion des projets de Design !
+
+Perceuse
+Une application à commander avec des séquenceurs câblés, construits sur la base 
+de la lecture d'un tableau ou microprogrammés.
+Défi relevé en 2003-2004 à l'occasion des projets de Design !
+
+Chariots
+Au nombre de 5, il y en a pour tous les goûts : 
+- entrées binaires ou pas à pas
+- sorties tout ou rien ou numériques
+- et un "chariot libre" qui peut aller partout, à condition de savoir le gérer...
+Défi relevé en 2006-2007 à l'occasion des projets de Design !
+
+Wagonnets
+Pour apprendre à gérer une ressource partagée.
+Défi relevé en 2005-2006à l'occasion des projets de Design !
+
+Rails et train
+Dans un menu à part, "rails et train" est l'application de "DigSim Railway" où 
+tous les défis sont rendus possibles... 
+Défi relevé en 2009-2010 à l'occasion des projets de Design !
+
+Ne pas oublier de mettre la clef sur certaines applications pour les faire 
+fonctionner.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

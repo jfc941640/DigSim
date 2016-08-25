@@ -1,0 +1,17 @@
+° IMPORTER 
+	(raccourci clavier 'Ctrl I' et touche 'i')
+
+A utiliser seulement si vous avez des problèmes avec "Ouvrir..."
+
+Ouvrez le fichier texte de votre script et copiez le.
+Coller son contenu dans la fenêtre d'importation de DigSim.
+Terminer en appuyant sur le bouton OK. Votre script sera alors converti 
+en schéma.
+
+ATTENTION... la simulation précédente sera effacée.
+
+PRECAUTIONS
+- Votre script doit être sauvegardé sous forme de fichier texte avec l'extension .txt.
+- Attention aux éditeurs qui ajoutent des espaces en fin de ligne ou de fichier
+- En cas de transfert par mail, envoyer le script en fichier joint et non dans
+  le corps du message.

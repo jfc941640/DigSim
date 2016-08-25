@@ -1,0 +1,17 @@
+° SONDE POUR ANALYSEUR LOGIQUE
+
+La sonde pour analyseur logique établit une connexion avec l'analyseur logique
+qui se lancera automatiquement au démarrage d'une simulation.
+Ne pas oublier de compléter cette connexion au moyen d'une jonction.
+
+Vous pouvez donner un nom à la sonde en cliquant dessus.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+

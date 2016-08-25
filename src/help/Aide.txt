@@ -1,0 +1,17 @@
+° AIDE
+	Accessible rapidement avec ? du menu de DigSim ou les raccourcis
+clavier 'h' ou '?'
+
+Vous pouvez obtenir de l'aide sur la majorité des fonctions et sur les
+composants de DigSim.
+Méthode:
+
+1) Sélectionner la fonction Aide (point d'interrogation).
+2) Puis cliquer 
+  - sur un composant de DigSim
+  - sur le nom d'un composant dans le menu DigSim
+  - ou sur toute fonction du menu.
+
+ATTENTION: 
+Après avoir obtenu de l'aide sur un composant, il vous faut à nouveau cliquer
+dessus. Dans le cas contraire, le composant reste bloqué et ne fonctionne plus.

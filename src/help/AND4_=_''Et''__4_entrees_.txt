@@ -1,0 +1,21 @@
+° PORTE ET (AND) A 4 ENTREES (74HC21)
+
+- La sortie de cette porte est au niveau logique 1 si toutes les entrées sont 
+au niveau logique 1.
+
+- La sortie de cette porte est au niveau logique 0 si l'une des entrées est
+au niveau logique 0. Donc, en logique négative, une porte ET devient un OU.
+
+     Q = A . B . C . D = /(/A + /B + /C + /D)
+
+La table de vérité répond au même principe que celle des portes ET
+à 2 et 3 entrées.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

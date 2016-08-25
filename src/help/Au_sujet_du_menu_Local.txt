@@ -1,0 +1,17 @@
+° MENU LOCAL
+
+Les fonctions du menu "Local" peuvent être utilisées 
+avec la MVJS si l'applet est signé et que vous en avez accepté la signature
+et avec la MVJM, à condition toutefois que DigSim soit déclaré comme CLASSPATH
+(cf. Aide CLASSPATH).
+
+Si tel est le cas, il est possible de sauvegarder et d'ouvrir des simulations
+directement sur disque dur, disquette ou réseau... 
+Deux possibilités s'offrent à vous:
+- sauvegarde en format long (l'ancien format) si vous précisez l'extension .dig
+- sauvegarde en format texte court, si vous précisez une extension .txt
+
+MVJM= Machine virtuelle Java de Microsoft.
+MVJS= Machine virtuelle Java de Sun.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

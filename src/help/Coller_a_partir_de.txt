@@ -1,0 +1,14 @@
+° COLLER À PARTIR DE
+
+Utiliser cette fonction pour "coller" un morceau de schéma au format .dig 
+(présent sur votre disque dur ou une disquette ) dans votre fenêtre de
+simulation. 
+
+ATTENTION:
+Vous pouvez utiliser cette fonction 
+- si vous utilisez Internet Explorer et la MVJM et que vous avez déclaré 
+  DigSim comme CLASSPATH.
+- ou si utilisant la MVJS, vous avez accepté l'applet signé.
+
+MVJM= Machine virtuelle Java de Microsoft.
+MVJS= Machine virtuelle Java de Sun.

@@ -1,0 +1,14 @@
+° ALARME
+
+Suite au front montant du signal d'entrée, ce générateur génère un signal
+d'alarme fixe et unique (non répéritif). 
+Ce signal d'alarme est contenu dans sounds\alarm.au. 
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

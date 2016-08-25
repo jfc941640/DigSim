@@ -1,0 +1,147 @@
+Two-input AND port
+
+
+
+
+
+This component simulates one of the
+
+
+three most basic logical devices
+
+
+from which all logic operations are
+
+
+eventually derived. 
+
+
+
+
+
+The logical function of the AND operator
+
+
+is to signal that two input conditions
+
+
+are true simultaneously. So that if
+
+
+A is true *AND* B is true then Q will
+
+
+be true.
+
+
+
+
+
+In boolean logic: A * B = Q
+
+
+
+
+
+The electrical function of the AND port
+
+
+mirrors the function of the AND operator,
+
+
+so that the output of this port is active
+
+
+or '1' when both input A *AND* input B
+
+
+are '1'. Otherwise,the output is
+
+
+innactive or '0'. 
+
+
+
+
+
+The AND gate should be used when a specific
+
+
+event is to be triggered by the occurance
+
+
+of two other positive events occuring in the 
+
+
+same simulator cycle.
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B   |   Q
+
+
+    ---------|----
+
+
+    0    0   |   0
+
+
+    0    1   |   0
+
+
+    1    0   |   0
+
+
+    1    1   |   1
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

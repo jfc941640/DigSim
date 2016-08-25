@@ -1,0 +1,38 @@
+° LATCH TRANSPARENT 8 BITS A SORTIES 3 ETATS (74HC373)
+
+- Mode transparent (buffer):
+  pour LE=0, les sorties recopient les entrées.
+- Mode verrouillé (mémoire):
+  LE=1, les sorties sont verrouillées et leur contenu est celui des entrées
+  au moment où LE est passé à 1.
+- Sorties trois états:
+  /OE=0 : les sorties sont en basse impédance
+  /OE=1 : les sorties sont en haute impédance
+
+Fonctionnement du registre interne P0...P7:
+   | LE |  Pi+ |    mode     |
+   |-----|------|-------------|
+   |  0  |  Di  | transparent |
+   |  1  |  Pi  | verrouillé  |
+
+Fonctionnement des sorties:     
+   | /OE |      Qi         |
+   |-----|-----------------|
+   |  0  |      Pi         |
+   |  1  | Haute impédance |
+En mode verrouillé, l'état initial interne de ce registre est aléatoire. 
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

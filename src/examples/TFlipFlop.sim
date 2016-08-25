@@ -1,0 +1,197 @@
+# Digsim file
+version 1 0
+describe component Vcc
+ pos 19 13
+end describe
+describe component GND
+ pos 20 30
+end describe
+describe component TwoNorPort
+ pos 57 15
+end describe
+describe component TwoNorPort
+ pos 57 27
+end describe
+describe component Wire
+ pos 58 19
+ pos2 58 21
+end describe
+describe component Wire
+ pos 66 30
+ pos2 66 28
+end describe
+describe component Wire
+ pos 58 21
+ pos2 66 28
+end describe
+describe component Wire
+ pos 58 29
+ pos2 58 27
+end describe
+describe component Wire
+ pos 58 27
+ pos2 66 20
+end describe
+describe component Wire
+ pos 66 20
+ pos2 66 18
+end describe
+describe component Wire
+ pos 56 17
+ pos2 58 17
+end describe
+describe component Wire
+ pos 56 31
+ pos2 58 31
+end describe
+describe component Wire
+ pos 66 18
+ pos2 68 18
+end describe
+describe component Wire
+ pos 66 30
+ pos2 68 30
+end describe
+describe component LED
+ pos 67 16
+ color green
+end describe
+describe component Wire
+ pos 75 18
+ pos2 77 18
+end describe
+describe component Wire
+ pos 75 30
+ pos2 77 30
+end describe
+describe component Wire
+ pos 77 18
+ pos2 77 30
+end describe
+describe component Wire
+ pos 77 30
+ pos2 77 37
+end describe
+describe component GND
+ pos 75 36
+end describe
+describe component Caption
+ pos 71 25
+ Text Q
+end describe
+describe component LED
+ pos 67 28
+ color red
+end describe
+describe component Caption
+ pos 70 13
+ Text ~Q
+end describe
+describe component Wire
+ pos 48 17
+ pos2 38 17
+end describe
+describe component Wire
+ pos 48 31
+ pos2 38 31
+end describe
+describe component Wire
+ pos 45 24
+ pos2 45 30
+end describe
+describe component Wire
+ pos 45 18
+ pos2 48 18
+end describe
+describe component Wire
+ pos 45 30
+ pos2 48 30
+end describe
+describe component Wire
+ pos 45 24
+ pos2 45 18
+end describe
+describe component ThreeAndPort
+ pos 47 14
+end describe
+describe component ThreeAndPort
+ pos 47 28
+end describe
+describe component Wire
+ pos 66 18
+ pos2 66 13
+end describe
+describe component Wire
+ pos 66 13
+ pos2 48 13
+end describe
+describe component Wire
+ pos 48 13
+ pos2 48 16
+end describe
+describe component Wire
+ pos 66 30
+ pos2 66 35
+end describe
+describe component Wire
+ pos 66 35
+ pos2 48 35
+end describe
+describe component Wire
+ pos 48 35
+ pos2 48 32
+end describe
+describe component PushButton
+ pos 22 21
+end describe
+describe component Wire
+ pos 23 23
+ pos2 22 23
+end describe
+describe component Wire
+ pos 23 25
+ pos2 21 25
+end describe
+describe component Wire
+ pos 31 24
+ pos2 45 24
+end describe
+describe component Caption
+ pos 41 13
+ Text J
+end describe
+describe component Caption
+ pos 40 27
+ Text K
+end describe
+describe component Caption
+ pos 30 37
+ Text This circuit has the endless toggle problem
+end describe
+describe component Caption
+ pos 32 20
+ Text T
+end describe
+describe component Caption
+ pos 51 8
+ Text T Flip Flop
+end describe
+describe component Wire
+ pos 38 31
+ pos2 38 17
+end describe
+describe component Wire
+ pos 38 17
+ pos2 38 13
+end describe
+describe component Vcc
+ pos 36 8
+end describe
+describe component Wire
+ pos 21 25
+ pos2 21 18
+end describe
+describe component Wire
+ pos 22 23
+ pos2 22 31
+end describe

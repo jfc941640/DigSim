@@ -1,0 +1,6 @@
+° LANCER LA SIMULATION
+
+	(raccourci clavier: 'Enter')
+
+Cette fonction lance la simulation. 
+Une LED oscille en bas à droite pour indiquer qu'une simulation est en cours.

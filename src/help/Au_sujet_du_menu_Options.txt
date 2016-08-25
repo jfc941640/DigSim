@@ -1,0 +1,20 @@
+° MENU OPTIONS
+
+- C'est ici qu'il est possible de lancer ou de stopper une simulation. Il sera
+cependant plus aisé d'appuyer sur l'éclair jaune ou sur la touche "Entrée".
+
+- Réinitialiser la simulation (raccourci * ou tabulation) 
+   permet de relancer une simulation avec un nouvel état initial. Ceci sera
+utile pour tester la validité des montages séquentiels... et aussi pour remettre
+la perceuse avec foret et mandrin en position haute...
+
+- L'analyseur logique se lancera automatiquement pourvu que des sondes soient
+placées dans le montage, mais il est aussi possible de l'appeler manuellement.
+
+- Au menu de "Vitesse de simulation et options", quelques réglages:
+..- ajuster la fréquence de fonctionnement du simulateur.
+  - arrêter la simulation en cas de détection de courts-circuits.
+  - arrêter la simulation en cas de détection de boucles.
+- lancer automatiquement l'analyseur logique.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

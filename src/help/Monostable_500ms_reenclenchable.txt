@@ -1,0 +1,10 @@
+° MONOSTABLE de 1/2 SECONDE, RE-ENCLENCHABLE
+
+En réponse à un front montant, ce composant délivre un signal
+au niveau logique zéro pendant une durée voisine de 500ms, à condition 
+toutefois que l'horloge de DigSim soit à sa vitesse maximale. 
+Dans le cas contraire, elle se cale sur une période de valeur supérieure.
+Cette temporisation est réenclenchable.
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

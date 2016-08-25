@@ -1,0 +1,39 @@
+° REGISTRE A DECALAGE A ENTREE SERIE ET SORTIES SERIE (SISO) OU PARALLELE (SIPO)
+ET A SORTIES 3 ETATS (74HC164)
+
+Ce composant est constitué d'une mise en cascade de 8 bascules D synchrones
+Sur front montant ! de Clk, chaque bascule mémorise la sortie de la bascule
+précédente tandis que la première enregistre l'entrée D.
+Les états internes Pi de ces huit bascules D sont accessibles sur les sorties
+Qi si /0E=0.
+Dans le cas contraire (/OE=1), les sorties Qi sont en haute impédance.
+L'état initial de ce registre est aléatoire. L'entrée de reset /r met le
+registre à 0.
+
+Fonctionnement du registre interne:
+   | /r | Clk | P0+  |P1+ P2+ ... P7+ |      mode
+   |----|-----|------|----------------|-------------
+   | 0  |  -  |  0   | 0   0  ...  0  |    mise à 0
+   | 1  |  !  |  D   | P0  P1 ...  P6 |    décalage
+   | 1  |  0  |  P0  | P1  P2 ...  P7 |    maintien
+   | 1  |  1  |  P0  | P1  P2 ...  P7 |    maintien
+
+Fonctionnement des sorties:     
+   | /OE |     Qi
+   |-----|-------------
+   |  0  |     Pi
+   |  1  |Haute impédance
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 

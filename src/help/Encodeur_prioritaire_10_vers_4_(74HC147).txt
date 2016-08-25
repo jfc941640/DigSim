@@ -1,0 +1,24 @@
+° ENCODEUR PRIORITAIRE 10 VERS 4 (74HC147)
+
+| /1 /2 /3 /4 /5 /6 /7 /8 /9 | D  C  B  A |
+|----------------------------|------------|
+|  1  1  1  1  1  1  1  1  1 | 1  1  1  1 | encodage de 0 (priorité min.)
+|  0  1  1  1  1  1  1  1  1 | 1  1  1  0 | encodage de 1 
+|  -  0  1  1  1  1  1  1  1 | 1  1  0  1 | encodage de 2 
+|  -  -  0  1  1  1  1  1  1 | 1  1  0  0 | encodage de 3 
+|  -  -  -  0  1  1  1  1  1 | 1  0  1  1 | encodage de 4 
+|  -  -  -  -  0  1  1  1  1 | 1  0  1  0 | encodage de 5 
+|  -  -  -  -  -  0  1  1  1 | 1  0  0  1 | encodage de 6 
+|  -  -  -  -  -  -  0  1  1 | 1  0  0  0 | encodage de 7 
+|  -  -  -  -  -  -  -  0  1 | 0  1  1  1 | encodage de 8 
+|  -  -  -  -  -  -  -  -  0 | 0  1  1  0 | encodage de 9 (priorité max.)
+|----------------------------|------------|
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

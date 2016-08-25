@@ -1,0 +1,16 @@
+° EXPORTER 
+	(raccourci clavier 'Ctrl E' et touche 'e')
+
+A utiliser seulement si vous avez des problèmes avec "Enregistrer..."
+
+- Sélectionnez l'INTEGRALITE du script qui apparaît dans la fenêtre
+d'exportation.
+- Coller son contenu (Ctrl C ) dans un éditeur de texte tel "Notepad"
+- Terminer en appuyant sur le bouton OK. 
+
+PRECAUTIONS
+- Votre script doit être sauvegardé sous forme de fichier texte.
+- Attention aux éditeurs qui ajoutent des espaces en fin de ligne ou de fichier
+- En cas de transfert par mail, envoyer le script en fichier joint et non dans
+le corps du message.
+

@@ -1,0 +1,48 @@
+° WAGONNETS SIMPLE
+
+Cette application peut servir de support à la création d'automatismes.
+Une clé est nécessaire pour son fonctionnement (menu Applications)
+
+Description:
+  Un wagonnet X de couleur rouge se déplace de A vers D et de D vers A.
+  Un wagonnet Y de couleur bleue se déplace de E vers H et de H vers E.
+
+1) Commandes
+- Sur front montant de Xd, "WagonnetX" étant en A, un "objet" y est déposé;
+  puis, au bout d'un délai aléatoire, "WagonnetX" se déplace vers la droite.
+. Sur front descendant de Xd, "WagonnetX" étant arrivé en D, l'objet est retiré.
+- Sur front montant de Xg, "WagonnetX" étant en D, un "objet" y est déposé;
+  puis, au bout d'un délai aléatoire, "WagonnetX" se déplace vers la gauche.
+. Sur front descendant de Xg, "WagonnetX" étant arrivé en A, l'objet est retiré.
+- Le fonctionnement est identique pour "WagonnetY" 
+  en remplaçant A, D, Xd, Xg par E, H, Yd, Yg.
+2) Capteurs
+- Les sorties des capteurs A, B, C, D, E, F, G, H, I, J, K renseignent sur
+  la position des wagonnets X et Y.
+3) Actions interdites
+- Les wagonnets ne doivent pas entrer en collision.
+- Les wagonnets ne peuvent pas sortir de l'espace de travail.
+- Les commandes de déplacement ne doivent pas être contradictoires.
+ En cas de non respect, un message d'erreur est affiché.
+4) Etat initial
+- La position initiale des wagonnets X et Y est aléatoire (sauf rail central),
+  "WagonnetX" étant à gauche de J et "WagonnetY" à droite de J
+5) Réinitialisation
+  Pour faciliter la mise au point de la partie électronique, il est possible de:
+- "sortir" d'une collision en cliquant sur l'application
+- "disposer d'un wagonnet neuf ", simulation arrêtée, au moyen de la touche *
+
+6) En cas de collision, un clic sur l'application repositionne aléatoirement 
+les wagonnets.
+
+Suggestion: se familiariser avec cette application en mode manuel avant de se
+lancer dans une électronique numérique de commande.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

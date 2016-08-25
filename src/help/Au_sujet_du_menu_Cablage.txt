@@ -1,0 +1,17 @@
+° MENU CABLAGE
+
+Câbler = tirer des fils, ... , mais pas n'importe comment. 
+Car il est nécessaire que vos fils arrivent (soient connectés) aux extrémités
+des connexions d'entrée ou de sortie des composants.
+
+Donc: IL N'EST PAS QUESTION D'ETABLIR DES CONNEXIONS 
+      EN METTANT DEUX FILS A CHEVAL L'UN SUR L'AUTRE.
+Un moyen rapide pour s'apercevoir que tout est en ordre et de faire 'Ctrl A'
+et d'observer la position des jonctions.
+
+ATTENTION aussi à ne pas charger la simulation inutilement:
+Si vous observez un fil coupé inutilement en 2 par une jonction, il est vivement
+recommandé de supprimer une des parties et de rallonger la suivante jusqu'à la
+position désirée.
+
+Accès à DigSim sur http://patrick.furon.free.fr/

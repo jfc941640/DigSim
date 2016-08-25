@@ -1,0 +1,36 @@
+° DEL (DIODE ELECTRO-LUMINESCENTE) OU LED (LIGHT EMITTING DIODE) À 3 COULEURS
+
+Cette DEL a 3 couleurs:
+- une 1re couleur au repos,
+- une 2de couleur quand l'anode est au niveau logique 1 et la cathode au 
+niveau logique 0,
+- une 3e  couleur quand l'anode est au niveau logique 0 et la cathode au 
+niveau logique 1.
+
+DEL bleue, verte et rouge
+anode | cathode | couleur
+------|---------|-------------
+  0   |   0     |  bleu
+  1   |   1     |  bleu
+  1   |   0     |  rouge
+  0   |   1     |  vert       
+
+DEL jaune, verte et rouge
+anode | cathode | couleur
+------|---------|-------------
+  0   |   0     |  jaune
+  1   |   1     |  jaune
+  1   |   0     |  rouge
+  0   |   1     |  vert       
+
+L'anode est désignée par le signe +.
+Dans cette DEL une résistance interne de 330 0hm est intégrée .
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

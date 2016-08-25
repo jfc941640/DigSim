@@ -1,0 +1,20 @@
+° MENU COMBINATOIRE
+
+Voici quelques composants combinatoires usuels autres que les portes.
+
+Noter que la plupart de ces composants ont une ou plusieurs entrées de
+validation généralement utilisées pour leur mise en cascade.
+Quelques composants sont à sorties 3 états.
+
+Les RAM et PROM sont aussi intégrées dans ce menu, compte tenu de leur
+utilisation possible pour réaliser des fonctions combinatoires.
+
+Bien qu'appartenant à une autre catégorie que celle des fonctions 
+couramment utilisées en logique, additionneurs, multiplieurs et
+multiplieurs-accumulateurs sont également proposés.
+
+Pour obtenir des data-sheets sur Internet:
+- http://www.philipslogic.com/products/logic/
+- http://focus.ti.com/docs/logic/logichomepage.jhtml
+
+Accès à DigSim sur http://patrick.furon.free.fr/

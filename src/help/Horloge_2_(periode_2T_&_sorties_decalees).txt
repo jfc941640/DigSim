@@ -1,0 +1,9 @@
+° OSCILLATEUR DE PÉRIODE 2T À SORTIES DECALÉES
+
+Cet oscillateur est synchronisé avec l'horloge principale de période T 
+de DigSim. Ses deux sorties, de période 2T, sont décalées de T/2.
+Une entrée de validation active ou inhibe ces sorties.
+
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

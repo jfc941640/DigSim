@@ -1,0 +1,153 @@
+Three-input OR port
+
+
+
+
+
+This component simulates a two stage
+
+
+logical OR operator which can be derived
+
+
+by combining two Two-input OR ports.
+
+
+This port illustrates the associative
+
+
+property being applied to the logical
+
+
+OR operator where the following
+
+
+operations are equivalent.
+
+
+
+
+
+(A + B) + C = (B + C) + A = (A + C) + B
+
+
+
+
+
+So that the parenthetical expressions
+
+
+can be ignored.
+
+
+
+
+
+In boolean logic: A + B + C = Q
+
+
+
+
+
+The electrical function of the OR port
+
+
+mirrors the function of the OR operator,
+
+
+so that the output of this port is active
+
+
+or '1' when at least one of input A *OR*
+
+
+input B *OR* input C is'1'.
+
+
+The output is innactive or '0'only if
+
+
+all the inputs are '0'.
+
+
+
+
+
+    Truth-table:
+
+
+
+
+
+    A    B    C   |   Q
+
+
+    --------------|----
+
+
+    0    0    0   |   0
+
+
+    0    0    1   |   1
+
+
+    0    1    0   |   1
+
+
+    0    1    1   |   1
+
+
+    1    0    0   |   1
+
+
+    1    0    1   |   1
+
+
+    1    1    0   |   1
+
+
+    1    1    1   |   1
+
+
+
+
+
+    Equivalencies:
+
+
+
+
+
+0 = inactive = GND = 0V = OFF = False
+
+
+   (Wires are green when inactive)
+
+
+1 = active = Vcc = 5V = ON = True
+
+
+   (Wires are red when active)
+
+
+
+
+
+To move this component to another position,
+
+
+click inside the body of the port, and while
+
+
+holding the mouse button down, drag the
+
+
+component to the new position. Then release
+
+
+the mouse button.
+
+
+
+
+

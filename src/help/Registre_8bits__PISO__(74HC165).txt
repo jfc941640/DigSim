@@ -1,0 +1,32 @@
+° REGISTRE A DECALAGE PISO A ENTREES PARALLELES ET SORTIE SERIE 
+ET SORTIES 3 ETATS (~74HC165)
+
+Ce composant est constitué de la mise en cascade de 8 bascules D synchrones
+de sorties Qi. Seule la sortie Q7 est accessible. 
+
+Clk  : entrée d'horloge active sur front montant noté '!'
+/r=0 : remise à 0 asynchrone prioritaire sur le chargement 
+/ld=0: chargement asynchrone des entrées Di (actif sur niveau logique 0)
+/G   : entrée de validation (active sur niveau logique 0)
+
+Fonctionnement:
+    | /r | /ld | /G | Clk | Q0+  Q1+  ...     Q7+ |   mode
+    |----|-----|----|-----|-----------------------|-----------
+    | 0  |  1  |  - |  -  | 0     0   ...      0  |   mise à 0
+    | 1  |  0  |  - |  -  | D0   D1   ...     D7  |   chargement
+    | 1  |  1  |  0 |  !  | S    Q0   ...     Q6  |   décalage; Q7 est perdu
+    | 1  |  1  |  1 |  0  | Q0   Q1   ...     Q7  |   maintien
+    | 1  |  1  |  1 |  1  | Q0   Q1   ...     Q7  |   maintien
+L'état initial de ce registre est aléatoire. 
+
+Lorsque /r et /ld sont inactifs (niveau logique 1) et que le décalage est validé
+(/G=0), chaque front montant ! d'horloge provoque un décalage.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

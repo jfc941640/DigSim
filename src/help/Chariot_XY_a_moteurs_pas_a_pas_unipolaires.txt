@@ -1,0 +1,44 @@
+° CHARIOT XY A MOTEURS PAS A PAS UNIPOLAIRES
+
+Cette application peut servir de support à la création d'automatismes.
+
+Les moteurs pas à pas simulés sont du type unipolaire à 4 pas par tour 
+Les deux moteurs X (commandes Dx, Cx, Bx, Ax) 
+              et Y (commandes Dy, Cy, By, Ay) sont indépendants
+Le chariot ne peut pas sortir de son espace de déplacement.
+
+Description:
+1) Clé  : nécessaire pour son fonctionnement (menu Applications)
+
+2) Etat initial à la mise sous tension (ou après appui sur *)            ^
+- le chariot est en position (0,0), en bas à gauche                      |
+- les rotors des moteurs X et Y sont orientés vers le Nord (N)           |
+- le tout est confirmé par la mise à "0" de la sortie /z [z=zéro=(0,0)]
+
+3) Fonctionnement:
+ a) par pas pairs
+ - Commande              DCBA=    0001    0010    0100    1000
+ - Position du rotor               N       E       S       O   
+ c) par pas impairs (couple maximum)
+ - Commande              DCBA=    0011    0110    1100    1001
+ - Position du rotor               NE      SE      SO      NO   
+ d) par demi-pas
+ - Commande              DCBA=    0001  0011  0010  0110  0100  1100  1000  1001
+ - Position du rotor                N    NE    E     SE    S     SO    O     NO
+
+4) L'entrée P permet de poser ou déposer une pièce.
+
+5) Pour disposer d'un chariot "neuf et réinitialisé": 
+   appuyer sur la touche * quand la simulation est arrêtée
+
+6) Un clic sur l'application positionne le chariot en bas et à gauche.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
+

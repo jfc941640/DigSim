@@ -1,0 +1,274 @@
+# Digsim file
+version 1 0
+describe component ThreeAndPort
+ pos 41 8
+end describe
+describe component ThreeAndPort
+ pos 41 15
+end describe
+describe component ThreeAndPort
+ pos 41 22
+end describe
+describe component ThreeAndPort
+ pos 41 29
+end describe
+describe component Wire
+ pos 42 12
+ pos2 39 12
+end describe
+describe component Wire
+ pos 42 19
+ pos2 39 19
+end describe
+describe component Wire
+ pos 42 26
+ pos2 39 26
+end describe
+describe component Wire
+ pos 42 33
+ pos2 39 33
+end describe
+describe component Wire
+ pos 39 12
+ pos2 39 19
+end describe
+describe component Wire
+ pos 39 19
+ pos2 39 26
+end describe
+describe component Wire
+ pos 39 26
+ pos2 39 33
+end describe
+describe component Wire
+ pos 39 33
+ pos2 39 39
+end describe
+describe component Wire
+ pos 39 39
+ pos2 19 39
+end describe
+describe component Switch
+ pos 10 14
+end describe
+describe component Switch
+ pos 10 29
+end describe
+describe component Wire
+ pos 33 17
+ pos2 19 17
+end describe
+describe component Wire
+ pos 30 32
+ pos2 19 32
+end describe
+describe component Inverter
+ pos 18 22
+end describe
+describe component Inverter
+ pos 18 7
+end describe
+describe component Wire
+ pos 36 10
+ pos2 27 10
+end describe
+describe component Wire
+ pos 19 10
+ pos2 19 17
+end describe
+describe component Wire
+ pos 19 25
+ pos2 19 32
+end describe
+describe component Wire
+ pos 42 24
+ pos2 36 24
+end describe
+describe component Wire
+ pos 36 24
+ pos2 36 10
+end describe
+describe component Wire
+ pos 36 10
+ pos2 42 10
+end describe
+describe component Wire
+ pos 27 18
+ pos2 27 11
+end describe
+describe component Wire
+ pos 42 11
+ pos2 27 11
+end describe
+describe component Wire
+ pos 42 18
+ pos2 27 18
+end describe
+describe component Wire
+ pos 27 18
+ pos2 27 25
+end describe
+describe component Wire
+ pos 42 31
+ pos2 33 31
+end describe
+describe component Wire
+ pos 33 31
+ pos2 33 17
+end describe
+describe component Wire
+ pos 30 25
+ pos2 30 32
+end describe
+describe component Wire
+ pos 30 32
+ pos2 42 32
+end describe
+describe component Wire
+ pos 30 25
+ pos2 42 25
+end describe
+describe component Oscilator
+ pos 12 36
+end describe
+describe component Wire
+ pos 50 11
+ pos2 53 11
+end describe
+describe component Wire
+ pos 50 18
+ pos2 53 18
+end describe
+describe component Wire
+ pos 50 25
+ pos2 53 25
+end describe
+describe component Wire
+ pos 50 32
+ pos2 53 32
+end describe
+describe component Wire
+ pos 7 18
+ pos2 7 11
+end describe
+describe component Wire
+ pos 9 31
+ pos2 9 35
+end describe
+describe component Vcc
+ pos 5 6
+end describe
+describe component GND
+ pos 7 34
+end describe
+describe component Wire
+ pos 11 16
+ pos2 9 16
+end describe
+describe component Wire
+ pos 11 31
+ pos2 9 31
+end describe
+describe component Wire
+ pos 9 31
+ pos2 9 16
+end describe
+describe component Wire
+ pos 11 33
+ pos2 7 33
+end describe
+describe component Wire
+ pos 11 18
+ pos2 7 18
+end describe
+describe component Wire
+ pos 7 18
+ pos2 7 33
+end describe
+describe component LED
+ pos 52 9
+ color red
+end describe
+describe component LED
+ pos 52 16
+ color red
+end describe
+describe component LED
+ pos 52 23
+ color red
+end describe
+describe component LED
+ pos 52 30
+ color red
+end describe
+describe component Wire
+ pos 60 11
+ pos2 64 11
+end describe
+describe component Wire
+ pos 64 32
+ pos2 64 35
+end describe
+describe component Wire
+ pos 60 18
+ pos2 64 18
+end describe
+describe component Wire
+ pos 64 18
+ pos2 64 11
+end describe
+describe component Wire
+ pos 60 25
+ pos2 64 25
+end describe
+describe component Wire
+ pos 64 25
+ pos2 64 18
+end describe
+describe component Wire
+ pos 60 32
+ pos2 64 32
+end describe
+describe component Wire
+ pos 64 32
+ pos2 64 25
+end describe
+describe component GND
+ pos 62 34
+end describe
+describe component Wire
+ pos 19 37
+ pos2 62 37
+end describe
+describe component Wire
+ pos 33 17
+ pos2 42 17
+end describe
+describe component Caption
+ pos 31 3
+ Text 2-to-4 Decoder with Enable
+end describe
+describe component Caption
+ pos 15 13
+ Text A
+end describe
+describe component Caption
+ pos 15 28
+ Text B
+end describe
+describe component Caption
+ pos 55 7
+ Text D0
+end describe
+describe component Caption
+ pos 55 14
+ Text D1
+end describe
+describe component Caption
+ pos 55 21
+ Text D2
+end describe
+describe component Caption
+ pos 55 28
+ Text D3
+end describe

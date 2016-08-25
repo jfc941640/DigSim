@@ -1,0 +1,39 @@
+° MULTIPLIEUR 8 BITS PAR 8 BITS EN NOTATION COMPLEMENT A 2
+
+Le résultat de la multiplication de deux nombres de 8 bits est sur 16 bits.
+
+NOTATION COMPLEMENT A 2:
+
+ENTREES                      SORTIES
+n°    poids                n°      poids
+0     1    0,0078125       0       1    0,00006103515625
+1     2    0,015625        1       2    0,0001220703125
+2     4    0,03125         2       4    0,000244140625
+3     8    0,0625          3       8    0,00048828125
+4    16    0,125           4      16    0,0009765625
+5    32    0,25            5      32    0,001953125
+6    64    0,5             6      64    0,00390625
+7  -128   -1               7     128    0,0078125
+                           8     256    0,015625
+                           9     512    0,03125
+                          10    1024    0,0625
+                          11    2048    0,125
+                          12    4096    0,25
+                          13    8192    0,5
+                          14   16384    1
+                          15  -32768   -2
+
+AFFICHAGE DE L'ETAT DU MULTIPLIEUR :
+- Pour a = 0, l'affichage est fait sous forme entière, soit
+  [-128, +127] pour les entrées et [-16256, +16384] pour la sortie.
+- Pour a = 1, l'affichage est fait sous forme décimale, soit
+  [-1, +1[ pour les entrées et [-0,9922, +1] pour la sortie.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

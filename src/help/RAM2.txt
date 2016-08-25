@@ -1,0 +1,37 @@
+° RAM2 32 X 8 A ENTREES ET SORTIES COMMUNES
+
+Cette mémoire RAM de 32 mots de 8 bits est en réalité du type EEPROM ou RAM+pile
+au lithium car son contenu est mémorisé lors de l'enregistrement du schéma. 
+
+e, d, c, b, a sont les 5 entrées d'adresse. 
+Q7 à Q0 sont les 8 entrées/sorties.
+
+Le contenu ( 32 mots de 8 bits de la mémoire peut être modifié de deux façons:
+* Soit par un double-clic sur la mémoire suivi d'une écriture d'une chaine hexa
+au clavier comme pour la PROM.
+* Soit sur un front montant ! de /WR.
+
+|--------------------------------------------------------------------|
+| MODES RAM              | /CE /WR /OE |Qi interne |Q7Q6Q5Q4Q3Q2Q1Q0 |
+|------------------------|-------------|-----------|-----------------|
+| Non sélectionnée :     |  1   -   -  | inchangé  | Z Z Z Z Z Z Z Z |
+| Sorties "inactives"    |  0   1   1  | inchangé  | Z Z Z Z Z Z Z Z |
+| Ecriture               |  0   !   1  | Di =>Qi   | Z Z Z Z Z Z Z Z |
+| Lecture                |  0   1   0  |           | contenu mémoire |
+| Ecriture et Lecture    |  0   !   0  | Di =>Qi   |D7D6D5D4D3D2D1D0 |
+|--------------------------------------------------------------------|
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide. 
+

@@ -1,0 +1,14 @@
+° COLLER
+	(raccourci clavier: 'Ctrl V')
+
+Cette fonction permet de coller un composant ainsi qu'une partie ou la totalité
+d'un schéma. 
+Le composant collé apparaîtra en haut et à gauche de l'écran (il est prudent d'y
+prévoir une place libre!).
+Il est ensuite possible de déplacer les composants collés au moyen de la souris
+en cliquant SUR UN COMPOSANT et en maintenant le bouton gauche ou droit de la
+souris enfoncé. 
+NE PAS CLIQUER DANS LE VIDE!
+
+Cette fonction est complémentaire de la fonction "copier" dont le raccourci
+clavier est 'Ctrl C'.

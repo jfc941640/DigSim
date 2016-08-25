@@ -1,0 +1,7 @@
+° TEXTE DE COULEUR BLEUE
+
+Pour commenter votre schéma, utilisez la fonction texte.
+Une fenêtre de dialogue apparaît.
+
+Vous pourrez changer ultérieurement ce texte en double cliquant dessus.
+Vous pouvez aussi déplacer le texte avec la souris.

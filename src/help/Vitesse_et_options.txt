@@ -1,0 +1,19 @@
+° VITESSE DE SIMULATION ET OPTIONS
+
+Cette fonction fait apparaître une fenêtre qui vous permet de changer quelques
+paramètres de simulation:
+
+* Vitesse de simulation
+     Vous pouvez ajuster la vitesse de simulation.
+
+* Arrêter la simulation lors de la détection d'un court-circuit
+     Si la case est cochée, la simulation s'arrêtera en présence d'un
+     court-circuit (par exemple, deux sorties reliées entre elles).
+
+* Arrêter la simulation lors de la détection d'une boucle
+
+     Si la case est cochée, la simulation s'arrêtera en présence de boucle,
+     par exemple si les entrées et sorties d'un inverseur sont reliées.
+
+* Lancement automatique de l'analyseur logique
+     En présence de sondes, l'analyseur logique sera lancé automatiquement.

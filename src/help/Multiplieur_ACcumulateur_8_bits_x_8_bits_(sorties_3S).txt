@@ -1,0 +1,81 @@
+° MAC8x8: 
+Multiplieur-accumulateur 8 bits par 8 bits en notation binaire complément à 2
+Shéma : http://patrick.furon.free.fr/_elecnumerique/MAC_DigSim.jpg
+
+NOTATION COMPLEMENT A 2: (voir tableau ci-dessous)
+- Les entrées 0 à 6 ont pour poids respectifs 2^0 à 2^6=64
+  L'entrée 7 a pour poids -2^7=-128
+- Les sorties 0 à 17 ont pour poids respectifs 2^0 à 2^17=131072
+  La sortie 18 a pour poids -2^18=-262144
+
+AFFICHAGE DE L'ETAT DU MULTIPLIEUR-ACCUMULATEUR (MAC):
+- Pour a = 0, l'affichage est fait sous forme entière, soit:
+  [-128, +127] pour les entrées et [-262144, +262143[ pour la sortie.
+- Pour a = 1, l'affichage est fait sous forme décimale, soit:
+  [-1, +1[ pour les entrées et [-16, +16[ pour la sortie.
+
+FONCTIONNEMENT DU MULTIPLIEUR-ACCUMULATEUR (MAC):
+
+Le MAC possède des registres internes X, Y et Z d'horloges respectives
+ClkX, ClkY, ClkZ 
+
+/r = 0 effectue la remise à zéro asynchrone du registre de sortie z 
+- Le front montant de ClkX enregistre les entrées x
+- Le front montant de ClkY enregistre les entrées y
+- Un front montant sur ClkX ou ClkY exécute le produit x.y
+- De plus, un front montant sur ClkX ou ClkY enregistre les entrées Acc et +/-
+
+Le front montant de ClkZ affiche le résultat de l'opération de 
+multiplication-accumulation en sortie du registre z à condition que Prl=0
+ Ce résultat est z=x.y  si Acc=0 (valeur enregistrée sur front de ClkX ou ClkY)
+ Ce résultat est z=x.y+z si Acc=1 et +/- =1 (valeurs enregistrées sur front 
+de ClkX ou ClkY)
+ Ce résultat est z=x.y-z si Acc=1 et +/- =0 (valeurs enregistrées sur front 
+de ClkX ou ClkY)
+
+Le registre Z est bi-directionnel; il peut être lu (/OE=0) ou chargé (Prl=1): 
+ /OE=0 met les sorties en basse impédance
+ /OE=1 met les sorties en haute impédance
+ ClkZ charge des données externes dans le registre z si Prl=1 et /OE=1
+
+ARRONDI
+ Rnd=0, le résultat est sur 16+3 bits.
+ Rnd=1, le résultat est arrondi aux 8+3 bits de poids fort (sorties 8 à 18).
+
+Tableaux de pondération des entrées et sorties:
+
+      ENTREES                      SORTIES
+n°    poids                n°      poids
+0     1    0,0078125       0       1    0,00006103515625  (bit éliminé si Rnd=1)
+1     2    0,015625        1       2    0,0001220703125   (bit éliminé si Rnd=1)
+2     4    0,03125         2       4    0,000244140625    (bit éliminé si Rnd=1)
+3     8    0,0625          3       8    0,00048828125     (bit éliminé si Rnd=1)
+4    16    0,125           4      16    0,0009765625      (bit éliminé si Rnd=1)
+5    32    0,25            5      32    0,001953125       (bit éliminé si Rnd=1)
+6    64    0,5             6      64    0,00390625        (bit éliminé si Rnd=1)
+7  -128   -1               7     128    0,0078125         (bit éliminé si Rnd=1)
+                           8     256    0,015625
+                           9     512    0,03125
+                          10    1024    0,0625
+                          11    2048    0,125  
+                          12    4096    0,25
+                          13    8192    0,5
+                          14   16384    1
+                          15   32768    2
+                          16   65536    4
+                          17  131072    8 
+                          18 -262144  -16 
+
+RAPPEL: des sorties "haute impédance" (3 états) peuvent être reliées entre elles
+pourvu qu'une seule d'entre elles soit en "basse impédance". La sélection de la
+sortie qui sera en basse impédance se fait par tout moyen combinatoire pouvant
+réaliser un décodage d'adresse (inverseur, portes, décodeur, PLA, PAL, PROM...)
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

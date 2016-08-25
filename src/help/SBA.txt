@@ -1,0 +1,3 @@
+° SBA : SEQUENCE BINAIRE ALEATOIRE
+
+Cette séquence binaire est non périodique et totalement aléatoire.

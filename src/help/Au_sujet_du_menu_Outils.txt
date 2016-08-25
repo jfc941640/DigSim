@@ -1,0 +1,9 @@
+° MENU OUTILS
+
+Vous trouverez dans ce menu des outils
+- d'analyse logique (3 types d'analyseurs)
+- de mesure de période, rapports fréquentiels, rapports cycliques,
+  décalage, phase... avec le périodemètre
+- de comptage de fronts montants et descendants
+
+Accès à DigSim sur http://patrick.furon.free.fr/

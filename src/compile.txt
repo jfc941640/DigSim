@@ -1,0 +1,3 @@
+Eclipse File/Export choose Runnable JAR file with Launch configuration DummyAppletContext
+Use Launch4j choose Basic tab with args :
+digsim.DigSim -width 300 -height 100 schematic_width 300 schematic_height 300 fileop true

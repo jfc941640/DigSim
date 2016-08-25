@@ -1,0 +1,14 @@
+° SBPA : SEQUENCE BINAIRE PSEUDO-ALEATOIRE
+
+Construite sur la base d'un registre à décalage de longueur n = 6 ou 7.
+Les bascules de ce registre sont initialisées au hasard.
+Longueur maxi de la séquence : 2^n - 1
+- Avec E = 1 dès la mise sous tension, on aura n = 6.
+- A chaque fois que E repasse à 0, la séquence est arrêtée et une nouvelle valeur
+  de n est tirée au sort. Une nouvelle séquence aléatoire redémarera pour E = 1.
+
+Polynômes :
+- pour n = 6 : 1 + x^5 + x^6
+- pour n = 7 : 1 + x^6 + x^7
+...le signe + indiquant ici un ou exclusif (OUX)
+ 

@@ -1,0 +1,7 @@
+° REINITIALISATION DE LA SIMULATION
+	Raccourci clavier: '*' ou 'Tabulation'
+
+La réinitialisation de la simulation remet tous les éléments de la simulation
+dans l'état initial.
+En particulier, les bascules, registres et compteurs sont remis dans un état
+initial aléatoire, tout comme le sont les composants réels.

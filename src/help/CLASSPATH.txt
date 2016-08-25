@@ -1,0 +1,88 @@
+° CLASSPATH
+
+Que permet la déclaration de DigSim comme CLASSPATH?
+- Déclarer DigSim comme CLASSPATH concerne ceux qui veulent utiliser la MVJM 
+  et Internet Explorer avec la possibilité de sauvegarder/récupérer leurs 
+  simulations sans passer par les scripts d'entrée-sortie.
+L'alternative est d'utiliser la MVJS et d'accepter la signature de l'applet.
+________________________________________________________________________________
+
+Cas n°1: vous utilisez l'archive DigSim.jar contenue, par exemple,
+dans C:\design (cas du kit Design)
+
+- AVEC WINDOWS 95 OU 98
+   Ajoutez la ligne suivante à votre fichier C:\autoexec.bat
+   en respectant les MAJUSCULES ET MINUSCULES:
+      SET CLASSPATH=.;C:\design\DigSim.jar
+      (ne pas oublier le . et le ;)
+   Et rebootez votre machine.
+ 
+- AVEC WINDOWS NT, 2000, XP
+   Ouvrir le panneau de configuration, afficher le menu Système
+   et cliquez successivement sur:
+      "Avancé"
+      "Variables d'environnement"
+      "Nouveau" au niveau de la section utilisateur,
+      là où votre "login" apparaît
+         Une boite de dialogue s'ouvre
+            Pour "Nom de la variable", entrez CLASSPATH
+            Pour "Valeur de la variable", entrez .;C:\design\DigSim.jar
+            (ne pas oublier le . et le ;)
+   Il n'est pas utile, en principe, de rebooter votre machine.
+________________________________________________________________________________
+
+Cas n°2: vous utilisez l'archive DigSim.jar contenue, par exemple,
+dans C:\_digsim\classes
+
+- AVEC WINDOWS 95 OU 98
+   Ajoutez la ligne suivante à votre fichier C:\autoexec.bat
+   en respectant les MAJUSCULES ET MINUSCULES:
+      SET CLASSPATH=.;C:\_digsim\classes\DigSim.jar
+      (ne pas oublier le . et le ;)
+   Et rebootez votre machine.
+ 
+- AVEC WINDOWS NT, 2000, XP
+   Ouvrir le panneau de configuration, afficher le menu Système
+   et cliquez successivement sur:
+      "Avancé"
+      "Variables d'environnement"
+      "Nouveau" au niveau de la section utilisateur,
+      là où votre "login" apparaît
+         Une boite de dialogue s'ouvre 
+            Pour "Nom de la variable", entrez CLASSPATH
+            Pour "Valeur de la variable", entrez .;C:\_digsim\classes\DigSim.jar
+            (ne pas oublier le . et le ;)
+   Il n'est pas utile, en principe, de rebooter votre machine.
+________________________________________________________________________________
+
+CAS n°3: vous utilisez les fichiers .class contenus, par exemple,
+dans C:\_digsim\classes\digsim
+
+- AVEC WINDOWS 95 OU 98
+   Ajoutez la ligne suivante à votre fichier C:\autoexec.bat
+   en respectant les MAJUSCULES ET MINUSCULES:
+      SET CLASSPATH=.;C:\_digsim\classes
+      (ne pas oublier le . et le ;)
+   Et rebootez votre machine.
+ 
+- AVEC WINDOWS NT, 2000, XP
+   Ouvrir le panneau de configuration, afficher le menu Système
+   et cliquez successivement sur:
+      "Avancé"
+      "Variables d'environnement"
+      "Nouveau" au niveau de la section utilisateur,
+      là où votre "login" apparaît
+         Une boite de dialogue s'ouvre
+            Pour "Nom de la variable", entrez CLASSPATH
+            Pour "Valeur de la variable", entrez .;C:\_digsim\classes
+         (ne pas oublier le . et le ;)
+   Il n'est pas utile, en principe, de rebooter votre machine.
+________________________________________________________________________________
+
+- Avantages de la déclaration de DigSim comme CLASSPATH (idem MVJS+signature)
+   - Sauvegardes des simulations au format .dig au moyen de  "Save" ou "Save as"
+     du menu "Local".
+   - Ouvertures de simulations au moyen de "Open File" du menu "Local".
+   - Fonctionnement de l'analyseur logique avec Internet Explorer.
+________________________________________________________________________________
+

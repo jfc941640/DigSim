@@ -1,0 +1,229 @@
+# Digsim file
+version 0 1
+describe component BCDToSevenSegDecoder
+ pos 49 24
+end describe
+describe component Wire
+ pos 58 27
+ pos2 62 27
+end describe
+describe component Wire
+ pos 58 28
+ pos2 62 28
+end describe
+describe component Wire
+ pos 58 29
+ pos2 62 29
+end describe
+describe component Wire
+ pos 58 30
+ pos2 62 30
+end describe
+describe component Wire
+ pos 58 31
+ pos2 62 31
+end describe
+describe component Wire
+ pos 58 32
+ pos2 62 32
+end describe
+describe component Wire
+ pos 58 33
+ pos2 62 33
+end describe
+describe component GND
+ pos 65 35
+end describe
+describe component TFlipFlop
+ pos 14 36
+end describe
+describe component Oscilator
+ pos 4 36
+end describe
+describe component Wire
+ pos 11 39
+ pos2 15 39
+end describe
+describe component Wire
+ pos 23 40
+ pos2 26 40
+end describe
+describe component Wire
+ pos 26 40
+ pos2 26 39
+end describe
+describe component Wire
+ pos 34 40
+ pos2 37 40
+end describe
+describe component Wire
+ pos 37 40
+ pos2 37 39
+end describe
+describe component Wire
+ pos 45 38
+ pos2 45 35
+end describe
+describe component Wire
+ pos 45 35
+ pos2 50 35
+end describe
+describe component Wire
+ pos 34 38
+ pos2 34 34
+end describe
+describe component Wire
+ pos 34 34
+ pos2 50 34
+end describe
+describe component Wire
+ pos 50 33
+ pos2 23 33
+end describe
+describe component Wire
+ pos 23 33
+ pos2 23 38
+end describe
+describe component Wire
+ pos 15 39
+ pos2 15 32
+end describe
+describe component Inverter
+ pos 14 29
+end describe
+describe component TFlipFlop
+ pos 25 36
+end describe
+describe component TFlipFlop
+ pos 36 36
+end describe
+describe component Vcc
+ pos 24 6
+end describe
+describe component SevenSegmentDisplay
+ pos 61 25
+ color red
+end describe
+describe component Switch
+ pos 30 10
+end describe
+describe component PushButton
+ pos 30 24
+end describe
+describe component PushButton
+ pos 30 17
+end describe
+describe component GND
+ pos 29 27
+end describe
+describe component Wire
+ pos 29 12
+ pos2 31 12
+end describe
+describe component Wire
+ pos 29 21
+ pos2 29 28
+end describe
+describe component Wire
+ pos 29 28
+ pos2 31 28
+end describe
+describe component Wire
+ pos 29 21
+ pos2 31 21
+end describe
+describe component Wire
+ pos 29 21
+ pos2 29 12
+end describe
+describe component Wire
+ pos 26 19
+ pos2 26 26
+end describe
+describe component Wire
+ pos 26 26
+ pos2 31 26
+end describe
+describe component Wire
+ pos 31 19
+ pos2 26 19
+end describe
+describe component Wire
+ pos 31 14
+ pos2 26 14
+end describe
+describe component Wire
+ pos 26 14
+ pos2 26 11
+end describe
+describe component Wire
+ pos 39 27
+ pos2 39 30
+end describe
+describe component Wire
+ pos 39 30
+ pos2 50 30
+end describe
+describe component Wire
+ pos 39 20
+ pos2 41 20
+end describe
+describe component Wire
+ pos 41 20
+ pos2 41 28
+end describe
+describe component Wire
+ pos 41 28
+ pos2 50 28
+end describe
+describe component Wire
+ pos 50 26
+ pos2 43 26
+end describe
+describe component Wire
+ pos 43 26
+ pos2 43 13
+end describe
+describe component Wire
+ pos 43 13
+ pos2 39 13
+end describe
+describe component Caption
+ pos 16 11
+Text Start / stop
+end describe
+describe component Caption
+ pos 16 17
+Text Blank
+end describe
+describe component Caption
+ pos 16 24
+Text Lamp test
+end describe
+describe component Wire
+ pos 23 32
+ pos2 50 32
+end describe
+describe component Wire
+ pos 26 19
+ pos2 26 14
+end describe
+describe component Inverter
+ pos 63 18
+end describe
+describe component Wire
+ pos 72 21
+ pos2 72 33
+end describe
+describe component Wire
+ pos 39 27
+ pos2 39 21
+end describe
+describe component Wire
+ pos 39 21
+ pos2 64 21
+end describe
+describe component Caption
+ pos 44 5
+Text 4-bit counter with 7-segment display
+end describe

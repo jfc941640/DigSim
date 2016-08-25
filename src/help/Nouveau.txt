@@ -1,0 +1,6 @@
+° NOUVEAU SCHÉMA
+	(raccourci clavier: 'Ctrl N')
+
+Utiliser cette fonction pour effacer le schéma actuel.
+Vous pouvez alors en dessiner un nouveau.
+ 

@@ -1,0 +1,26 @@
+° AFFICHEUR 7 SEGMENTS A CATHODE COMMUNE
+                ______
+               /  a  /
+             f/     /b
+             /_____/
+            /  g  /
+          e/     /c
+          /_____/  *
+             d     p
+Cet afficheur 7 segments a 8 DEL à cathodes communes connectées à des 
+résistances internes de 330 Ohms.
+Tous les composants de DigSim peuvent allumer ces DEL, mais le moyen le plus 
+simple est d'utiliser le décodeur DCB-7segments.
+
+Pour allumer un segment, la cathode K doit être connectée à la masse tandis que
+l'anode (entrées a, b, c, d, e, f, g) sera connectée au niveau logique 1.
+Un point décimal p est aussi disponible.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

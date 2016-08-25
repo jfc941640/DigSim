@@ -1,0 +1,65 @@
+° CARREFOUR AVEC FEUX TRICOLORES
+
+Pour gérer " intelligemment " cette application, il vous faudra faire appel
+à un, voire même plusieurs séquenceurs pour réaliser un système multi-séquenceurs.
+Plus votre gestion sera " fine " et " intelligente " et plus 
+" l'indice de performance " de votre gestion des feux sera élevé.
+Noter qu'une clé est nécessaire pour son fonctionnement (menu Applications)
+
+Pré-requis : 
+- Avoir travaillé ces chapitres de cours et leurs simulations :
+  - Bascules JK et bascules SR, enclenchement et déclenchement
+  - Réseaux de Petri (RdP),
+  - Séquenceurs câblés
+  - Séquenceurs micro-programmés
+  - Séquenceurs tabulaires
+  - Savoir :
+    - ce qu'est un système séquentiel synchrone
+    - comment initialiser
+- Avoir fait l'approche papier requise (schémas blocs & RdP) avant tout câblage.
+
+                      ***********************
+
+  rA, oA, vA : entrées commandant les feux tricolores de la voie A
+  rB, oB, vB : entrées commandant les feux tricolores de la voie B
+  rC, oC, vC : entrées commandant les feux tricolores de la voie C
+  rD, oD, vD : entrées commandant les feux tricolores de la voie D
+
+- A,B,C,D sont les sorties des capteurs de passage aux feux de ces voies. 
+  On notera cependant que pour les voies A et C, deux véhicules alignés seront
+  détectés comme un seul. Ainsi, le passage de 4 véhicules, 2 sur la file de
+  droite et 2 sur la file de gauche donnera lieu à la détection de 1, 2, 3 ou 4
+  véhicules. 
+
+- Le nombre qui est accolé aux lettres A, B, C, D du nom des voies indique le
+  poids relatif de cette voie par rapport aux autres. A6 et B3 signifieront,
+  par exemple, que la voie A a une priorité 2 fois plus grande que la voie B.
+
+- Lorsque l'application affiche " Test : 100% ", une fenêtre 
+  " Indice de performance " apparaît. 
+
+- Pour faciliter la mise au point, l'application fournit quelques indicateurs :
+  - le nombre de cycles (cy) de chaque feu
+  - le temps moyen d'attente (tm))
+  - le temps d'attente en cours ou temps instantané (ti)
+  - le nombre (nb) de véhicules détectés par les capteurs de passage
+  - un indice de performance estimé (IPe)
+
+- Ces valeurs sont indépendantes de la rapidité de l'ordinateur utilisé. 
+
+- La durée d'un feu orange ne devra pas être inférieure à 10 périodes d'horloge
+  de DigSim.
+
+- En cas d'accident ou manquement aux règles élémentaires de circulation, une
+  zone rouge apparaît et l'application se bloque.
+  Un clic de souris sur le carrefour vous sortira provisoirement de l'impasse,
+  ceci pouvant être utile pour faciliter la mise au point de votre électronique.
+  Mais alors, l'" indice de performance " ne sera plus accessible tant que vous
+  n'aurez pas réinitialisé la simulation (touche *).
+
+- L'apparition des véhicules sur chaque voie est aléatoire. Elle est cependant
+  uniformémént distribuée sur la totalité des cycles machines servant à calculer
+  l'indice de performance. 
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.

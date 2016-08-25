@@ -1,0 +1,6 @@
+° FERMER LA FENETRE DE SIMULATION
+
+Cette fonction ferme la fenêtre de la simulation en cours.
+Cependant, le schéma étant encore en mémoire, vous pourrez le rappeler en
+utilisant le bouton "Afficher la fenêtre du simulateur" de la page html 
+qui a lancé DigSim.

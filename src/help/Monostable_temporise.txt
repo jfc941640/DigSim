@@ -1,0 +1,38 @@
+° MONOSTABLE TEMPORISE REDECLENCHABLE OU NON REDECLENCHABLE
+
+Suite à un front montant ! du signal d'entrée T pour /r=1, ou bien
+suite à un front montant ! sur l'entrée /r lorsque l'entrée T=1, 
+ce composant est activé pour une durée 'a+t', qui se décompose en
+- une attente de durée 'a', les sorties restant dans l'état Q=0, /Q=1, 
+- suivie d'une temporisation de durée 't' pour laquelle Q=1 et /Q=0.
+'a' et 't' sont exprimés EN DEMI PÉRIODES D'HORLOGE
+/r , entrée de reset asynchrone, met fin à l'activation du monostable (si /r=0).
+L'entrée # permet de mettre ce monostable dans un mode redéclenchable ou non:
+                __                 ___         _
+T          ____!  |_______________!   |_______! |_______________________________
+                        ___________________           ____________________
+Q, pour #=0____________|                   |_________|                    |_____
+               <---a---><---------t-------->  <---a---><---------t-------->      
+                        __________________________________________           
+Q, pour #=1____________|                                          |_____________
+               <--a---><---------t-------->        
+                                  <---------t-------->
+                                              <---------t-------->
+- Pour # = 0, ce monostable est non redéclenchable, ce qui veut dire qu'il ne
+  prend pas en compte les fronts ! qui arrivent sur son entrée T quand sa sortie
+  Q est au niveau logique 1.
+- Pour # = 1, ce monostable est redéclenchable, ce qui signifie qu'il prend en
+  compte les fronts ! qui arrivent sur son entrée T quand sa sortie Q est au
+  niveau logique 1. Ainsi, un monostable redéclenchable est enclenché pour une
+  durée 't' à partir du dernier front d'entrée reçu.
+La barrette d'état du monostable illustre la phase 'a' d'attente en bleu
+et la phase 't' de temporisation proprement dite en rouge.
+
+Pour plus d'informations, voir les data sheets et brochages sur :
+- http://www.datasheetcatalog.net/
+- http://www.limpulsion.fr/
+- http://ics.nxp.com/
+- http://www.ti.com/
+
+Accès au simulateur logique DigSim :  http://patrick.furon.free.fr/
+Cliquer de nouveau sur le composant après avoir obtenu de l'aide.
